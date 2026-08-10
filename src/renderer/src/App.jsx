@@ -1,11 +1,10 @@
 import { useRef, useState, useCallback } from 'react'
 import ThreeScene from './threeScene'
 import Sidebar from './sidebar'
-import { findBoneByMeshName } from './utils/lookup';
+import { findBoneByMeshName } from './utils/lookup'
 import SearchBox from './searchbox'
 import Bones from './assets/bones.json'
 import Reset from './reset'
-
 
 function App() {
   const [selectedBone, setSelectedBone] = useState(null)
@@ -24,13 +23,13 @@ function App() {
           <span>Anatomy viewer</span>
         </div>
         {/* search box, top-bar actions go here later */}
-    <SearchBox
-  bones={Bones}
-  onSelectBone={(bone) => {
-    sceneRef.current?.selectBone(bone);
-    //flyToBone(bone.id);         // your existing camera-fly function
-  }}
-/>
+        <SearchBox
+          bones={Bones}
+          onSelectBone={(bone) => {
+            sceneRef.current?.selectBone(bone)
+            //flyToBone(bone.id);         // your existing camera-fly function
+          }}
+        />
       </div>
 
       <div className="app-body">
@@ -45,7 +44,7 @@ function App() {
           bone={selectedBone}
           isIsolated={isIsolated}
           onToggleIsolate={() => sceneRef.current?.toggleIsolate()}
-          onHide={() => sceneRef.current?.clearSelection()}
+          onHide={() => sceneRef.current?.hideSelected()}
         />
         <Reset onReset={() => sceneRef.current?.reset()} />
       </div>

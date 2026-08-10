@@ -80,31 +80,65 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     const raycaster = new THREE.Raycaster()
     const pointer = new THREE.Vector2()
 
-    // This will store all the meshes from your OBJ file
-    //add here anatomy 3d model
-
-    // ... (your scene, camera, renderer, lights setup remains the same) ...
-
-    // --- Load an OBJ model ---
+    // --- Load the skeleton model ---
     const loader = new GLTFLoader()
+
+    // Two shared materials keep draw calls low. We highlight by SWAPPING
+    // the material reference on a mesh, never by mutating .color/.emissive
+    // on a shared material instance directly — doing that would recolor
+    // every mesh currently using that material, not just the clicked one.
+    const baseMaterial = new THREE.MeshStandardMaterial({
+      color: 0xe8e2d5,
+      roughness: 0.6,
+      metalness: 0.05,
+    })
+    const highlightMaterial = new THREE.MeshStandardMaterial({
+      color: 0xe8e2d5,
+      emissive: 0x00ffff,
+      emissiveIntensity: 0.6,
+      roughness: 0.6,
+      metalness: 0.05,
+    })
+
+    let clickableObjects = []        // every raycastable submesh
+    const boneGroups = new Map()     // resolved boneName -> [meshes]
+    let selectedBoneName = null
+    let isIsolated = false
+
+    // GLTFLoader splits a multi-material Blender object into several child
+    // Mesh nodes under one parent Group. The parent Group name is usually
+    // the real bone name (e.g. "Femur.l"); the auto-generated child mesh
+    // names look like "Femur.l_1", "Femur.l_2". Walk up to find the name
+    // that actually identifies the bone instead of trusting the submesh.
+    function resolveBoneName(mesh) {
+      if (mesh.name && !/_\d+$/.test(mesh.name)) return mesh.name
+      let p = mesh.parent
+      while (p) {
+        if (p.name) return p.name
+        p = p.parent
+      }
+      return mesh.name
+    }
+
     loader.load('/src/assets/skeleton4.glb', (gltf) => {
       const model = gltf.scene
       model.scale.set(4, 4, 4)
-      model.traverse((node) => {
-        if (node.isMesh) {
-          node.geometry.computeVertexNormals()
 
-          // IMPORTANT: Store reference to all meshes for raycasting
-          clickableObjects.push(node)
-        }
+      model.traverse((node) => {
+        if (!node.isMesh) return
+        node.geometry.computeVertexNormals()
+
+        const boneName = resolveBoneName(node)
+        node.userData.boneName = boneName
+        node.material = baseMaterial
+
+        clickableObjects.push(node)
+        if (!boneGroups.has(boneName)) boneGroups.set(boneName, [])
+        boneGroups.get(boneName).push(node)
       })
+
       scene.add(model)
     })
-    let clickableObjects = []
-    let selectedObject = null
-    let originalColor = null
-    let isIsolated = false
-    const HIGHLIGHT_EMISSIVE = 0x00ffff
     // --- 6. Click Handler (Raycasting Logic) ---
     function onPointerClick(event) {
       // Calculate mouse position in normalized device coordinates (-1 to +1)
@@ -114,38 +148,50 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
 
       raycaster.setFromCamera(pointer, camera)
 
-      // Check for intersections with all meshes in the OBJ
-      const intersects = raycaster.intersectObjects(clickableObjects)
+      // Check for intersections with all meshes in the model, skipping
+      // any that are currently hidden
+      const intersects = raycaster.intersectObjects(
+        clickableObjects.filter((mesh) => mesh.visible)
+      )
 
-      // --- A. If we previously selected an object, revert its color ---
-      if (selectedObject) {
-        selectedObject.material.color.setHex(originalColor)
-        selectedObject = null
-        originalColor = null
-      }
+      // Revert whatever bone group was previously highlighted
+      unhighlightSelection()
 
-      // --- B. If we clicked on something, highlight it ---
       if (intersects.length > 0) {
-        // Get the first clicked mesh
         const hitMesh = intersects[0].object
 
-        // Save its original color so we can revert later
-        originalColor = hitMesh.material.color.getHex()
+        // Defensive: should already be excluded by the filter above, but
+        // guard here too in case intersects ever gets built another way.
+        if (!hitMesh.visible) {
+          onSelectBone(null)
+          return
+        }
 
-        // Change its color to a bright highlight (e.g., cyan/glow)
-        hitMesh.material.color.setHex(0x00ffff)
+        const boneName = hitMesh.userData.boneName || hitMesh.name
 
-        // Store reference to the selected mesh
-        selectedObject = hitMesh
+        highlightBoneGroup(boneName)
 
-        // --- C. Anatomy Info (THIS IS WHERE YOU ADD YOUR DATA) ---
-        // Try to get a name from the mesh, or fallback to generic
-        const partName = hitMesh.name || `Part ${clickableObjects.indexOf(hitMesh) + 1}`
-        console.log(`🦴 Clicked: ${partName}`)
-        onSelectBone(findBoneByMeshName(partName)) // <-- tell React
+        console.log(`🦴 Clicked: ${boneName}`)
+        onSelectBone(findBoneByMeshName(boneName)) // <-- tell React
       } else {
         onSelectBone(null) // clicked empty space, clear sidebar
       }
+    }
+
+    // Highlight every submesh that belongs to the clicked bone (not just
+    // the one submesh the ray happened to hit), by swapping in the shared
+    // highlight material.
+    function highlightBoneGroup(boneName) {
+      const group = boneGroups.get(boneName) || []
+      group.forEach((mesh) => { mesh.material = highlightMaterial })
+      selectedBoneName = boneName
+    }
+
+    function unhighlightSelection() {
+      if (!selectedBoneName) return
+      const group = boneGroups.get(selectedBoneName) || []
+      group.forEach((mesh) => { mesh.material = baseMaterial })
+      selectedBoneName = null
     }
 
     // --- 7. Attach the click listener ---
@@ -180,23 +226,33 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     //scene.add(gridHelper)
 
     function toggleIsolate() {
-      if (!selectedObject) return
+      if (!selectedBoneName) return
 
       isIsolated = !isIsolated
+      const selectedGroup = new Set(boneGroups.get(selectedBoneName) || [])
       clickableObjects.forEach((mesh) => {
-        mesh.visible = isIsolated ? mesh === selectedObject : true
+        mesh.visible = isIsolated ? selectedGroup.has(mesh) : true
       })
       onIsolateChange(isIsolated) // tell React the new state
     }
 
 
-function clearSelection() {
-      if (selectedObject) {
-        selectedObject.material.color.setHex(originalColor)
-         selectedObject.visible = false
-        selectedObject = null
-        originalColor = null
-      }
+    function clearSelection() {
+      unhighlightSelection()
+      onSelectBone(null)
+    }
+
+    // Hides the currently selected bone (all submeshes in its group).
+    // Distinct from isolate: this removes the bone from view entirely,
+    // rather than hiding everything else around it.
+    function hideSelected() {
+      if (!selectedBoneName) return
+      const group = boneGroups.get(selectedBoneName) || []
+      group.forEach((mesh) => {
+        mesh.visible = false
+        mesh.material = baseMaterial // reset material so it's not stuck highlighted when shown again later
+      })
+      selectedBoneName = null
       onSelectBone(null)
     }
 
@@ -205,10 +261,7 @@ function clearSelection() {
       clickableObjects.forEach((mesh) => {
         mesh.visible = true
       })
-      if (selectedObject) {
-        selectedObject.material.color.setHex(originalColor)
-        selectedObject = null
-      }
+      unhighlightSelection()
       isIsolated = false
       onIsolateChange(false)
       onSelectBone(null)
@@ -226,17 +279,19 @@ function clearSelection() {
       const aliases = (bone.meshAliases || []).map((a) => a.toLowerCase())
       const targetName = (bone.name || '').toLowerCase()
 
-      const match = clickableObjects.find((mesh) => {
-        const meshName = (mesh.name || '').toLowerCase()
-        return aliases.includes(meshName) || meshName === targetName
+      // Match against resolved bone-group names, not raw submesh names.
+      // Skip groups that are currently hidden — a hidden bone shouldn't
+      // be selectable via search any more than via a click.
+      const matchedBoneName = [...boneGroups.keys()].find((name) => {
+        const lower = name.toLowerCase()
+        const nameMatches = aliases.includes(lower) || lower === targetName
+        if (!nameMatches) return false
+        const group = boneGroups.get(name) || []
+        return group.some((mesh) => mesh.visible)
       })
 
       // Revert whatever was previously selected/highlighted
-      if (selectedObject) {
-        selectedObject.material.color.setHex(originalColor)
-        selectedObject = null
-        originalColor = null
-      }
+      unhighlightSelection()
 
       // If we were isolated, drop back to showing everything so the
       // newly searched bone is actually visible
@@ -246,19 +301,17 @@ function clearSelection() {
         onIsolateChange(false)
       }
 
-      if (match) {
-        originalColor = match.material.color.getHex()
-        match.material.color.setHex(0x00ffff)
-        selectedObject = match
+      if (matchedBoneName) {
+        highlightBoneGroup(matchedBoneName)
       } else {
-        console.warn(`⚠️ No mesh found for bone "${bone.name}" — check meshAliases`)
+        console.warn(`⚠️ No mesh group found for bone "${bone.name}" — check meshAliases`)
       }
 
       onSelectBone(bone)
     }
 
 
-    sceneApiRef.current = { toggleIsolate, resetView, clearSelection, selectBoneExternally}
+    sceneApiRef.current = { toggleIsolate, resetView, clearSelection, selectBoneExternally, hideSelected }
 
     // --- 6. Handle Window Resize ---
     const onResize = () => {
@@ -294,7 +347,8 @@ function clearSelection() {
     toggleIsolate: () => sceneApiRef.current.toggleIsolate?.(),
     reset: () => sceneApiRef.current.resetView?.(),
     clearSelection: () => sceneApiRef.current.clearSelection?.(),
-        selectBone: (bone) => sceneApiRef.current.selectBoneExternally?.(bone)
+    selectBone: (bone) => sceneApiRef.current.selectBoneExternally?.(bone),
+    hideSelected: () => sceneApiRef.current.hideSelected?.()
   }))
 
   return <div ref={mountRef} style={{ width: '100%', height: '100%' }} />

@@ -57,11 +57,7 @@
     "altName": "",
     "region": "larynx",
     "side": "both",
-    "meshAliases": [
-      "Arytenoid cartilage",
-      "Arytenoid cartilage.l",
-      "Arytenoid cartilage.r"
-    ],
+    "meshAliases": ["Arytenoid cartilage", "Arytenoid cartilage.l", "Arytenoid cartilage.r"],
     "description": "",
     "meshName": "Arytenoid cartilage",
     "matched": false,
@@ -74,11 +70,7 @@
     "altName": "",
     "region": "larynx",
     "side": "both",
-    "meshAliases": [
-      "Arytenoid cartilage",
-      "Arytenoid cartilage.l",
-      "Arytenoid cartilage.r"
-    ],
+    "meshAliases": ["Arytenoid cartilage", "Arytenoid cartilage.l", "Arytenoid cartilage.r"],
     "description": "",
     "meshName": "Arytenoid cartilage.l",
     "matched": false,
@@ -91,11 +83,7 @@
     "altName": "",
     "region": "larynx",
     "side": "both",
-    "meshAliases": [
-      "Arytenoid cartilage",
-      "Arytenoid cartilage.l",
-      "Arytenoid cartilage.r"
-    ],
+    "meshAliases": ["Arytenoid cartilage", "Arytenoid cartilage.l", "Arytenoid cartilage.r"],
     "description": "",
     "meshName": "Arytenoid cartilage.r",
     "matched": false,
@@ -108,9 +96,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Atlas (C1)"
-    ],
+    "meshAliases": ["Atlas (C1)"],
     "description": "",
     "meshName": "Atlas (C1)",
     "matched": false,
@@ -123,9 +109,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Axis (C2)"
-    ],
+    "meshAliases": ["Axis (C2)"],
     "description": "",
     "meshName": "Axis (C2)",
     "matched": false,
@@ -138,9 +122,7 @@
     "altName": "",
     "region": "thorax",
     "side": "none",
-    "meshAliases": [
-      "Body of sternum"
-    ],
+    "meshAliases": ["Body of sternum"],
     "description": "",
     "meshName": "Body of sternum",
     "matched": false,
@@ -153,10 +135,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Calcaneus.l",
-      "Calcaneus.r"
-    ],
+    "meshAliases": ["Calcaneus.l", "Calcaneus.r"],
     "description": "",
     "meshName": "Calcaneus.l",
     "matched": false,
@@ -169,10 +148,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Calcaneus.l",
-      "Calcaneus.r"
-    ],
+    "meshAliases": ["Calcaneus.l", "Calcaneus.r"],
     "description": "",
     "meshName": "Calcaneus.r",
     "matched": false,
@@ -185,11 +161,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Capitate bone",
-      "Capitate bone.l",
-      "Capitate bone.r"
-    ],
+    "meshAliases": ["Capitate bone", "Capitate bone.l", "Capitate bone.r"],
     "description": "",
     "meshName": "Capitate bone",
     "matched": false,
@@ -202,11 +174,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Capitate bone",
-      "Capitate bone.l",
-      "Capitate bone.r"
-    ],
+    "meshAliases": ["Capitate bone", "Capitate bone.l", "Capitate bone.r"],
     "description": "",
     "meshName": "Capitate bone.l",
     "matched": false,
@@ -219,11 +187,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Capitate bone",
-      "Capitate bone.l",
-      "Capitate bone.r"
-    ],
+    "meshAliases": ["Capitate bone", "Capitate bone.l", "Capitate bone.r"],
     "description": "",
     "meshName": "Capitate bone.r",
     "matched": false,
@@ -236,10 +200,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Clavicle.l",
-      "Clavicle.r"
-    ],
+    "meshAliases": ["Clavicle.l", "Clavicle.r"],
     "description": "Os long, pair et non symétrique en forme de 'S' allongé, situé à la partie antéro-supérieure du thorax. Unique liaison osseuse reliant le membre supérieur au tronc. Elle présente une face supérieure lisse et sous-cutanée, et une face inférieure marquée par le sillon du muscle subclavier, le tubercule conoïde et l'empreinte du ligament costo-claviculaire. Son extrémité médiale (sternale) s'articule avec le sternum et son extrémité latérale (acromiale) s'articule avec l'acromion de la scapula.",
     "meshName": "Clavicle.l",
     "matched": true,
@@ -252,10 +213,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Clavicle.l",
-      "Clavicle.r"
-    ],
+    "meshAliases": ["Clavicle.l", "Clavicle.r"],
     "description": "Os long, pair et non symétrique en forme de 'S' allongé, situé à la partie antéro-supérieure du thorax. Unique liaison osseuse reliant le membre supérieur au tronc. Elle présente une face supérieure lisse et sous-cutanée, et une face inférieure marquée par le sillon du muscle subclavier, le tubercule conoïde et l'empreinte du ligament costo-claviculaire. Son extrémité médiale (sternale) s'articule avec le sternum et son extrémité latérale (acromiale) s'articule avec l'acromion de la scapula.",
     "meshName": "Clavicle.r",
     "matched": true,
@@ -268,9 +226,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Coccyx"
-    ],
+    "meshAliases": ["Coccyx"],
     "description": "",
     "meshName": "Coccyx",
     "matched": false,
@@ -283,10 +239,7 @@
     "altName": "",
     "region": "larynx",
     "side": "both",
-    "meshAliases": [
-      "Corniculate cartilage.l",
-      "Corniculate cartilage.r"
-    ],
+    "meshAliases": ["Corniculate cartilage.l", "Corniculate cartilage.r"],
     "description": "",
     "meshName": "Corniculate cartilage.l",
     "matched": false,
@@ -299,10 +252,7 @@
     "altName": "",
     "region": "larynx",
     "side": "both",
-    "meshAliases": [
-      "Corniculate cartilage.l",
-      "Corniculate cartilage.r"
-    ],
+    "meshAliases": ["Corniculate cartilage.l", "Corniculate cartilage.r"],
     "description": "",
     "meshName": "Corniculate cartilage.r",
     "matched": false,
@@ -825,9 +775,7 @@
     "altName": "",
     "region": "larynx",
     "side": "none",
-    "meshAliases": [
-      "Cricoid cartilage"
-    ],
+    "meshAliases": ["Cricoid cartilage"],
     "description": "",
     "meshName": "Cricoid cartilage",
     "matched": false,
@@ -840,11 +788,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Cuboid bone",
-      "Cuboid bone.l",
-      "Cuboid bone.r"
-    ],
+    "meshAliases": ["Cuboid bone", "Cuboid bone.l", "Cuboid bone.r"],
     "description": "",
     "meshName": "Cuboid bone",
     "matched": false,
@@ -857,11 +801,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Cuboid bone",
-      "Cuboid bone.l",
-      "Cuboid bone.r"
-    ],
+    "meshAliases": ["Cuboid bone", "Cuboid bone.l", "Cuboid bone.r"],
     "description": "",
     "meshName": "Cuboid bone.l",
     "matched": false,
@@ -874,11 +814,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Cuboid bone",
-      "Cuboid bone.l",
-      "Cuboid bone.r"
-    ],
+    "meshAliases": ["Cuboid bone", "Cuboid bone.l", "Cuboid bone.r"],
     "description": "",
     "meshName": "Cuboid bone.r",
     "matched": false,
@@ -1382,11 +1318,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Eighth rib",
-      "Eighth rib.l",
-      "Eighth rib.r"
-    ],
+    "meshAliases": ["Eighth rib", "Eighth rib.l", "Eighth rib.r"],
     "description": "",
     "meshName": "Eighth rib",
     "matched": false,
@@ -1399,11 +1331,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Eighth rib",
-      "Eighth rib.l",
-      "Eighth rib.r"
-    ],
+    "meshAliases": ["Eighth rib", "Eighth rib.l", "Eighth rib.r"],
     "description": "",
     "meshName": "Eighth rib.l",
     "matched": false,
@@ -1416,11 +1344,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Eighth rib",
-      "Eighth rib.l",
-      "Eighth rib.r"
-    ],
+    "meshAliases": ["Eighth rib", "Eighth rib.l", "Eighth rib.r"],
     "description": "",
     "meshName": "Eighth rib.r",
     "matched": false,
@@ -1433,11 +1357,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Eleventh rib",
-      "Eleventh rib.l",
-      "Eleventh rib.r"
-    ],
+    "meshAliases": ["Eleventh rib", "Eleventh rib.l", "Eleventh rib.r"],
     "description": "",
     "meshName": "Eleventh rib",
     "matched": false,
@@ -1450,11 +1370,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Eleventh rib",
-      "Eleventh rib.l",
-      "Eleventh rib.r"
-    ],
+    "meshAliases": ["Eleventh rib", "Eleventh rib.l", "Eleventh rib.r"],
     "description": "",
     "meshName": "Eleventh rib.l",
     "matched": false,
@@ -1467,11 +1383,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Eleventh rib",
-      "Eleventh rib.l",
-      "Eleventh rib.r"
-    ],
+    "meshAliases": ["Eleventh rib", "Eleventh rib.l", "Eleventh rib.r"],
     "description": "",
     "meshName": "Eleventh rib.r",
     "matched": false,
@@ -1484,9 +1396,7 @@
     "altName": "",
     "region": "skull",
     "side": "none",
-    "meshAliases": [
-      "Ethmoid bone"
-    ],
+    "meshAliases": ["Ethmoid bone"],
     "description": "",
     "meshName": "Ethmoid bone",
     "matched": false,
@@ -1499,10 +1409,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Femur.l",
-      "Femur.r"
-    ],
+    "meshAliases": ["Femur.l", "Femur.r"],
     "description": "L'os long constituant le squelette de la cuisse. Son extrémité proximale comprend une tête sphérique munie d'une fovea pour le ligament de la tête fémorale, un col (définissant l'angle cervico-diaphysaire d'environ 130°), le grand trochanter latéralement et le petit trochanter médialement. Sa diaphyse (corps) présente sur sa face postérieure la ligne âpre, zone d'importantes insertions musculaires. Son extrémité distale s'articule avec le tibia et la patella, caractérisée en avant par la surface patellaire, et en bas par deux condyles (médial et latéral) séparés par une fosse intercondylaire.",
     "meshName": "Femur.l",
     "matched": true,
@@ -1515,10 +1422,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Femur.l",
-      "Femur.r"
-    ],
+    "meshAliases": ["Femur.l", "Femur.r"],
     "description": "L'os long constituant le squelette de la cuisse. Son extrémité proximale comprend une tête sphérique munie d'une fovea pour le ligament de la tête fémorale, un col (définissant l'angle cervico-diaphysaire d'environ 130°), le grand trochanter latéralement et le petit trochanter médialement. Sa diaphyse (corps) présente sur sa face postérieure la ligne âpre, zone d'importantes insertions musculaires. Son extrémité distale s'articule avec le tibia et la patella, caractérisée en avant par la surface patellaire, et en bas par deux condyles (médial et latéral) séparés par une fosse intercondylaire.",
     "meshName": "Femur.r",
     "matched": true,
@@ -1531,10 +1435,7 @@
     "altName": "Péroné",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Fibula.l",
-      "Fibula.r"
-    ],
+    "meshAliases": ["Fibula.l", "Fibula.r"],
     "description": "L'os latéral, fin et allongé de la jambe. Son extrémité proximale est formée par la tête de la fibula (prolongée par un apex) et un col, s'articulant avec le tibia. Sa diaphyse étroite donne insertion à la membrane interosseuse sur son bord interosseux. Son extrémité distale s'allonge pour former la malléole externe (malléole latérale), qui participe à la pince malléolaire pour l'articulation de la cheville.",
     "meshName": "Fibula.l",
     "matched": true,
@@ -1547,10 +1448,7 @@
     "altName": "Péroné",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Fibula.l",
-      "Fibula.r"
-    ],
+    "meshAliases": ["Fibula.l", "Fibula.r"],
     "description": "L'os latéral, fin et allongé de la jambe. Son extrémité proximale est formée par la tête de la fibula (prolongée par un apex) et un col, s'articulant avec le tibia. Sa diaphyse étroite donne insertion à la membrane interosseuse sur son bord interosseux. Son extrémité distale s'allonge pour former la malléole externe (malléole latérale), qui participe à la pince malléolaire pour l'articulation de la cheville.",
     "meshName": "Fibula.r",
     "matched": true,
@@ -1563,11 +1461,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Fifth metacarpal bone",
-      "Fifth metacarpal bone.l",
-      "Fifth metacarpal bone.r"
-    ],
+    "meshAliases": ["Fifth metacarpal bone", "Fifth metacarpal bone.l", "Fifth metacarpal bone.r"],
     "description": "",
     "meshName": "Fifth metacarpal bone",
     "matched": false,
@@ -1580,11 +1474,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Fifth metacarpal bone",
-      "Fifth metacarpal bone.l",
-      "Fifth metacarpal bone.r"
-    ],
+    "meshAliases": ["Fifth metacarpal bone", "Fifth metacarpal bone.l", "Fifth metacarpal bone.r"],
     "description": "",
     "meshName": "Fifth metacarpal bone.l",
     "matched": false,
@@ -1597,11 +1487,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Fifth metacarpal bone",
-      "Fifth metacarpal bone.l",
-      "Fifth metacarpal bone.r"
-    ],
+    "meshAliases": ["Fifth metacarpal bone", "Fifth metacarpal bone.l", "Fifth metacarpal bone.r"],
     "description": "",
     "meshName": "Fifth metacarpal bone.r",
     "matched": false,
@@ -1614,11 +1500,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Fifth metatarsal bone",
-      "Fifth metatarsal bone.l",
-      "Fifth metatarsal bone.r"
-    ],
+    "meshAliases": ["Fifth metatarsal bone", "Fifth metatarsal bone.l", "Fifth metatarsal bone.r"],
     "description": "",
     "meshName": "Fifth metatarsal bone",
     "matched": false,
@@ -1631,11 +1513,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Fifth metatarsal bone",
-      "Fifth metatarsal bone.l",
-      "Fifth metatarsal bone.r"
-    ],
+    "meshAliases": ["Fifth metatarsal bone", "Fifth metatarsal bone.l", "Fifth metatarsal bone.r"],
     "description": "",
     "meshName": "Fifth metatarsal bone.l",
     "matched": false,
@@ -1648,11 +1526,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Fifth metatarsal bone",
-      "Fifth metatarsal bone.l",
-      "Fifth metatarsal bone.r"
-    ],
+    "meshAliases": ["Fifth metatarsal bone", "Fifth metatarsal bone.l", "Fifth metatarsal bone.r"],
     "description": "",
     "meshName": "Fifth metatarsal bone.r",
     "matched": false,
@@ -1665,11 +1539,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Fifth rib",
-      "Fifth rib.l",
-      "Fifth rib.r"
-    ],
+    "meshAliases": ["Fifth rib", "Fifth rib.l", "Fifth rib.r"],
     "description": "",
     "meshName": "Fifth rib",
     "matched": false,
@@ -1682,11 +1552,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Fifth rib",
-      "Fifth rib.l",
-      "Fifth rib.r"
-    ],
+    "meshAliases": ["Fifth rib", "Fifth rib.l", "Fifth rib.r"],
     "description": "",
     "meshName": "Fifth rib.l",
     "matched": false,
@@ -1699,11 +1565,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Fifth rib",
-      "Fifth rib.l",
-      "Fifth rib.r"
-    ],
+    "meshAliases": ["Fifth rib", "Fifth rib.l", "Fifth rib.r"],
     "description": "",
     "meshName": "Fifth rib.r",
     "matched": false,
@@ -1716,11 +1578,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "First metacarpal bone",
-      "First metacarpal bone.l",
-      "First metacarpal bone.r"
-    ],
+    "meshAliases": ["First metacarpal bone", "First metacarpal bone.l", "First metacarpal bone.r"],
     "description": "",
     "meshName": "First metacarpal bone",
     "matched": false,
@@ -1733,11 +1591,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "First metacarpal bone",
-      "First metacarpal bone.l",
-      "First metacarpal bone.r"
-    ],
+    "meshAliases": ["First metacarpal bone", "First metacarpal bone.l", "First metacarpal bone.r"],
     "description": "",
     "meshName": "First metacarpal bone.l",
     "matched": false,
@@ -1750,11 +1604,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "First metacarpal bone",
-      "First metacarpal bone.l",
-      "First metacarpal bone.r"
-    ],
+    "meshAliases": ["First metacarpal bone", "First metacarpal bone.l", "First metacarpal bone.r"],
     "description": "",
     "meshName": "First metacarpal bone.r",
     "matched": false,
@@ -1767,11 +1617,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "First metatarsal bone",
-      "First metatarsal bone.l",
-      "First metatarsal bone.r"
-    ],
+    "meshAliases": ["First metatarsal bone", "First metatarsal bone.l", "First metatarsal bone.r"],
     "description": "",
     "meshName": "First metatarsal bone",
     "matched": false,
@@ -1784,11 +1630,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "First metatarsal bone",
-      "First metatarsal bone.l",
-      "First metatarsal bone.r"
-    ],
+    "meshAliases": ["First metatarsal bone", "First metatarsal bone.l", "First metatarsal bone.r"],
     "description": "",
     "meshName": "First metatarsal bone.l",
     "matched": false,
@@ -1801,11 +1643,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "First metatarsal bone",
-      "First metatarsal bone.l",
-      "First metatarsal bone.r"
-    ],
+    "meshAliases": ["First metatarsal bone", "First metatarsal bone.l", "First metatarsal bone.r"],
     "description": "",
     "meshName": "First metatarsal bone.r",
     "matched": false,
@@ -1818,11 +1656,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "First rib",
-      "First rib.l",
-      "First rib.r"
-    ],
+    "meshAliases": ["First rib", "First rib.l", "First rib.r"],
     "description": "",
     "meshName": "First rib",
     "matched": false,
@@ -1835,11 +1669,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "First rib",
-      "First rib.l",
-      "First rib.r"
-    ],
+    "meshAliases": ["First rib", "First rib.l", "First rib.r"],
     "description": "",
     "meshName": "First rib.l",
     "matched": false,
@@ -1852,11 +1682,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "First rib",
-      "First rib.l",
-      "First rib.r"
-    ],
+    "meshAliases": ["First rib", "First rib.l", "First rib.r"],
     "description": "",
     "meshName": "First rib.r",
     "matched": false,
@@ -1971,11 +1797,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Fourth rib",
-      "Fourth rib.l",
-      "Fourth rib.r"
-    ],
+    "meshAliases": ["Fourth rib", "Fourth rib.l", "Fourth rib.r"],
     "description": "",
     "meshName": "Fourth rib",
     "matched": false,
@@ -1988,11 +1810,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Fourth rib",
-      "Fourth rib.l",
-      "Fourth rib.r"
-    ],
+    "meshAliases": ["Fourth rib", "Fourth rib.l", "Fourth rib.r"],
     "description": "",
     "meshName": "Fourth rib.l",
     "matched": false,
@@ -2005,11 +1823,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Fourth rib",
-      "Fourth rib.l",
-      "Fourth rib.r"
-    ],
+    "meshAliases": ["Fourth rib", "Fourth rib.l", "Fourth rib.r"],
     "description": "",
     "meshName": "Fourth rib.r",
     "matched": false,
@@ -2022,9 +1836,7 @@
     "altName": "",
     "region": "skull",
     "side": "none",
-    "meshAliases": [
-      "Frontal bone"
-    ],
+    "meshAliases": ["Frontal bone"],
     "description": "",
     "meshName": "Frontal bone",
     "matched": false,
@@ -2037,11 +1849,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Hamate bone",
-      "Hamate bone.l",
-      "Hamate bone.r"
-    ],
+    "meshAliases": ["Hamate bone", "Hamate bone.l", "Hamate bone.r"],
     "description": "",
     "meshName": "Hamate bone",
     "matched": false,
@@ -2054,11 +1862,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Hamate bone",
-      "Hamate bone.l",
-      "Hamate bone.r"
-    ],
+    "meshAliases": ["Hamate bone", "Hamate bone.l", "Hamate bone.r"],
     "description": "",
     "meshName": "Hamate bone.l",
     "matched": false,
@@ -2071,11 +1875,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Hamate bone",
-      "Hamate bone.l",
-      "Hamate bone.r"
-    ],
+    "meshAliases": ["Hamate bone", "Hamate bone.l", "Hamate bone.r"],
     "description": "",
     "meshName": "Hamate bone.r",
     "matched": false,
@@ -2088,11 +1888,7 @@
     "altName": "",
     "region": "pelvis",
     "side": "both",
-    "meshAliases": [
-      "Hip bone",
-      "Hip bone.l",
-      "Hip bone.r"
-    ],
+    "meshAliases": ["Hip bone", "Hip bone.l", "Hip bone.r"],
     "description": "",
     "meshName": "Hip bone",
     "matched": false,
@@ -2105,11 +1901,7 @@
     "altName": "",
     "region": "pelvis",
     "side": "both",
-    "meshAliases": [
-      "Hip bone",
-      "Hip bone.l",
-      "Hip bone.r"
-    ],
+    "meshAliases": ["Hip bone", "Hip bone.l", "Hip bone.r"],
     "description": "",
     "meshName": "Hip bone.l",
     "matched": false,
@@ -2122,11 +1914,7 @@
     "altName": "",
     "region": "pelvis",
     "side": "both",
-    "meshAliases": [
-      "Hip bone",
-      "Hip bone.l",
-      "Hip bone.r"
-    ],
+    "meshAliases": ["Hip bone", "Hip bone.l", "Hip bone.r"],
     "description": "",
     "meshName": "Hip bone.r",
     "matched": false,
@@ -2139,10 +1927,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Humerus.l",
-      "Humerus.r"
-    ],
+    "meshAliases": ["Humerus.l", "Humerus.r"],
     "description": "L'os long constituant le squelette du bras. Son extrémité proximale comprend la tête humérale (sphérique), le col anatomique, le tubercule majeur latéralement et le tubercule mineur en avant, délimitant le sillon intertuberculaire. Sa diaphyse présente la tubérosité deltoïdienne (V deltoïdien). Son extrémité distale (palette humérale) s'articule avec le radius et l'ulna grâce au capitulum et à la trochlée, encadrés par l'épicondyle latéral et l'epicondyle médial, et présente les fosses radiale, coronoïde et olécrânienne.",
     "meshName": "Humerus.l",
     "matched": true,
@@ -2155,10 +1940,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Humerus.l",
-      "Humerus.r"
-    ],
+    "meshAliases": ["Humerus.l", "Humerus.r"],
     "description": "L'os long constituant le squelette du bras. Son extrémité proximale comprend la tête humérale (sphérique), le col anatomique, le tubercule majeur latéralement et le tubercule mineur en avant, délimitant le sillon intertuberculaire. Sa diaphyse présente la tubérosité deltoïdienne (V deltoïdien). Son extrémité distale (palette humérale) s'articule avec le radius et l'ulna grâce au capitulum et à la trochlée, encadrés par l'épicondyle latéral et l'epicondyle médial, et présente les fosses radiale, coronoïde et olécrânienne.",
     "meshName": "Humerus.r",
     "matched": true,
@@ -2171,9 +1953,7 @@
     "altName": "",
     "region": "larynx",
     "side": "none",
-    "meshAliases": [
-      "Hyoid bone"
-    ],
+    "meshAliases": ["Hyoid bone"],
     "description": "",
     "meshName": "Hyoid bone",
     "matched": false,
@@ -2186,11 +1966,7 @@
     "altName": "",
     "region": "ear",
     "side": "both",
-    "meshAliases": [
-      "Incus",
-      "Incus.l",
-      "Incus.r"
-    ],
+    "meshAliases": ["Incus", "Incus.l", "Incus.r"],
     "description": "",
     "meshName": "Incus",
     "matched": false,
@@ -2203,11 +1979,7 @@
     "altName": "",
     "region": "ear",
     "side": "both",
-    "meshAliases": [
-      "Incus",
-      "Incus.l",
-      "Incus.r"
-    ],
+    "meshAliases": ["Incus", "Incus.l", "Incus.r"],
     "description": "",
     "meshName": "Incus.l",
     "matched": false,
@@ -2220,11 +1992,7 @@
     "altName": "",
     "region": "ear",
     "side": "both",
-    "meshAliases": [
-      "Incus",
-      "Incus.l",
-      "Incus.r"
-    ],
+    "meshAliases": ["Incus", "Incus.l", "Incus.r"],
     "description": "",
     "meshName": "Incus.r",
     "matched": false,
@@ -2288,10 +2056,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Intermediate cuneiform bone.l",
-      "Intermediate cuneiform bone.r"
-    ],
+    "meshAliases": ["Intermediate cuneiform bone.l", "Intermediate cuneiform bone.r"],
     "description": "",
     "meshName": "Intermediate cuneiform bone.l",
     "matched": false,
@@ -2304,10 +2069,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Intermediate cuneiform bone.l",
-      "Intermediate cuneiform bone.r"
-    ],
+    "meshAliases": ["Intermediate cuneiform bone.l", "Intermediate cuneiform bone.r"],
     "description": "",
     "meshName": "Intermediate cuneiform bone.r",
     "matched": false,
@@ -2320,11 +2082,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Lacrimal bone",
-      "Lacrimal bone.l",
-      "Lacrimal bone.r"
-    ],
+    "meshAliases": ["Lacrimal bone", "Lacrimal bone.l", "Lacrimal bone.r"],
     "description": "",
     "meshName": "Lacrimal bone",
     "matched": false,
@@ -2337,11 +2095,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Lacrimal bone",
-      "Lacrimal bone.l",
-      "Lacrimal bone.r"
-    ],
+    "meshAliases": ["Lacrimal bone", "Lacrimal bone.l", "Lacrimal bone.r"],
     "description": "",
     "meshName": "Lacrimal bone.l",
     "matched": false,
@@ -2354,11 +2108,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Lacrimal bone",
-      "Lacrimal bone.l",
-      "Lacrimal bone.r"
-    ],
+    "meshAliases": ["Lacrimal bone", "Lacrimal bone.l", "Lacrimal bone.r"],
     "description": "",
     "meshName": "Lacrimal bone.r",
     "matched": false,
@@ -2371,10 +2121,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Lateral cuneiform bone.l",
-      "Lateral cuneiform bone.r"
-    ],
+    "meshAliases": ["Lateral cuneiform bone.l", "Lateral cuneiform bone.r"],
     "description": "",
     "meshName": "Lateral cuneiform bone.l",
     "matched": false,
@@ -2387,10 +2134,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Lateral cuneiform bone.l",
-      "Lateral cuneiform bone.r"
-    ],
+    "meshAliases": ["Lateral cuneiform bone.l", "Lateral cuneiform bone.r"],
     "description": "",
     "meshName": "Lateral cuneiform bone.r",
     "matched": false,
@@ -2454,11 +2198,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower canine",
-      "Lower canine.l",
-      "Lower canine.r"
-    ],
+    "meshAliases": ["Lower canine", "Lower canine.l", "Lower canine.r"],
     "description": "",
     "meshName": "Lower canine",
     "matched": false,
@@ -2471,11 +2211,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower canine",
-      "Lower canine.l",
-      "Lower canine.r"
-    ],
+    "meshAliases": ["Lower canine", "Lower canine.l", "Lower canine.r"],
     "description": "",
     "meshName": "Lower canine.l",
     "matched": false,
@@ -2488,11 +2224,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower canine",
-      "Lower canine.l",
-      "Lower canine.r"
-    ],
+    "meshAliases": ["Lower canine", "Lower canine.l", "Lower canine.r"],
     "description": "",
     "meshName": "Lower canine.r",
     "matched": false,
@@ -2556,11 +2288,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower first premolar",
-      "Lower first premolar.l",
-      "Lower first premolar.r"
-    ],
+    "meshAliases": ["Lower first premolar", "Lower first premolar.l", "Lower first premolar.r"],
     "description": "",
     "meshName": "Lower first premolar",
     "matched": false,
@@ -2573,11 +2301,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower first premolar",
-      "Lower first premolar.l",
-      "Lower first premolar.r"
-    ],
+    "meshAliases": ["Lower first premolar", "Lower first premolar.l", "Lower first premolar.r"],
     "description": "",
     "meshName": "Lower first premolar.l",
     "matched": false,
@@ -2590,11 +2314,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower first premolar",
-      "Lower first premolar.l",
-      "Lower first premolar.r"
-    ],
+    "meshAliases": ["Lower first premolar", "Lower first premolar.l", "Lower first premolar.r"],
     "description": "",
     "meshName": "Lower first premolar.r",
     "matched": false,
@@ -2607,11 +2327,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower lateral incisor",
-      "Lower lateral incisor.l",
-      "Lower lateral incisor.r"
-    ],
+    "meshAliases": ["Lower lateral incisor", "Lower lateral incisor.l", "Lower lateral incisor.r"],
     "description": "",
     "meshName": "Lower lateral incisor",
     "matched": false,
@@ -2624,11 +2340,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower lateral incisor",
-      "Lower lateral incisor.l",
-      "Lower lateral incisor.r"
-    ],
+    "meshAliases": ["Lower lateral incisor", "Lower lateral incisor.l", "Lower lateral incisor.r"],
     "description": "",
     "meshName": "Lower lateral incisor.l",
     "matched": false,
@@ -2641,11 +2353,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower lateral incisor",
-      "Lower lateral incisor.l",
-      "Lower lateral incisor.r"
-    ],
+    "meshAliases": ["Lower lateral incisor", "Lower lateral incisor.l", "Lower lateral incisor.r"],
     "description": "",
     "meshName": "Lower lateral incisor.r",
     "matched": false,
@@ -2658,11 +2366,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower medial incisor",
-      "Lower medial incisor.l",
-      "Lower medial incisor.r"
-    ],
+    "meshAliases": ["Lower medial incisor", "Lower medial incisor.l", "Lower medial incisor.r"],
     "description": "",
     "meshName": "Lower medial incisor",
     "matched": false,
@@ -2675,11 +2379,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower medial incisor",
-      "Lower medial incisor.l",
-      "Lower medial incisor.r"
-    ],
+    "meshAliases": ["Lower medial incisor", "Lower medial incisor.l", "Lower medial incisor.r"],
     "description": "",
     "meshName": "Lower medial incisor.l",
     "matched": false,
@@ -2692,11 +2392,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower medial incisor",
-      "Lower medial incisor.l",
-      "Lower medial incisor.r"
-    ],
+    "meshAliases": ["Lower medial incisor", "Lower medial incisor.l", "Lower medial incisor.r"],
     "description": "",
     "meshName": "Lower medial incisor.r",
     "matched": false,
@@ -2760,11 +2456,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower second premolar",
-      "Lower second premolar.l",
-      "Lower second premolar.r"
-    ],
+    "meshAliases": ["Lower second premolar", "Lower second premolar.l", "Lower second premolar.r"],
     "description": "",
     "meshName": "Lower second premolar",
     "matched": false,
@@ -2777,11 +2469,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower second premolar",
-      "Lower second premolar.l",
-      "Lower second premolar.r"
-    ],
+    "meshAliases": ["Lower second premolar", "Lower second premolar.l", "Lower second premolar.r"],
     "description": "",
     "meshName": "Lower second premolar.l",
     "matched": false,
@@ -2794,11 +2482,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Lower second premolar",
-      "Lower second premolar.l",
-      "Lower second premolar.r"
-    ],
+    "meshAliases": ["Lower second premolar", "Lower second premolar.l", "Lower second premolar.r"],
     "description": "",
     "meshName": "Lower second premolar.r",
     "matched": false,
@@ -2811,11 +2495,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Lunate bone",
-      "Lunate bone.l",
-      "Lunate bone.r"
-    ],
+    "meshAliases": ["Lunate bone", "Lunate bone.l", "Lunate bone.r"],
     "description": "",
     "meshName": "Lunate bone",
     "matched": false,
@@ -2828,11 +2508,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Lunate bone",
-      "Lunate bone.l",
-      "Lunate bone.r"
-    ],
+    "meshAliases": ["Lunate bone", "Lunate bone.l", "Lunate bone.r"],
     "description": "",
     "meshName": "Lunate bone.l",
     "matched": false,
@@ -2845,11 +2521,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Lunate bone",
-      "Lunate bone.l",
-      "Lunate bone.r"
-    ],
+    "meshAliases": ["Lunate bone", "Lunate bone.l", "Lunate bone.r"],
     "description": "",
     "meshName": "Lunate bone.r",
     "matched": false,
@@ -2862,11 +2534,7 @@
     "altName": "",
     "region": "nose",
     "side": "both",
-    "meshAliases": [
-      "Major alar cartilage",
-      "Major alar cartilage.l",
-      "Major alar cartilage.r"
-    ],
+    "meshAliases": ["Major alar cartilage", "Major alar cartilage.l", "Major alar cartilage.r"],
     "description": "",
     "meshName": "Major alar cartilage",
     "matched": false,
@@ -2879,11 +2547,7 @@
     "altName": "",
     "region": "nose",
     "side": "both",
-    "meshAliases": [
-      "Major alar cartilage",
-      "Major alar cartilage.l",
-      "Major alar cartilage.r"
-    ],
+    "meshAliases": ["Major alar cartilage", "Major alar cartilage.l", "Major alar cartilage.r"],
     "description": "",
     "meshName": "Major alar cartilage.l",
     "matched": false,
@@ -2896,11 +2560,7 @@
     "altName": "",
     "region": "nose",
     "side": "both",
-    "meshAliases": [
-      "Major alar cartilage",
-      "Major alar cartilage.l",
-      "Major alar cartilage.r"
-    ],
+    "meshAliases": ["Major alar cartilage", "Major alar cartilage.l", "Major alar cartilage.r"],
     "description": "",
     "meshName": "Major alar cartilage.r",
     "matched": false,
@@ -2913,11 +2573,7 @@
     "altName": "",
     "region": "ear",
     "side": "both",
-    "meshAliases": [
-      "Malleus",
-      "Malleus.l",
-      "Malleus.r"
-    ],
+    "meshAliases": ["Malleus", "Malleus.l", "Malleus.r"],
     "description": "",
     "meshName": "Malleus",
     "matched": false,
@@ -2930,11 +2586,7 @@
     "altName": "",
     "region": "ear",
     "side": "both",
-    "meshAliases": [
-      "Malleus",
-      "Malleus.l",
-      "Malleus.r"
-    ],
+    "meshAliases": ["Malleus", "Malleus.l", "Malleus.r"],
     "description": "",
     "meshName": "Malleus.l",
     "matched": false,
@@ -2947,11 +2599,7 @@
     "altName": "",
     "region": "ear",
     "side": "both",
-    "meshAliases": [
-      "Malleus",
-      "Malleus.l",
-      "Malleus.r"
-    ],
+    "meshAliases": ["Malleus", "Malleus.l", "Malleus.r"],
     "description": "",
     "meshName": "Malleus.r",
     "matched": false,
@@ -2964,9 +2612,7 @@
     "altName": "",
     "region": "skull",
     "side": "none",
-    "meshAliases": [
-      "Mandible"
-    ],
+    "meshAliases": ["Mandible"],
     "description": "",
     "meshName": "Mandible",
     "matched": false,
@@ -2979,9 +2625,7 @@
     "altName": "",
     "region": "thorax",
     "side": "none",
-    "meshAliases": [
-      "Manubrium of sternum"
-    ],
+    "meshAliases": ["Manubrium of sternum"],
     "description": "",
     "meshName": "Manubrium of sternum",
     "matched": false,
@@ -2994,11 +2638,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Maxilla",
-      "Maxilla.l",
-      "Maxilla.r"
-    ],
+    "meshAliases": ["Maxilla", "Maxilla.l", "Maxilla.r"],
     "description": "",
     "meshName": "Maxilla",
     "matched": false,
@@ -3011,11 +2651,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Maxilla",
-      "Maxilla.l",
-      "Maxilla.r"
-    ],
+    "meshAliases": ["Maxilla", "Maxilla.l", "Maxilla.r"],
     "description": "",
     "meshName": "Maxilla.l",
     "matched": false,
@@ -3028,11 +2664,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Maxilla",
-      "Maxilla.l",
-      "Maxilla.r"
-    ],
+    "meshAliases": ["Maxilla", "Maxilla.l", "Maxilla.r"],
     "description": "",
     "meshName": "Maxilla.r",
     "matched": false,
@@ -3045,10 +2677,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Medial cuneiform bone.l",
-      "Medial cuneiform bone.r"
-    ],
+    "meshAliases": ["Medial cuneiform bone.l", "Medial cuneiform bone.r"],
     "description": "",
     "meshName": "Medial cuneiform bone.l",
     "matched": false,
@@ -3061,10 +2690,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Medial cuneiform bone.l",
-      "Medial cuneiform bone.r"
-    ],
+    "meshAliases": ["Medial cuneiform bone.l", "Medial cuneiform bone.r"],
     "description": "",
     "meshName": "Medial cuneiform bone.r",
     "matched": false,
@@ -3536,11 +3162,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Nasal bone",
-      "Nasal bone.l",
-      "Nasal bone.r"
-    ],
+    "meshAliases": ["Nasal bone", "Nasal bone.l", "Nasal bone.r"],
     "description": "",
     "meshName": "Nasal bone",
     "matched": false,
@@ -3553,11 +3175,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Nasal bone",
-      "Nasal bone.l",
-      "Nasal bone.r"
-    ],
+    "meshAliases": ["Nasal bone", "Nasal bone.l", "Nasal bone.r"],
     "description": "",
     "meshName": "Nasal bone.l",
     "matched": false,
@@ -3570,11 +3188,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Nasal bone",
-      "Nasal bone.l",
-      "Nasal bone.r"
-    ],
+    "meshAliases": ["Nasal bone", "Nasal bone.l", "Nasal bone.r"],
     "description": "",
     "meshName": "Nasal bone.r",
     "matched": false,
@@ -3587,9 +3201,7 @@
     "altName": "",
     "region": "skull",
     "side": "none",
-    "meshAliases": [
-      "Nasal septal cartilage"
-    ],
+    "meshAliases": ["Nasal septal cartilage"],
     "description": "",
     "meshName": "Nasal septal cartilage",
     "matched": false,
@@ -3602,11 +3214,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Navicular bone",
-      "Navicular bone.l",
-      "Navicular bone.r"
-    ],
+    "meshAliases": ["Navicular bone", "Navicular bone.l", "Navicular bone.r"],
     "description": "",
     "meshName": "Navicular bone",
     "matched": false,
@@ -3619,11 +3227,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Navicular bone",
-      "Navicular bone.l",
-      "Navicular bone.r"
-    ],
+    "meshAliases": ["Navicular bone", "Navicular bone.l", "Navicular bone.r"],
     "description": "",
     "meshName": "Navicular bone.l",
     "matched": false,
@@ -3636,11 +3240,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Navicular bone",
-      "Navicular bone.l",
-      "Navicular bone.r"
-    ],
+    "meshAliases": ["Navicular bone", "Navicular bone.l", "Navicular bone.r"],
     "description": "",
     "meshName": "Navicular bone.r",
     "matched": false,
@@ -3653,11 +3253,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Ninth rib",
-      "Ninth rib.l",
-      "Ninth rib.r"
-    ],
+    "meshAliases": ["Ninth rib", "Ninth rib.l", "Ninth rib.r"],
     "description": "",
     "meshName": "Ninth rib",
     "matched": false,
@@ -3670,11 +3266,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Ninth rib",
-      "Ninth rib.l",
-      "Ninth rib.r"
-    ],
+    "meshAliases": ["Ninth rib", "Ninth rib.l", "Ninth rib.r"],
     "description": "",
     "meshName": "Ninth rib.l",
     "matched": false,
@@ -3687,11 +3279,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Ninth rib",
-      "Ninth rib.l",
-      "Ninth rib.r"
-    ],
+    "meshAliases": ["Ninth rib", "Ninth rib.l", "Ninth rib.r"],
     "description": "",
     "meshName": "Ninth rib.r",
     "matched": false,
@@ -3704,9 +3292,7 @@
     "altName": "",
     "region": "skull",
     "side": "none",
-    "meshAliases": [
-      "Occipital bone"
-    ],
+    "meshAliases": ["Occipital bone"],
     "description": "",
     "meshName": "Occipital bone",
     "matched": false,
@@ -3719,11 +3305,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Palatine bone",
-      "Palatine bone.l",
-      "Palatine bone.r"
-    ],
+    "meshAliases": ["Palatine bone", "Palatine bone.l", "Palatine bone.r"],
     "description": "",
     "meshName": "Palatine bone",
     "matched": false,
@@ -3736,11 +3318,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Palatine bone",
-      "Palatine bone.l",
-      "Palatine bone.r"
-    ],
+    "meshAliases": ["Palatine bone", "Palatine bone.l", "Palatine bone.r"],
     "description": "",
     "meshName": "Palatine bone.l",
     "matched": false,
@@ -3753,11 +3331,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Palatine bone",
-      "Palatine bone.l",
-      "Palatine bone.r"
-    ],
+    "meshAliases": ["Palatine bone", "Palatine bone.l", "Palatine bone.r"],
     "description": "",
     "meshName": "Palatine bone.r",
     "matched": false,
@@ -3770,10 +3344,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Parietal bone.l",
-      "Parietal bone.r"
-    ],
+    "meshAliases": ["Parietal bone.l", "Parietal bone.r"],
     "description": "",
     "meshName": "Parietal bone.l",
     "matched": false,
@@ -3786,10 +3357,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Parietal bone.l",
-      "Parietal bone.r"
-    ],
+    "meshAliases": ["Parietal bone.l", "Parietal bone.r"],
     "description": "",
     "meshName": "Parietal bone.r",
     "matched": false,
@@ -3802,10 +3370,7 @@
     "altName": "Rotule",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Patella.l",
-      "Patella.r"
-    ],
+    "meshAliases": ["Patella.l", "Patella.r"],
     "description": "Un os court et plat situé à la partie antérieure de la cuisse au niveau du genou. Elle présente une base supérieure, un apex inférieur, une face antérieure rugueuse sous-cutanée et une face postérieure articulaire divisée en deux facettes (latérale et médiale) pour répondre à la surface patellaire du fémur.",
     "meshName": "Patella.l",
     "matched": true,
@@ -3818,10 +3383,7 @@
     "altName": "Rotule",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Patella.l",
-      "Patella.r"
-    ],
+    "meshAliases": ["Patella.l", "Patella.r"],
     "description": "Un os court et plat situé à la partie antérieure de la cuisse au niveau du genou. Elle présente une base supérieure, un apex inférieur, une face antérieure rugueuse sous-cutanée et une face postérieure articulaire divisée en deux facettes (latérale et médiale) pour répondre à la surface patellaire du fémur.",
     "meshName": "Patella.r",
     "matched": true,
@@ -3834,11 +3396,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Pisiform bone",
-      "Pisiform bone.l",
-      "Pisiform bone.r"
-    ],
+    "meshAliases": ["Pisiform bone", "Pisiform bone.l", "Pisiform bone.r"],
     "description": "",
     "meshName": "Pisiform bone",
     "matched": false,
@@ -3851,11 +3409,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Pisiform bone",
-      "Pisiform bone.l",
-      "Pisiform bone.r"
-    ],
+    "meshAliases": ["Pisiform bone", "Pisiform bone.l", "Pisiform bone.r"],
     "description": "",
     "meshName": "Pisiform bone.l",
     "matched": false,
@@ -3868,11 +3422,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Pisiform bone",
-      "Pisiform bone.l",
-      "Pisiform bone.r"
-    ],
+    "meshAliases": ["Pisiform bone", "Pisiform bone.l", "Pisiform bone.r"],
     "description": "",
     "meshName": "Pisiform bone.r",
     "matched": false,
@@ -4446,10 +3996,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Radius.l",
-      "Radius.r"
-    ],
+    "meshAliases": ["Radius.l", "Radius.r"],
     "description": "L'os long latéral de l'avant-bras. Son extrémité proximale comporte une tête cylindrique (avec une fovéa et une circonférence articulaire) et un col, suivis en bas et en dedans par la tubérosité radiale. Sa diaphyse présente un bord interosseux aigu. Son extrémité distale, volumineuse et aplatie, se termine latéralement par le processus styloïde radial et présente en dedans l'incisure ulnaire pour s'articuler avec la tête de l'ulna.",
     "meshName": "Radius.l",
     "matched": true,
@@ -4462,10 +4009,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Radius.l",
-      "Radius.r"
-    ],
+    "meshAliases": ["Radius.l", "Radius.r"],
     "description": "L'os long latéral de l'avant-bras. Son extrémité proximale comporte une tête cylindrique (avec une fovéa et une circonférence articulaire) et un col, suivis en bas et en dedans par la tubérosité radiale. Sa diaphyse présente un bord interosseux aigu. Son extrémité distale, volumineuse et aplatie, se termine latéralement par le processus styloïde radial et présente en dedans l'incisure ulnaire pour s'articuler avec la tête de l'ulna.",
     "meshName": "Radius.r",
     "matched": true,
@@ -4478,9 +4022,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Sacrum"
-    ],
+    "meshAliases": ["Sacrum"],
     "description": "",
     "meshName": "Sacrum",
     "matched": false,
@@ -4493,11 +4035,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Scaphoid bone",
-      "Scaphoid bone.l",
-      "Scaphoid bone.r"
-    ],
+    "meshAliases": ["Scaphoid bone", "Scaphoid bone.l", "Scaphoid bone.r"],
     "description": "",
     "meshName": "Scaphoid bone",
     "matched": false,
@@ -4510,11 +4048,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Scaphoid bone",
-      "Scaphoid bone.l",
-      "Scaphoid bone.r"
-    ],
+    "meshAliases": ["Scaphoid bone", "Scaphoid bone.l", "Scaphoid bone.r"],
     "description": "",
     "meshName": "Scaphoid bone.l",
     "matched": false,
@@ -4527,11 +4061,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Scaphoid bone",
-      "Scaphoid bone.l",
-      "Scaphoid bone.r"
-    ],
+    "meshAliases": ["Scaphoid bone", "Scaphoid bone.l", "Scaphoid bone.r"],
     "description": "",
     "meshName": "Scaphoid bone.r",
     "matched": false,
@@ -4544,10 +4074,7 @@
     "altName": "Omoplate",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Scapula.l",
-      "Scapula.r"
-    ],
+    "meshAliases": ["Scapula.l", "Scapula.r"],
     "description": "Os plat et triangulaire situé à la face postéro-supérieure du thorax en regard des 7 premières côtes. Sa face antérieure (costale) est occupée par la fosse subscapulaire. Sa face postérieure est divisée par l'épine de la scapula (qui se prolonge latéralement par l'acromion) en deux fosses : supra-épineuse et infra-épineuse. Son angle latéral présente la cavité glénoïdale, surface articulaire pour la tête de l'humérus, surmontée du processus coracoïde en avant.",
     "meshName": "Scapula.l",
     "matched": true,
@@ -4560,10 +4087,7 @@
     "altName": "Omoplate",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Scapula.l",
-      "Scapula.r"
-    ],
+    "meshAliases": ["Scapula.l", "Scapula.r"],
     "description": "Os plat et triangulaire situé à la face postéro-supérieure du thorax en regard des 7 premières côtes. Sa face antérieure (costale) est occupée par la fosse subscapulaire. Sa face postérieure est divisée par l'épine de la scapula (qui se prolonge latéralement par l'acromion) en deux fosses : supra-épineuse et infra-épineuse. Son angle latéral présente la cavité glénoïdale, surface articulaire pour la tête de l'humérus, surmontée du processus coracoïde en avant.",
     "meshName": "Scapula.r",
     "matched": true,
@@ -4678,11 +4202,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Second rib",
-      "Second rib.l",
-      "Second rib.r"
-    ],
+    "meshAliases": ["Second rib", "Second rib.l", "Second rib.r"],
     "description": "",
     "meshName": "Second rib",
     "matched": false,
@@ -4695,11 +4215,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Second rib",
-      "Second rib.l",
-      "Second rib.r"
-    ],
+    "meshAliases": ["Second rib", "Second rib.l", "Second rib.r"],
     "description": "",
     "meshName": "Second rib.l",
     "matched": false,
@@ -4712,11 +4228,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Second rib",
-      "Second rib.l",
-      "Second rib.r"
-    ],
+    "meshAliases": ["Second rib", "Second rib.l", "Second rib.r"],
     "description": "",
     "meshName": "Second rib.r",
     "matched": false,
@@ -4780,11 +4292,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Seventh rib",
-      "Seventh rib.l",
-      "Seventh rib.r"
-    ],
+    "meshAliases": ["Seventh rib", "Seventh rib.l", "Seventh rib.r"],
     "description": "",
     "meshName": "Seventh rib",
     "matched": false,
@@ -4797,11 +4305,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Seventh rib",
-      "Seventh rib.l",
-      "Seventh rib.r"
-    ],
+    "meshAliases": ["Seventh rib", "Seventh rib.l", "Seventh rib.r"],
     "description": "",
     "meshName": "Seventh rib.l",
     "matched": false,
@@ -4814,11 +4318,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Seventh rib",
-      "Seventh rib.l",
-      "Seventh rib.r"
-    ],
+    "meshAliases": ["Seventh rib", "Seventh rib.l", "Seventh rib.r"],
     "description": "",
     "meshName": "Seventh rib.r",
     "matched": false,
@@ -4831,9 +4331,7 @@
     "altName": "",
     "region": "skull",
     "side": "none",
-    "meshAliases": [
-      "Sinus of frontal bone"
-    ],
+    "meshAliases": ["Sinus of frontal bone"],
     "description": "",
     "meshName": "Sinus of frontal bone",
     "matched": false,
@@ -4846,9 +4344,7 @@
     "altName": "",
     "region": "skull",
     "side": "none",
-    "meshAliases": [
-      "Sinus of sphenoid bone"
-    ],
+    "meshAliases": ["Sinus of sphenoid bone"],
     "description": "",
     "meshName": "Sinus of sphenoid bone",
     "matched": false,
@@ -4861,11 +4357,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Sixth rib",
-      "Sixth rib.l",
-      "Sixth rib.r"
-    ],
+    "meshAliases": ["Sixth rib", "Sixth rib.l", "Sixth rib.r"],
     "description": "",
     "meshName": "Sixth rib",
     "matched": false,
@@ -4878,11 +4370,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Sixth rib",
-      "Sixth rib.l",
-      "Sixth rib.r"
-    ],
+    "meshAliases": ["Sixth rib", "Sixth rib.l", "Sixth rib.r"],
     "description": "",
     "meshName": "Sixth rib.l",
     "matched": false,
@@ -4895,11 +4383,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Sixth rib",
-      "Sixth rib.l",
-      "Sixth rib.r"
-    ],
+    "meshAliases": ["Sixth rib", "Sixth rib.l", "Sixth rib.r"],
     "description": "",
     "meshName": "Sixth rib.r",
     "matched": false,
@@ -4912,10 +4396,7 @@
     "altName": "",
     "region": "skull",
     "side": "left",
-    "meshAliases": [
-      "Sphenoid bone",
-      "Sphenoid bone.l"
-    ],
+    "meshAliases": ["Sphenoid bone", "Sphenoid bone.l"],
     "description": "",
     "meshName": "Sphenoid bone",
     "matched": false,
@@ -4928,10 +4409,7 @@
     "altName": "",
     "region": "skull",
     "side": "left",
-    "meshAliases": [
-      "Sphenoid bone",
-      "Sphenoid bone.l"
-    ],
+    "meshAliases": ["Sphenoid bone", "Sphenoid bone.l"],
     "description": "",
     "meshName": "Sphenoid bone.l",
     "matched": false,
@@ -4944,11 +4422,7 @@
     "altName": "",
     "region": "ear",
     "side": "both",
-    "meshAliases": [
-      "Stapes",
-      "Stapes.l",
-      "Stapes.r"
-    ],
+    "meshAliases": ["Stapes", "Stapes.l", "Stapes.r"],
     "description": "",
     "meshName": "Stapes",
     "matched": false,
@@ -4961,11 +4435,7 @@
     "altName": "",
     "region": "ear",
     "side": "both",
-    "meshAliases": [
-      "Stapes",
-      "Stapes.l",
-      "Stapes.r"
-    ],
+    "meshAliases": ["Stapes", "Stapes.l", "Stapes.r"],
     "description": "",
     "meshName": "Stapes.l",
     "matched": false,
@@ -4978,11 +4448,7 @@
     "altName": "",
     "region": "ear",
     "side": "both",
-    "meshAliases": [
-      "Stapes",
-      "Stapes.l",
-      "Stapes.r"
-    ],
+    "meshAliases": ["Stapes", "Stapes.l", "Stapes.r"],
     "description": "",
     "meshName": "Stapes.r",
     "matched": false,
@@ -4995,10 +4461,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Talus.l",
-      "Talus.r"
-    ],
+    "meshAliases": ["Talus.l", "Talus.r"],
     "description": "",
     "meshName": "Talus.l",
     "matched": false,
@@ -5011,10 +4474,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Talus.l",
-      "Talus.r"
-    ],
+    "meshAliases": ["Talus.l", "Talus.r"],
     "description": "",
     "meshName": "Talus.r",
     "matched": false,
@@ -5027,11 +4487,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Temporal bone",
-      "Temporal bone.l",
-      "Temporal bone.r"
-    ],
+    "meshAliases": ["Temporal bone", "Temporal bone.l", "Temporal bone.r"],
     "description": "",
     "meshName": "Temporal bone",
     "matched": false,
@@ -5044,11 +4500,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Temporal bone",
-      "Temporal bone.l",
-      "Temporal bone.r"
-    ],
+    "meshAliases": ["Temporal bone", "Temporal bone.l", "Temporal bone.r"],
     "description": "",
     "meshName": "Temporal bone.l",
     "matched": false,
@@ -5061,11 +4513,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Temporal bone",
-      "Temporal bone.l",
-      "Temporal bone.r"
-    ],
+    "meshAliases": ["Temporal bone", "Temporal bone.l", "Temporal bone.r"],
     "description": "",
     "meshName": "Temporal bone.r",
     "matched": false,
@@ -5078,11 +4526,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Tenth rib",
-      "Tenth rib.l",
-      "Tenth rib.r"
-    ],
+    "meshAliases": ["Tenth rib", "Tenth rib.l", "Tenth rib.r"],
     "description": "",
     "meshName": "Tenth rib",
     "matched": false,
@@ -5095,11 +4539,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Tenth rib",
-      "Tenth rib.l",
-      "Tenth rib.r"
-    ],
+    "meshAliases": ["Tenth rib", "Tenth rib.l", "Tenth rib.r"],
     "description": "",
     "meshName": "Tenth rib.l",
     "matched": false,
@@ -5112,11 +4552,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Tenth rib",
-      "Tenth rib.l",
-      "Tenth rib.r"
-    ],
+    "meshAliases": ["Tenth rib", "Tenth rib.l", "Tenth rib.r"],
     "description": "",
     "meshName": "Tenth rib.r",
     "matched": false,
@@ -5129,11 +4565,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Third metacarpal bone",
-      "Third metacarpal bone.l",
-      "Third metacarpal bone.r"
-    ],
+    "meshAliases": ["Third metacarpal bone", "Third metacarpal bone.l", "Third metacarpal bone.r"],
     "description": "",
     "meshName": "Third metacarpal bone",
     "matched": false,
@@ -5146,11 +4578,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Third metacarpal bone",
-      "Third metacarpal bone.l",
-      "Third metacarpal bone.r"
-    ],
+    "meshAliases": ["Third metacarpal bone", "Third metacarpal bone.l", "Third metacarpal bone.r"],
     "description": "",
     "meshName": "Third metacarpal bone.l",
     "matched": false,
@@ -5163,11 +4591,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Third metacarpal bone",
-      "Third metacarpal bone.l",
-      "Third metacarpal bone.r"
-    ],
+    "meshAliases": ["Third metacarpal bone", "Third metacarpal bone.l", "Third metacarpal bone.r"],
     "description": "",
     "meshName": "Third metacarpal bone.r",
     "matched": false,
@@ -5180,11 +4604,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Third metatarsal bone",
-      "Third metatarsal bone.l",
-      "Third metatarsal bone.r"
-    ],
+    "meshAliases": ["Third metatarsal bone", "Third metatarsal bone.l", "Third metatarsal bone.r"],
     "description": "",
     "meshName": "Third metatarsal bone",
     "matched": false,
@@ -5197,11 +4617,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Third metatarsal bone",
-      "Third metatarsal bone.l",
-      "Third metatarsal bone.r"
-    ],
+    "meshAliases": ["Third metatarsal bone", "Third metatarsal bone.l", "Third metatarsal bone.r"],
     "description": "",
     "meshName": "Third metatarsal bone.l",
     "matched": false,
@@ -5214,11 +4630,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Third metatarsal bone",
-      "Third metatarsal bone.l",
-      "Third metatarsal bone.r"
-    ],
+    "meshAliases": ["Third metatarsal bone", "Third metatarsal bone.l", "Third metatarsal bone.r"],
     "description": "",
     "meshName": "Third metatarsal bone.r",
     "matched": false,
@@ -5231,11 +4643,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Third rib",
-      "Third rib.l",
-      "Third rib.r"
-    ],
+    "meshAliases": ["Third rib", "Third rib.l", "Third rib.r"],
     "description": "",
     "meshName": "Third rib",
     "matched": false,
@@ -5248,11 +4656,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Third rib",
-      "Third rib.l",
-      "Third rib.r"
-    ],
+    "meshAliases": ["Third rib", "Third rib.l", "Third rib.r"],
     "description": "",
     "meshName": "Third rib.l",
     "matched": false,
@@ -5265,11 +4669,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Third rib",
-      "Third rib.l",
-      "Third rib.r"
-    ],
+    "meshAliases": ["Third rib", "Third rib.l", "Third rib.r"],
     "description": "",
     "meshName": "Third rib.r",
     "matched": false,
@@ -5282,9 +4682,7 @@
     "altName": "",
     "region": "larynx",
     "side": "none",
-    "meshAliases": [
-      "Thyroid cartilage"
-    ],
+    "meshAliases": ["Thyroid cartilage"],
     "description": "",
     "meshName": "Thyroid cartilage",
     "matched": false,
@@ -5297,10 +4695,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Tibia.l",
-      "Tibia.r"
-    ],
+    "meshAliases": ["Tibia.l", "Tibia.r"],
     "description": "L'os médial et principal de la jambe. Son extrémité proximale volumineuse présente deux condyles (médial et latéral) surmontés des surfaces articulaires supérieures et de l'éminence intercondylaire, ainsi que la tubérosité tibiale en avant. Sa diaphyse présente une crête antérieure marquée et une face postérieure traversée par la ligne soléaire. Son extrémité distale, plus petite, forme la malléole médiale en dedans et présente une incisure fibulaire en dehors pour son articulation avec la fibula.",
     "meshName": "Tibia.l",
     "matched": true,
@@ -5313,10 +4708,7 @@
     "altName": "",
     "region": "leg-foot",
     "side": "both",
-    "meshAliases": [
-      "Tibia.l",
-      "Tibia.r"
-    ],
+    "meshAliases": ["Tibia.l", "Tibia.r"],
     "description": "L'os médial et principal de la jambe. Son extrémité proximale volumineuse présente deux condyles (médial et latéral) surmontés des surfaces articulaires supérieures et de l'éminence intercondylaire, ainsi que la tubérosité tibiale en avant. Sa diaphyse présente une crête antérieure marquée et une face postérieure traversée par la ligne soléaire. Son extrémité distale, plus petite, forme la malléole médiale en dedans et présente une incisure fibulaire en dehors pour son articulation avec la fibula.",
     "meshName": "Tibia.r",
     "matched": true,
@@ -5329,11 +4721,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Trapezium bone",
-      "Trapezium bone.l",
-      "Trapezium bone.r"
-    ],
+    "meshAliases": ["Trapezium bone", "Trapezium bone.l", "Trapezium bone.r"],
     "description": "",
     "meshName": "Trapezium bone",
     "matched": false,
@@ -5346,11 +4734,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Trapezium bone",
-      "Trapezium bone.l",
-      "Trapezium bone.r"
-    ],
+    "meshAliases": ["Trapezium bone", "Trapezium bone.l", "Trapezium bone.r"],
     "description": "",
     "meshName": "Trapezium bone.l",
     "matched": false,
@@ -5363,11 +4747,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Trapezium bone",
-      "Trapezium bone.l",
-      "Trapezium bone.r"
-    ],
+    "meshAliases": ["Trapezium bone", "Trapezium bone.l", "Trapezium bone.r"],
     "description": "",
     "meshName": "Trapezium bone.r",
     "matched": false,
@@ -5380,11 +4760,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Trapezoid bone",
-      "Trapezoid bone.l",
-      "Trapezoid bone.r"
-    ],
+    "meshAliases": ["Trapezoid bone", "Trapezoid bone.l", "Trapezoid bone.r"],
     "description": "",
     "meshName": "Trapezoid bone",
     "matched": false,
@@ -5397,11 +4773,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Trapezoid bone",
-      "Trapezoid bone.l",
-      "Trapezoid bone.r"
-    ],
+    "meshAliases": ["Trapezoid bone", "Trapezoid bone.l", "Trapezoid bone.r"],
     "description": "",
     "meshName": "Trapezoid bone.l",
     "matched": false,
@@ -5414,11 +4786,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Trapezoid bone",
-      "Trapezoid bone.l",
-      "Trapezoid bone.r"
-    ],
+    "meshAliases": ["Trapezoid bone", "Trapezoid bone.l", "Trapezoid bone.r"],
     "description": "",
     "meshName": "Trapezoid bone.r",
     "matched": false,
@@ -5431,11 +4799,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Triquetrum bone",
-      "Triquetrum bone.l",
-      "Triquetrum bone.r"
-    ],
+    "meshAliases": ["Triquetrum bone", "Triquetrum bone.l", "Triquetrum bone.r"],
     "description": "",
     "meshName": "Triquetrum bone",
     "matched": false,
@@ -5448,11 +4812,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Triquetrum bone",
-      "Triquetrum bone.l",
-      "Triquetrum bone.r"
-    ],
+    "meshAliases": ["Triquetrum bone", "Triquetrum bone.l", "Triquetrum bone.r"],
     "description": "",
     "meshName": "Triquetrum bone.l",
     "matched": false,
@@ -5465,11 +4825,7 @@
     "altName": "",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Triquetrum bone",
-      "Triquetrum bone.l",
-      "Triquetrum bone.r"
-    ],
+    "meshAliases": ["Triquetrum bone", "Triquetrum bone.l", "Triquetrum bone.r"],
     "description": "",
     "meshName": "Triquetrum bone.r",
     "matched": false,
@@ -5482,11 +4838,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Twelfth rib",
-      "Twelfth rib.l",
-      "Twelfth rib.r"
-    ],
+    "meshAliases": ["Twelfth rib", "Twelfth rib.l", "Twelfth rib.r"],
     "description": "",
     "meshName": "Twelfth rib",
     "matched": false,
@@ -5499,11 +4851,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Twelfth rib",
-      "Twelfth rib.l",
-      "Twelfth rib.r"
-    ],
+    "meshAliases": ["Twelfth rib", "Twelfth rib.l", "Twelfth rib.r"],
     "description": "",
     "meshName": "Twelfth rib.l",
     "matched": false,
@@ -5516,11 +4864,7 @@
     "altName": "",
     "region": "thorax",
     "side": "both",
-    "meshAliases": [
-      "Twelfth rib",
-      "Twelfth rib.l",
-      "Twelfth rib.r"
-    ],
+    "meshAliases": ["Twelfth rib", "Twelfth rib.l", "Twelfth rib.r"],
     "description": "",
     "meshName": "Twelfth rib.r",
     "matched": false,
@@ -5533,10 +4877,7 @@
     "altName": "Cubitus",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Ulna.l",
-      "Ulna.r"
-    ],
+    "meshAliases": ["Ulna.l", "Ulna.r"],
     "description": "L'os long médial de l'avant-bras. Son extrémité proximale, très développée, présente l'olécrâne en arrière et le processus coronoïde en avant, formant l'incisure trochléaire pour l'humérus, ainsi que l'incisure radiale latéralement. Sa diaphyse donne insertion à la membrane interosseuse. Son extrémité distale est constituée par la tête de l'ulna et se termine en dedans par le processus styloïde ulnaire.",
     "meshName": "Ulna.l",
     "matched": true,
@@ -5549,10 +4890,7 @@
     "altName": "Cubitus",
     "region": "arm-hand",
     "side": "both",
-    "meshAliases": [
-      "Ulna.l",
-      "Ulna.r"
-    ],
+    "meshAliases": ["Ulna.l", "Ulna.r"],
     "description": "L'os long médial de l'avant-bras. Son extrémité proximale, très développée, présente l'olécrâne en arrière et le processus coronoïde en avant, formant l'incisure trochléaire pour l'humérus, ainsi que l'incisure radiale latéralement. Sa diaphyse donne insertion à la membrane interosseuse. Son extrémité distale est constituée par la tête de l'ulna et se termine en dedans par le processus styloïde ulnaire.",
     "meshName": "Ulna.r",
     "matched": true,
@@ -5565,11 +4903,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper canine",
-      "Upper canine.l",
-      "Upper canine.r"
-    ],
+    "meshAliases": ["Upper canine", "Upper canine.l", "Upper canine.r"],
     "description": "",
     "meshName": "Upper canine",
     "matched": false,
@@ -5582,11 +4916,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper canine",
-      "Upper canine.l",
-      "Upper canine.r"
-    ],
+    "meshAliases": ["Upper canine", "Upper canine.l", "Upper canine.r"],
     "description": "",
     "meshName": "Upper canine.l",
     "matched": false,
@@ -5599,11 +4929,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper canine",
-      "Upper canine.l",
-      "Upper canine.r"
-    ],
+    "meshAliases": ["Upper canine", "Upper canine.l", "Upper canine.r"],
     "description": "",
     "meshName": "Upper canine.r",
     "matched": false,
@@ -5667,11 +4993,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper first premolar",
-      "Upper first premolar.l",
-      "Upper first premolar.r"
-    ],
+    "meshAliases": ["Upper first premolar", "Upper first premolar.l", "Upper first premolar.r"],
     "description": "",
     "meshName": "Upper first premolar",
     "matched": false,
@@ -5684,11 +5006,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper first premolar",
-      "Upper first premolar.l",
-      "Upper first premolar.r"
-    ],
+    "meshAliases": ["Upper first premolar", "Upper first premolar.l", "Upper first premolar.r"],
     "description": "",
     "meshName": "Upper first premolar.l",
     "matched": false,
@@ -5701,11 +5019,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper first premolar",
-      "Upper first premolar.l",
-      "Upper first premolar.r"
-    ],
+    "meshAliases": ["Upper first premolar", "Upper first premolar.l", "Upper first premolar.r"],
     "description": "",
     "meshName": "Upper first premolar.r",
     "matched": false,
@@ -5718,11 +5032,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper lateral incisor",
-      "Upper lateral incisor.l",
-      "Upper lateral incisor.r"
-    ],
+    "meshAliases": ["Upper lateral incisor", "Upper lateral incisor.l", "Upper lateral incisor.r"],
     "description": "",
     "meshName": "Upper lateral incisor",
     "matched": false,
@@ -5735,11 +5045,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper lateral incisor",
-      "Upper lateral incisor.l",
-      "Upper lateral incisor.r"
-    ],
+    "meshAliases": ["Upper lateral incisor", "Upper lateral incisor.l", "Upper lateral incisor.r"],
     "description": "",
     "meshName": "Upper lateral incisor.l",
     "matched": false,
@@ -5752,11 +5058,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper lateral incisor",
-      "Upper lateral incisor.l",
-      "Upper lateral incisor.r"
-    ],
+    "meshAliases": ["Upper lateral incisor", "Upper lateral incisor.l", "Upper lateral incisor.r"],
     "description": "",
     "meshName": "Upper lateral incisor.r",
     "matched": false,
@@ -5769,11 +5071,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper medial incisor",
-      "Upper medial incisor.l",
-      "Upper medial incisor.r"
-    ],
+    "meshAliases": ["Upper medial incisor", "Upper medial incisor.l", "Upper medial incisor.r"],
     "description": "",
     "meshName": "Upper medial incisor",
     "matched": false,
@@ -5786,11 +5084,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper medial incisor",
-      "Upper medial incisor.l",
-      "Upper medial incisor.r"
-    ],
+    "meshAliases": ["Upper medial incisor", "Upper medial incisor.l", "Upper medial incisor.r"],
     "description": "",
     "meshName": "Upper medial incisor.l",
     "matched": false,
@@ -5803,11 +5097,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper medial incisor",
-      "Upper medial incisor.l",
-      "Upper medial incisor.r"
-    ],
+    "meshAliases": ["Upper medial incisor", "Upper medial incisor.l", "Upper medial incisor.r"],
     "description": "",
     "meshName": "Upper medial incisor.r",
     "matched": false,
@@ -5871,11 +5161,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper second premolar",
-      "Upper second premolar.l",
-      "Upper second premolar.r"
-    ],
+    "meshAliases": ["Upper second premolar", "Upper second premolar.l", "Upper second premolar.r"],
     "description": "",
     "meshName": "Upper second premolar",
     "matched": false,
@@ -5888,11 +5174,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper second premolar",
-      "Upper second premolar.l",
-      "Upper second premolar.r"
-    ],
+    "meshAliases": ["Upper second premolar", "Upper second premolar.l", "Upper second premolar.r"],
     "description": "",
     "meshName": "Upper second premolar.l",
     "matched": false,
@@ -5905,11 +5187,7 @@
     "altName": "",
     "region": "dental",
     "side": "both",
-    "meshAliases": [
-      "Upper second premolar",
-      "Upper second premolar.l",
-      "Upper second premolar.r"
-    ],
+    "meshAliases": ["Upper second premolar", "Upper second premolar.l", "Upper second premolar.r"],
     "description": "",
     "meshName": "Upper second premolar.r",
     "matched": false,
@@ -5922,9 +5200,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra C3"
-    ],
+    "meshAliases": ["Vertebra C3"],
     "description": "",
     "meshName": "Vertebra C3",
     "matched": false,
@@ -5937,9 +5213,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra C4"
-    ],
+    "meshAliases": ["Vertebra C4"],
     "description": "",
     "meshName": "Vertebra C4",
     "matched": false,
@@ -5952,9 +5226,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra C5"
-    ],
+    "meshAliases": ["Vertebra C5"],
     "description": "",
     "meshName": "Vertebra C5",
     "matched": false,
@@ -5967,9 +5239,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra C6"
-    ],
+    "meshAliases": ["Vertebra C6"],
     "description": "",
     "meshName": "Vertebra C6",
     "matched": false,
@@ -5982,9 +5252,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra C7"
-    ],
+    "meshAliases": ["Vertebra C7"],
     "description": "",
     "meshName": "Vertebra C7",
     "matched": false,
@@ -5997,9 +5265,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra L1"
-    ],
+    "meshAliases": ["Vertebra L1"],
     "description": "",
     "meshName": "Vertebra L1",
     "matched": false,
@@ -6012,9 +5278,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra L2"
-    ],
+    "meshAliases": ["Vertebra L2"],
     "description": "",
     "meshName": "Vertebra L2",
     "matched": false,
@@ -6027,9 +5291,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra L3"
-    ],
+    "meshAliases": ["Vertebra L3"],
     "description": "",
     "meshName": "Vertebra L3",
     "matched": false,
@@ -6042,9 +5304,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra L4"
-    ],
+    "meshAliases": ["Vertebra L4"],
     "description": "",
     "meshName": "Vertebra L4",
     "matched": false,
@@ -6057,9 +5317,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra L5"
-    ],
+    "meshAliases": ["Vertebra L5"],
     "description": "",
     "meshName": "Vertebra L5",
     "matched": false,
@@ -6072,9 +5330,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T1"
-    ],
+    "meshAliases": ["Vertebra T1"],
     "description": "",
     "meshName": "Vertebra T1",
     "matched": false,
@@ -6087,9 +5343,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T10"
-    ],
+    "meshAliases": ["Vertebra T10"],
     "description": "",
     "meshName": "Vertebra T10",
     "matched": false,
@@ -6102,9 +5356,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T11"
-    ],
+    "meshAliases": ["Vertebra T11"],
     "description": "",
     "meshName": "Vertebra T11",
     "matched": false,
@@ -6117,9 +5369,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T12"
-    ],
+    "meshAliases": ["Vertebra T12"],
     "description": "",
     "meshName": "Vertebra T12",
     "matched": false,
@@ -6132,9 +5382,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T2"
-    ],
+    "meshAliases": ["Vertebra T2"],
     "description": "",
     "meshName": "Vertebra T2",
     "matched": false,
@@ -6147,9 +5395,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T3"
-    ],
+    "meshAliases": ["Vertebra T3"],
     "description": "",
     "meshName": "Vertebra T3",
     "matched": false,
@@ -6162,9 +5408,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T4"
-    ],
+    "meshAliases": ["Vertebra T4"],
     "description": "",
     "meshName": "Vertebra T4",
     "matched": false,
@@ -6177,9 +5421,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T5"
-    ],
+    "meshAliases": ["Vertebra T5"],
     "description": "",
     "meshName": "Vertebra T5",
     "matched": false,
@@ -6192,9 +5434,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T6"
-    ],
+    "meshAliases": ["Vertebra T6"],
     "description": "",
     "meshName": "Vertebra T6",
     "matched": false,
@@ -6207,9 +5447,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T7"
-    ],
+    "meshAliases": ["Vertebra T7"],
     "description": "",
     "meshName": "Vertebra T7",
     "matched": false,
@@ -6222,9 +5460,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T8"
-    ],
+    "meshAliases": ["Vertebra T8"],
     "description": "",
     "meshName": "Vertebra T8",
     "matched": false,
@@ -6237,9 +5473,7 @@
     "altName": "",
     "region": "spine",
     "side": "none",
-    "meshAliases": [
-      "Vertebra T9"
-    ],
+    "meshAliases": ["Vertebra T9"],
     "description": "",
     "meshName": "Vertebra T9",
     "matched": false,
@@ -6252,9 +5486,7 @@
     "altName": "",
     "region": "skull",
     "side": "none",
-    "meshAliases": [
-      "Vomer"
-    ],
+    "meshAliases": ["Vomer"],
     "description": "",
     "meshName": "Vomer",
     "matched": false,
@@ -6267,9 +5499,7 @@
     "altName": "",
     "region": "thorax",
     "side": "none",
-    "meshAliases": [
-      "Xiphoid process"
-    ],
+    "meshAliases": ["Xiphoid process"],
     "description": "",
     "meshName": "Xiphoid process",
     "matched": false,
@@ -6282,11 +5512,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Zygomatic bone",
-      "Zygomatic bone.l",
-      "Zygomatic bone.r"
-    ],
+    "meshAliases": ["Zygomatic bone", "Zygomatic bone.l", "Zygomatic bone.r"],
     "description": "",
     "meshName": "Zygomatic bone",
     "matched": false,
@@ -6299,11 +5525,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Zygomatic bone",
-      "Zygomatic bone.l",
-      "Zygomatic bone.r"
-    ],
+    "meshAliases": ["Zygomatic bone", "Zygomatic bone.l", "Zygomatic bone.r"],
     "description": "",
     "meshName": "Zygomatic bone.l",
     "matched": false,
@@ -6316,11 +5538,7 @@
     "altName": "",
     "region": "skull",
     "side": "both",
-    "meshAliases": [
-      "Zygomatic bone",
-      "Zygomatic bone.l",
-      "Zygomatic bone.r"
-    ],
+    "meshAliases": ["Zygomatic bone", "Zygomatic bone.l", "Zygomatic bone.r"],
     "description": "",
     "meshName": "Zygomatic bone.r",
     "matched": false,

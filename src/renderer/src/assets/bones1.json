@@ -5,13 +5,7 @@
     "altName": "Os iliaque",
     "region": "Ceinture pelvienne",
     "side": "pair",
-    "meshAliases": [
-      "hip",
-      "pelvis",
-      "hipbone",
-      "coxal",
-      "ilium"
-    ],
+    "meshAliases": ["hip", "pelvis", "hipbone", "coxal", "ilium"],
     "description": "Le plus grand os plat de l'organisme, assurant la liaison entre le rachis et le membre inférieur. Il est constitué de la fusion de trois os : l'ilium (en haut, comprenant une aile et un corps), l'ischium (en bas et en arrière) et le pubis (en bas et en avant). Il présente une face latérale caractérisée par l'acétabulum (dépression hémisphérique articulaire pour la tête du fémur) et la face glutéale, ainsi qu'une face médiale concave comprenant la fosse iliaque et la ligne arquée. Il est délimité par quatre bords (supérieur ou crête iliaque, inférieur, antérieur et postérieur)."
   },
   {
@@ -20,10 +14,7 @@
     "altName": null,
     "region": "Membre inférieur",
     "side": "pair",
-    "meshAliases": [
-      "femur",
-      "thighbone"
-    ],
+    "meshAliases": ["femur", "thighbone"],
     "description": "L'os long constituant le squelette de la cuisse. Son extrémité proximale comprend une tête sphérique munie d'une fovea pour le ligament de la tête fémorale, un col (définissant l'angle cervico-diaphysaire d'environ 130°), le grand trochanter latéralement et le petit trochanter médialement. Sa diaphyse (corps) présente sur sa face postérieure la ligne âpre, zone d'importantes insertions musculaires. Son extrémité distale s'articule avec le tibia et la patella, caractérisée en avant par la surface patellaire, et en bas par deux condyles (médial et latéral) séparés par une fosse intercondylaire."
   },
   {
@@ -32,10 +23,7 @@
     "altName": "Rotule",
     "region": "Membre inférieur",
     "side": "pair",
-    "meshAliases": [
-      "patella",
-      "kneecap"
-    ],
+    "meshAliases": ["patella", "kneecap"],
     "description": "Un os court et plat situé à la partie antérieure de la cuisse au niveau du genou. Elle présente une base supérieure, un apex inférieur, une face antérieure rugueuse sous-cutanée et une face postérieure articulaire divisée en deux facettes (latérale et médiale) pour répondre à la surface patellaire du fémur."
   },
   {
@@ -44,10 +32,7 @@
     "altName": null,
     "region": "Membre inférieur",
     "side": "pair",
-    "meshAliases": [
-      "tibia",
-      "shinbone"
-    ],
+    "meshAliases": ["tibia", "shinbone"],
     "description": "L'os médial et principal de la jambe. Son extrémité proximale volumineuse présente deux condyles (médial et latéral) surmontés des surfaces articulaires supérieures et de l'éminence intercondylaire, ainsi que la tubérosité tibiale en avant. Sa diaphyse présente une crête antérieure marquée et une face postérieure traversée par la ligne soléaire. Son extrémité distale, plus petite, forme la malléole médiale en dedans et présente une incisure fibulaire en dehors pour son articulation avec la fibula."
   },
   {
@@ -56,9 +41,7 @@
     "altName": "Péroné",
     "region": "Membre inférieur",
     "side": "pair",
-    "meshAliases": [
-      "fibula"
-    ],
+    "meshAliases": ["fibula"],
     "description": "L'os latéral, fin et allongé de la jambe. Son extrémité proximale est formée par la tête de la fibula (prolongée par un apex) et un col, s'articulant avec le tibia. Sa diaphyse étroite donne insertion à la membrane interosseuse sur son bord interosseux. Son extrémité distale s'allonge pour former la malléole externe (malléole latérale), qui participe à la pince malléolaire pour l'articulation de la cheville."
   },
   {
@@ -67,10 +50,7 @@
     "altName": "Astragale",
     "region": "Pied",
     "side": "pair",
-    "meshAliases": [
-      "talus",
-      "astragalus"
-    ],
+    "meshAliases": ["talus", "astragalus"],
     "description": "Os du tarse postérieur situé au sommet du pied, s'articulant en haut avec le tibia et la fibula pour former la cheville. Il comprend un corps volumineux surmonté d'une trochlée articulée, un col et une tête dirigée en avant s'articulant avec l'os naviculaire, ainsi qu'un processus postérieur muni de tubercules médial et latéral."
   },
   {
@@ -79,10 +59,7 @@
     "altName": "Calcanéum",
     "region": "Pied",
     "side": "pair",
-    "meshAliases": [
-      "calcaneus",
-      "heelbone"
-    ],
+    "meshAliases": ["calcaneus", "heelbone"],
     "description": "Le plus volumineux des os du tarse, situé sous le talus au niveau du tarse postérieur et formant le relief du talon. Sa face supérieure présente le sustentaculum tali (saillie médiale servant de console au talus). Sa partie postérieure se termine par une grande tubérosité calcanéenne. Sa face latérale présente la trochlée fibulaire."
   },
   {
@@ -91,9 +68,7 @@
     "altName": null,
     "region": "Pied",
     "side": "pair",
-    "meshAliases": [
-      "navicular"
-    ],
+    "meshAliases": ["navicular"],
     "description": "Os du tarse antérieur (médio-tarse), de forme intermédiaire, situé du côté médial du pied entre la tête du talus en arrière et les trois os cunéiformes en avant. Il présente une tubérosité naviculaire bien palpable sur son bord médial."
   },
   {
@@ -102,9 +77,7 @@
     "altName": null,
     "region": "Pied",
     "side": "pair",
-    "meshAliases": [
-      "cuboid"
-    ],
+    "meshAliases": ["cuboid"],
     "description": "Os du tarse antérieur situé sur le bord latéral du pied, en avant du calcaneus et en arrière des 4e et 5e os métatarsiens. Sa face plantaire est marquée par une tubérosité et un sillon profond pour le passage du tendon du muscle long fibulaire."
   },
   {
@@ -113,12 +86,7 @@
     "altName": null,
     "region": "Pied",
     "side": "pair",
-    "meshAliases": [
-      "cuneiform",
-      "cuneiform1",
-      "cuneiform2",
-      "cuneiform3"
-    ],
+    "meshAliases": ["cuneiform", "cuneiform1", "cuneiform2", "cuneiform3"],
     "description": "Un groupe de trois os du tarse antérieur disposés côte à côte : le cunéiforme médial (C1, le plus grand), le cunéiforme intermédiaire (C2) et le cunéiforme latéral (C3). Ils s'articulent en arrière avec l'os naviculaire et en avant avec les bases des trois premiers métatarsiens, contribuant à la formation de l'arc transversal du pied."
   },
   {
@@ -127,10 +95,7 @@
     "altName": "Métatarse",
     "region": "Pied",
     "side": "pair",
-    "meshAliases": [
-      "metatarsal",
-      "metatarsals"
-    ],
+    "meshAliases": ["metatarsal", "metatarsals"],
     "description": "Un groupe de cinq os longs miniatures numérotés de I à V de dedans en dehors, formant le squelette de l'avant-pied. Chaque métartasien possède une base proximale articulée avec le tarse, un corps (diaphyse) et une tête distale articulée avec la phalange proximale correspondante. Le 5e métatarsien se distingue par une tubérosité externe saillante à sa base."
   },
   {
@@ -139,10 +104,7 @@
     "altName": "Pied",
     "region": "Pied",
     "side": "pair",
-    "meshAliases": [
-      "toe_phalanx",
-      "footphalanges"
-    ],
+    "meshAliases": ["toe_phalanx", "footphalanges"],
     "description": "Éléments osseux articulés prolongeant les métatarsiens pour former les orteils. L'hallux (gros orteil) ne possède que deux phalanges (proximale et distale), tandis que les quatre autres orteils possèdent trois phalanges : proximale (P1), intermédiaire (P2) et distale (P3 ou tubérosité de la phalange distale)."
   },
   {
@@ -151,10 +113,7 @@
     "altName": null,
     "region": "Ceinture scapulaire",
     "side": "pair",
-    "meshAliases": [
-      "clavicle",
-      "collarbone"
-    ],
+    "meshAliases": ["clavicle", "collarbone"],
     "description": "Os long, pair et non symétrique en forme de 'S' allongé, situé à la partie antéro-supérieure du thorax. Unique liaison osseuse reliant le membre supérieur au tronc. Elle présente une face supérieure lisse et sous-cutanée, et une face inférieure marquée par le sillon du muscle subclavier, le tubercule conoïde et l'empreinte du ligament costo-claviculaire. Son extrémité médiale (sternale) s'articule avec le sternum et son extrémité latérale (acromiale) s'articule avec l'acromion de la scapula."
   },
   {
@@ -163,10 +122,7 @@
     "altName": "Omoplate",
     "region": "Ceinture scapulaire",
     "side": "pair",
-    "meshAliases": [
-      "scapula",
-      "shoulderblade"
-    ],
+    "meshAliases": ["scapula", "shoulderblade"],
     "description": "Os plat et triangulaire situé à la face postéro-supérieure du thorax en regard des 7 premières côtes. Sa face antérieure (costale) est occupée par la fosse subscapulaire. Sa face postérieure est divisée par l'épine de la scapula (qui se prolonge latéralement par l'acromion) en deux fosses : supra-épineuse et infra-épineuse. Son angle latéral présente la cavité glénoïdale, surface articulaire pour la tête de l'humérus, surmontée du processus coracoïde en avant."
   },
   {
@@ -175,9 +131,7 @@
     "altName": null,
     "region": "Membre supérieur",
     "side": "pair",
-    "meshAliases": [
-      "humerus"
-    ],
+    "meshAliases": ["humerus"],
     "description": "L'os long constituant le squelette du bras. Son extrémité proximale comprend la tête humérale (sphérique), le col anatomique, le tubercule majeur latéralement et le tubercule mineur en avant, délimitant le sillon intertuberculaire. Sa diaphyse présente la tubérosité deltoïdienne (V deltoïdien). Son extrémité distale (palette humérale) s'articule avec le radius et l'ulna grâce au capitulum et à la trochlée, encadrés par l'épicondyle latéral et l'epicondyle médial, et présente les fosses radiale, coronoïde et olécrânienne."
   },
   {
@@ -186,9 +140,7 @@
     "altName": null,
     "region": "Membre supérieur",
     "side": "pair",
-    "meshAliases": [
-      "radius"
-    ],
+    "meshAliases": ["radius"],
     "description": "L'os long latéral de l'avant-bras. Son extrémité proximale comporte une tête cylindrique (avec une fovéa et une circonférence articulaire) et un col, suivis en bas et en dedans par la tubérosité radiale. Sa diaphyse présente un bord interosseux aigu. Son extrémité distale, volumineuse et aplatie, se termine latéralement par le processus styloïde radial et présente en dedans l'incisure ulnaire pour s'articuler avec la tête de l'ulna."
   },
   {
@@ -197,9 +149,7 @@
     "altName": "Cubitus",
     "region": "Membre supérieur",
     "side": "pair",
-    "meshAliases": [
-      "ulna"
-    ],
+    "meshAliases": ["ulna"],
     "description": "L'os long médial de l'avant-bras. Son extrémité proximale, très développée, présente l'olécrâne en arrière et le processus coronoïde en avant, formant l'incisure trochléaire pour l'humérus, ainsi que l'incisure radiale latéralement. Sa diaphyse donne insertion à la membrane interosseuse. Son extrémité distale est constituée par la tête de l'ulna et se termine en dedans par le processus styloïde ulnaire."
   },
   {
@@ -208,11 +158,7 @@
     "altName": null,
     "region": "Main",
     "side": "pair",
-    "meshAliases": [
-      "carpal",
-      "carpals",
-      "wristbone"
-    ],
+    "meshAliases": ["carpal", "carpals", "wristbone"],
     "description": "Un ensemble de huit os courts formant le poignet, répartis en deux rangées. La rangée proximale comprend le scaphoïde, le lunatum, le triquetrum et le pisiforme. La rangée distale comprend le trapèze, le trapézoïde, le capitatum et l'hamatum. Ils délimitent en avant la gouttière du canal carpien."
   },
   {
@@ -221,10 +167,7 @@
     "altName": "Métacarpe",
     "region": "Main",
     "side": "pair",
-    "meshAliases": [
-      "metacarpal",
-      "metacarpals"
-    ],
+    "meshAliases": ["metacarpal", "metacarpals"],
     "description": "Cinq os longs miniatures numérotés de I à V, constituant l'armature de la paume de la main. Chaque os présente une base proximale s'articulant avec la rangée distale du carpe, un corps et une tête distale s'articulant avec la base de la phalange proximale correspondante."
   },
   {
@@ -233,10 +176,7 @@
     "altName": "Main",
     "region": "Main",
     "side": "pair",
-    "meshAliases": [
-      "finger_phalanx",
-      "handphalanges"
-    ],
+    "meshAliases": ["finger_phalanx", "handphalanges"],
     "description": "Segments osseux articulés formant le squelette des doigts. Le pouce (I) ne possède que deux phalanges (proximale et distale). Les quatre autres doigts (II à V) possèdent trois phalanges articulées en série : la phalange proximale, la phalange intermédiaire et la phalange distale."
   }
 ]
