@@ -1,9 +1,8 @@
 import { useRef, useState, useCallback } from 'react'
 import ThreeScene from './threeScene'
 import Sidebar from './sidebar'
-import { findBoneByMeshName } from './utils/lookup'
 import SearchBox from './searchbox'
-import Bones from './assets/bones.json'
+import bonesData from './assets/bones.json'
 import Reset from './reset'
 
 function App() {
@@ -12,22 +11,24 @@ function App() {
   const sceneRef = useRef(null)
 
   const handleSelectBone = useCallback((bone) => {
-    setSelectedBone(bone) // bone = { name, mesh } or null
+    setSelectedBone(bone)
   }, [])
-  const handleIsolateChange = useCallback((val) => setIsIsolated(val), [])
+
+  const handleIsolateChange = useCallback((val) => {
+    setIsIsolated(val)
+  }, [])
+
   return (
     <div className="app">
       <div className="topbar">
         <div className="topbar-brand">
           <i className="ti ti-bone" aria-hidden="true"></i>
-          <span>Anatomy viewer</span>
+          <span>Anatomy Viewer</span>
         </div>
-        {/* search box, top-bar actions go here later */}
         <SearchBox
-          bones={Bones}
+          bones={bonesData}
           onSelectBone={(bone) => {
             sceneRef.current?.selectBone(bone)
-            //flyToBone(bone.id);         // your existing camera-fly function
           }}
         />
       </div>

@@ -2,7 +2,7 @@ import { forwardRef, useImperativeHandle, useEffect, useRef } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
-import { findBoneByMeshName } from './utils/lookup';
+import { findBoneByMeshName } from './utils/lookup'
 
 const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChange }, ref) {
   const mountRef = useRef(null)
@@ -11,9 +11,9 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
   useEffect(() => {
     const currentMount = mountRef.current
 
-    // --- 1. Setup Scene, Camera, Renderer ---
+    // --- 1. Scene, Camera, Renderer ---
     const scene = new THREE.Scene()
-    scene.background = new THREE.Color(0x0d0f11) // Dark blue-grey background
+    scene.background = new THREE.Color(0x0d0f11)
 
     const camera = new THREE.PerspectiveCamera(
       45,
@@ -26,30 +26,20 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
 
     const renderer = new THREE.WebGLRenderer({ antialias: true })
     renderer.setSize(currentMount.clientWidth, currentMount.clientHeight)
-    renderer.shadowMap.enabled = true // Good for realism later
+    renderer.shadowMap.enabled = true
     currentMount.appendChild(renderer.domElement)
 
-    // --- 2. Controls (Orbit) ---
+    // --- 2. Controls ---
     const controls = new OrbitControls(camera, renderer.domElement)
-    controls.enableDamping = true // Smooth inertial movement
+    controls.enableDamping = true
     controls.dampingFactor = 0.05
     controls.screenSpacePanning = true
     controls.maxPolarAngle = Math.PI
 
-    // --- 3. Lights (clinical/studio rig — keeps the model readable from every angle) ---
+    // --- 3. Lights ---
+    scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x3a3a3a, 0.9))
+    scene.add(new THREE.AmbientLight(0xffffff, 0.25))
 
-    // Hemisphere light: soft ambient fill that mimics bounced room light
-    // (cool sky tone from above, warm neutral "floor" tone from below)
-    // This alone guarantees no side of the model ever goes fully black.
-    const hemiLight = new THREE.HemisphereLight(0xdfe9f5, 0x3a3a3a, 0.9)
-    scene.add(hemiLight)
-
-    // Low-level ambient as a safety net on top of the hemisphere light,
-    // so even unlit crevices (e.g. inside the ribcage) stay legible.
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.25)
-    scene.add(ambientLight)
-
-    // Key light: primary shadow-casting light, defines bone surface detail
     const keyLight = new THREE.DirectionalLight(0xffffff, 1.3)
     keyLight.position.set(10, 15, 10)
     keyLight.castShadow = true
@@ -57,41 +47,25 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     keyLight.shadow.bias = -0.0005
     scene.add(keyLight)
 
-    // Fill light: opposite side of the key light, lower intensity,
-    // softens shadows so anatomical landmarks aren't lost in darkness
     const fillLight = new THREE.DirectionalLight(0xeef3ff, 0.5)
     fillLight.position.set(-10, 5, -8)
     scene.add(fillLight)
 
-    // Rim/back light: separates the model from the background and
-    // highlights contours (skull ridges, spine curvature, etc.)
     const rimLight = new THREE.DirectionalLight(0xffffff, 0.8)
     rimLight.position.set(0, 10, -12)
     scene.add(rimLight)
 
-    // Front fill: gentle light straight from the camera side so the
-    // side facing the viewer is never underlit, even when orbiting
     const frontFill = new THREE.DirectionalLight(0xffffff, 0.4)
     frontFill.position.set(0, 2, 15)
     scene.add(frontFill)
 
-
-    // --- 4. Raycaster Setup ---
-    const raycaster = new THREE.Raycaster()
-    const pointer = new THREE.Vector2()
-
-    // --- Load the skeleton model ---
-    const loader = new GLTFLoader()
-
-    // Two shared materials keep draw calls low. We highlight by SWAPPING
-    // the material reference on a mesh, never by mutating .color/.emissive
-    // on a shared material instance directly — doing that would recolor
-    // every mesh currently using that material, not just the clicked one.
+    // --- 4. Materials & State ---
     const baseMaterial = new THREE.MeshStandardMaterial({
       color: 0xe8e2d5,
       roughness: 0.6,
       metalness: 0.05,
     })
+
     const highlightMaterial = new THREE.MeshStandardMaterial({
       color: 0xe8e2d5,
       emissive: 0x00ffff,
@@ -100,26 +74,15 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
       metalness: 0.05,
     })
 
-    let clickableObjects = []        // every raycastable submesh
-    const boneGroups = new Map()     // resolved boneName -> [meshes]
-    let selectedBoneName = null
+    const raycaster = new THREE.Raycaster()
+    const pointer = new THREE.Vector2()
+
+    let meshes = []
+    let selectedMesh = null
     let isIsolated = false
 
-    // GLTFLoader splits a multi-material Blender object into several child
-    // Mesh nodes under one parent Group. The parent Group name is usually
-    // the real bone name (e.g. "Femur.l"); the auto-generated child mesh
-    // names look like "Femur.l_1", "Femur.l_2". Walk up to find the name
-    // that actually identifies the bone instead of trusting the submesh.
-    function resolveBoneName(mesh) {
-      if (mesh.name && !/_\d+$/.test(mesh.name)) return mesh.name
-      let p = mesh.parent
-      while (p) {
-        if (p.name) return p.name
-        p = p.parent
-      }
-      return mesh.name
-    }
-
+    // --- 5. Loader ---
+    const loader = new GLTFLoader()
     loader.load('/src/assets/skeleton4.glb', (gltf) => {
       const model = gltf.scene
       model.scale.set(4, 4, 4)
@@ -127,77 +90,54 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
       model.traverse((node) => {
         if (!node.isMesh) return
         node.geometry.computeVertexNormals()
-
-        const boneName = resolveBoneName(node)
-        node.userData.boneName = boneName
         node.material = baseMaterial
-
-        clickableObjects.push(node)
-        if (!boneGroups.has(boneName)) boneGroups.set(boneName, [])
-        boneGroups.get(boneName).push(node)
+        meshes.push(node)
       })
 
       scene.add(model)
     })
-    // --- 6. Click Handler (Raycasting Logic) ---
+
+    // --- 6. Material Swapping & Selection Helpers ---
+    function selectMesh(mesh) {
+      if (selectedMesh) {
+        selectedMesh.material = baseMaterial
+      }
+
+      selectedMesh = mesh
+
+      if (mesh) {
+        mesh.material = highlightMaterial
+        const boneData = findBoneByMeshName(mesh.name)
+        onSelectBone(boneData || { name: mesh.name })
+      } else {
+        onSelectBone(null)
+      }
+    }
+
+    function clearSelection() {
+      selectMesh(null)
+    }
+
+    // --- 7. Click & Drag Handling ---
+    let pointerDownPos = { x: 0, y: 0 }
+    const DRAG_THRESHOLD = 3
+
     function onPointerClick(event) {
-      // Calculate mouse position in normalized device coordinates (-1 to +1)
       const rect = renderer.domElement.getBoundingClientRect()
       pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1
       pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1
 
       raycaster.setFromCamera(pointer, camera)
 
-      // Check for intersections with all meshes in the model, skipping
-      // any that are currently hidden
-      const intersects = raycaster.intersectObjects(
-        clickableObjects.filter((mesh) => mesh.visible)
-      )
-
-      // Revert whatever bone group was previously highlighted
-      unhighlightSelection()
+      const intersects = raycaster.intersectObjects(meshes.filter((m) => m.visible))
 
       if (intersects.length > 0) {
         const hitMesh = intersects[0].object
-
-        // Defensive: should already be excluded by the filter above, but
-        // guard here too in case intersects ever gets built another way.
-        if (!hitMesh.visible) {
-          onSelectBone(null)
-          return
-        }
-
-        const boneName = hitMesh.userData.boneName || hitMesh.name
-
-        highlightBoneGroup(boneName)
-
-        console.log(`🦴 Clicked: ${boneName}`)
-        onSelectBone(findBoneByMeshName(boneName)) // <-- tell React
+        selectMesh(hitMesh)
       } else {
-        onSelectBone(null) // clicked empty space, clear sidebar
+        clearSelection()
       }
     }
-
-    // Highlight every submesh that belongs to the clicked bone (not just
-    // the one submesh the ray happened to hit), by swapping in the shared
-    // highlight material.
-    function highlightBoneGroup(boneName) {
-      const group = boneGroups.get(boneName) || []
-      group.forEach((mesh) => { mesh.material = highlightMaterial })
-      selectedBoneName = boneName
-    }
-
-    function unhighlightSelection() {
-      if (!selectedBoneName) return
-      const group = boneGroups.get(selectedBoneName) || []
-      group.forEach((mesh) => { mesh.material = baseMaterial })
-      selectedBoneName = null
-    }
-
-    // --- 7. Attach the click listener ---
-    // --- Drag vs Click detection ---
-    let pointerDownPos = { x: 0, y: 0 }
-    const DRAG_THRESHOLD = 3 // pixels — tweak to taste
 
     function onPointerDown(event) {
       pointerDownPos = { x: event.clientX, y: event.clientY }
@@ -206,114 +146,84 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     function onPointerUp(event) {
       const dx = event.clientX - pointerDownPos.x
       const dy = event.clientY - pointerDownPos.y
-      const distance = Math.sqrt(dx * dx + dy * dy)
-
-      if (distance < DRAG_THRESHOLD) {
-        onPointerClick(event) // only treat as a "click" if barely moved
+      if (Math.sqrt(dx * dx + dy * dy) < DRAG_THRESHOLD) {
+        onPointerClick(event)
       }
     }
-
-    // instead of:
-    // renderer.domElement.addEventListener('click', onPointerClick)
 
     renderer.domElement.addEventListener('pointerdown', onPointerDown)
     renderer.domElement.addEventListener('pointerup', onPointerUp)
 
-    // Optional: Use 'pointerdown' for faster response, but 'click' is more intuitive
-
-    // Add a grid helper to visualize the ground
-    //const gridHelper = new THREE.GridHelper(20, 20, 0x88aaff, 0x335588)
-    //scene.add(gridHelper)
-
+    // --- 8. Public Actions ---
     function toggleIsolate() {
-      if (!selectedBoneName) return
+      if (!selectedMesh) return
 
       isIsolated = !isIsolated
-      const selectedGroup = new Set(boneGroups.get(selectedBoneName) || [])
-      clickableObjects.forEach((mesh) => {
-        mesh.visible = isIsolated ? selectedGroup.has(mesh) : true
+      meshes.forEach((mesh) => {
+        mesh.visible = isIsolated ? mesh === selectedMesh : true
       })
-      onIsolateChange(isIsolated) // tell React the new state
+      onIsolateChange(isIsolated)
     }
 
-
-    function clearSelection() {
-      unhighlightSelection()
-      onSelectBone(null)
-    }
-
-    // Hides the currently selected bone (all submeshes in its group).
-    // Distinct from isolate: this removes the bone from view entirely,
-    // rather than hiding everything else around it.
     function hideSelected() {
-      if (!selectedBoneName) return
-      const group = boneGroups.get(selectedBoneName) || []
-      group.forEach((mesh) => {
-        mesh.visible = false
-        mesh.material = baseMaterial // reset material so it's not stuck highlighted when shown again later
-      })
-      selectedBoneName = null
+      if (!selectedMesh) return
+
+      selectedMesh.visible = false
+      selectedMesh.material = baseMaterial
+      selectedMesh = null
       onSelectBone(null)
     }
-
 
     function resetView() {
-      clickableObjects.forEach((mesh) => {
+      meshes.forEach((mesh) => {
         mesh.visible = true
+        mesh.material = baseMaterial
       })
-      unhighlightSelection()
+      selectedMesh = null
       isIsolated = false
       onIsolateChange(false)
       onSelectBone(null)
       controls.reset()
     }
-        // --- Programmatic selection (e.g. from SearchBox) ---
-    // Mirrors the highlight logic in onPointerClick, but finds the target
-    // mesh by matching the bone's meshAliases / name instead of raycasting.
+
     function selectBoneExternally(bone) {
       if (!bone) {
         clearSelection()
         return
       }
 
-      const aliases = (bone.meshAliases || []).map((a) => a.toLowerCase())
-      const targetName = (bone.name || '').toLowerCase()
-
-      // Match against resolved bone-group names, not raw submesh names.
-      // Skip groups that are currently hidden — a hidden bone shouldn't
-      // be selectable via search any more than via a click.
-      const matchedBoneName = [...boneGroups.keys()].find((name) => {
-        const lower = name.toLowerCase()
-        const nameMatches = aliases.includes(lower) || lower === targetName
-        if (!nameMatches) return false
-        const group = boneGroups.get(name) || []
-        return group.some((mesh) => mesh.visible)
-      })
-
-      // Revert whatever was previously selected/highlighted
-      unhighlightSelection()
-
-      // If we were isolated, drop back to showing everything so the
-      // newly searched bone is actually visible
       if (isIsolated) {
-        clickableObjects.forEach((mesh) => { mesh.visible = true })
+        meshes.forEach((mesh) => { mesh.visible = true })
         isIsolated = false
         onIsolateChange(false)
       }
 
-      if (matchedBoneName) {
-        highlightBoneGroup(matchedBoneName)
-      } else {
-        console.warn(`⚠️ No mesh group found for bone "${bone.name}" — check meshAliases`)
-      }
+      const aliases = (bone.meshAliases || []).map((a) => a.toLowerCase())
+      const targetName = (bone.name || '').toLowerCase()
 
-      onSelectBone(bone)
+      const foundMesh = meshes.find((mesh) => {
+        if (!mesh.visible) return false
+        const lower = mesh.name.toLowerCase()
+        return lower === targetName || aliases.includes(lower)
+      })
+
+      if (foundMesh) {
+        selectMesh(foundMesh)
+      } else {
+        console.warn(`⚠️ Mesh not found for bone "${bone.name}"`)
+        clearSelection()
+      }
     }
 
+    sceneApiRef.current = {
+      toggleIsolate,
+      resetView,
+      clearSelection,
+      selectBoneExternally,
+      hideSelected,
+    }
 
-    sceneApiRef.current = { toggleIsolate, resetView, clearSelection, selectBoneExternally, hideSelected }
-
-    // --- 6. Handle Window Resize ---
+    // --- 9. Resize & Render Loop ---
     const onResize = () => {
       camera.aspect = currentMount.clientWidth / currentMount.clientHeight
       camera.updateProjectionMatrix()
@@ -329,6 +239,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     }
     animate()
 
+    // --- 10. Cleanup ---
     return () => {
       cancelAnimationFrame(frameId)
       window.removeEventListener('resize', onResize)
@@ -336,7 +247,6 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
       renderer.domElement.removeEventListener('pointerup', onPointerUp)
       renderer.dispose()
       controls.dispose()
-      // remove ALL children, not just assume one canvas
       while (currentMount.contains(renderer.domElement)) {
         currentMount.removeChild(renderer.domElement)
       }
@@ -348,7 +258,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     reset: () => sceneApiRef.current.resetView?.(),
     clearSelection: () => sceneApiRef.current.clearSelection?.(),
     selectBone: (bone) => sceneApiRef.current.selectBoneExternally?.(bone),
-    hideSelected: () => sceneApiRef.current.hideSelected?.()
+    hideSelected: () => sceneApiRef.current.hideSelected?.(),
   }))
 
   return <div ref={mountRef} style={{ width: '100%', height: '100%' }} />

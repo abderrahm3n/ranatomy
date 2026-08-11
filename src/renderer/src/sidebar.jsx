@@ -1,6 +1,4 @@
 function Sidebar({ bone, isIsolated, onToggleIsolate, onHide }) {
-  // edge case from before: isolated but nothing selected (clicked empty space)
-  // keep a way to un-isolate even with no bone details to show
   if (!bone) {
     return (
       <div className="sidebar sidebar-empty">
@@ -18,7 +16,7 @@ function Sidebar({ bone, isIsolated, onToggleIsolate, onHide }) {
   return (
     <div className="sidebar">
       <span className="bone-category">{bone.category || 'Bone'}</span>
-      <p className="bone-name">{bone.nameFr}</p>
+      <p className="bone-name">{bone.namefr || bone.name}</p>
       {bone.description && <p className="bone-description">{bone.description}</p>}
       <div className="sidebar-divider" />
       <div className="sidebar-actions">

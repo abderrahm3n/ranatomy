@@ -1,5547 +1,1812 @@
 [
   {
     "id": "anterior-cells-of-ethmoid-bone",
-    "name": "Anterior cells of ethmoid bone",
-    "nameFr": "Cellules antérieures de l’ethmoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
+    "namefr": "Cellules antérieures de l’ethmoïde",
+    "category": "plat",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
       "Anterior cells of ethmoid bone",
       "Anterior cells of ethmoid bone.l",
       "Anterior cells of ethmoid bone.r"
-    ],
-    "description": "",
-    "meshName": "Anterior cells of ethmoid bone",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "anterior-cells-of-ethmoid-bone",
-    "name": "Anterior cells of ethmoid bone",
-    "nameFr": "Cellules antérieures de l’ethmoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
+    "id": "arytenoid-cartilage",
+    "namefr": "Cartilage aryténoïde",
+    "category": "court",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
-      "Anterior cells of ethmoid bone",
-      "Anterior cells of ethmoid bone.l",
-      "Anterior cells of ethmoid bone.r"
-    ],
-    "description": "",
-    "meshName": "Anterior cells of ethmoid bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "anterior-cells-of-ethmoid-bone",
-    "name": "Anterior cells of ethmoid bone",
-    "nameFr": "Cellules antérieures de l’ethmoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": [
-      "Anterior cells of ethmoid bone",
-      "Anterior cells of ethmoid bone.l",
-      "Anterior cells of ethmoid bone.r"
-    ],
-    "description": "",
-    "meshName": "Anterior cells of ethmoid bone.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "arytenoid-cartilage",
-    "name": "Arytenoid cartilage",
-    "nameFr": "Cartilage aryténoïde",
-    "altName": "",
-    "region": "larynx",
-    "side": "both",
-    "meshAliases": ["Arytenoid cartilage", "Arytenoid cartilage.l", "Arytenoid cartilage.r"],
-    "description": "",
-    "meshName": "Arytenoid cartilage",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "arytenoid-cartilage",
-    "name": "Arytenoid cartilage",
-    "nameFr": "Cartilage aryténoïde",
-    "altName": "",
-    "region": "larynx",
-    "side": "both",
-    "meshAliases": ["Arytenoid cartilage", "Arytenoid cartilage.l", "Arytenoid cartilage.r"],
-    "description": "",
-    "meshName": "Arytenoid cartilage.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "arytenoid-cartilage",
-    "name": "Arytenoid cartilage",
-    "nameFr": "Cartilage aryténoïde",
-    "altName": "",
-    "region": "larynx",
-    "side": "both",
-    "meshAliases": ["Arytenoid cartilage", "Arytenoid cartilage.l", "Arytenoid cartilage.r"],
-    "description": "",
-    "meshName": "Arytenoid cartilage.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Arytenoid cartilage",
+      "Arytenoid cartilage.l",
+      "Arytenoid cartilage.r"
+    ]
   },
   {
     "id": "atlas-c1",
-    "name": "Atlas (C1)",
-    "nameFr": "",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Atlas (C1)"],
+    "namefr": "Atlas (C1)",
+    "category": "court",
     "description": "",
-    "meshName": "Atlas (C1)",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Atlas (C1)"
+    ]
   },
   {
     "id": "axis-c2",
-    "name": "Axis (C2)",
-    "nameFr": "",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Axis (C2)"],
+    "namefr": "Axis (C2)",
+    "category": "court",
     "description": "",
-    "meshName": "Axis (C2)",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Axis (C2)"
+    ]
   },
   {
     "id": "body-of-sternum",
-    "name": "Body of sternum",
-    "nameFr": "Sternum",
-    "altName": "",
-    "region": "thorax",
-    "side": "none",
-    "meshAliases": ["Body of sternum"],
-    "description": "",
-    "meshName": "Body of sternum",
-    "matched": false,
-    "matchedMeshName": null
+    "namefr": "Sternum",
+    "category": "plat",
+    "description": "blablablabla",
+    "place": "thorax",
+    "meshAliases": [
+      "Body of sternum"
+    ]
   },
   {
     "id": "calcaneus-2",
-    "name": "Calcaneus",
-    "nameFr": "Calcanéus",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Calcaneus.l", "Calcaneus.r"],
+    "namefr": "Calcanéus",
+    "category": "court",
     "description": "",
-    "meshName": "Calcaneus.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "calcaneus-2",
-    "name": "Calcaneus",
-    "nameFr": "Calcanéus",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Calcaneus.l", "Calcaneus.r"],
-    "description": "",
-    "meshName": "Calcaneus.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Calcaneus.l",
+      "Calcaneus.r"
+    ]
   },
   {
     "id": "capitate-bone",
-    "name": "Capitate bone",
-    "nameFr": "Capitatum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Capitate bone", "Capitate bone.l", "Capitate bone.r"],
+    "namefr": "Capitatum",
+    "category": "court",
     "description": "",
-    "meshName": "Capitate bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "capitate-bone",
-    "name": "Capitate bone",
-    "nameFr": "Capitatum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Capitate bone", "Capitate bone.l", "Capitate bone.r"],
-    "description": "",
-    "meshName": "Capitate bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "capitate-bone",
-    "name": "Capitate bone",
-    "nameFr": "Capitatum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Capitate bone", "Capitate bone.l", "Capitate bone.r"],
-    "description": "",
-    "meshName": "Capitate bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Capitate bone",
+      "Capitate bone.l",
+      "Capitate bone.r"
+    ]
   },
   {
     "id": "clavicle",
-    "name": "Clavicle",
-    "nameFr": "Clavicule",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Clavicle.l", "Clavicle.r"],
-    "description": "Os long, pair et non symétrique en forme de 'S' allongé, situé à la partie antéro-supérieure du thorax. Unique liaison osseuse reliant le membre supérieur au tronc. Elle présente une face supérieure lisse et sous-cutanée, et une face inférieure marquée par le sillon du muscle subclavier, le tubercule conoïde et l'empreinte du ligament costo-claviculaire. Son extrémité médiale (sternale) s'articule avec le sternum et son extrémité latérale (acromiale) s'articule avec l'acromion de la scapula.",
-    "meshName": "Clavicle.l",
-    "matched": true,
-    "matchedMeshName": "Clavicle.l"
-  },
-  {
-    "id": "clavicle",
-    "name": "Clavicle",
-    "nameFr": "Clavicule",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Clavicle.l", "Clavicle.r"],
-    "description": "Os long, pair et non symétrique en forme de 'S' allongé, situé à la partie antéro-supérieure du thorax. Unique liaison osseuse reliant le membre supérieur au tronc. Elle présente une face supérieure lisse et sous-cutanée, et une face inférieure marquée par le sillon du muscle subclavier, le tubercule conoïde et l'empreinte du ligament costo-claviculaire. Son extrémité médiale (sternale) s'articule avec le sternum et son extrémité latérale (acromiale) s'articule avec l'acromion de la scapula.",
-    "meshName": "Clavicle.r",
-    "matched": true,
-    "matchedMeshName": "Clavicle.r"
+    "namefr": "Clavicule",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Clavicle.l",
+      "Clavicle.r"
+    ]
   },
   {
     "id": "coccyx",
-    "name": "Coccyx",
-    "nameFr": "Coccyx",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Coccyx"],
+    "namefr": "Coccyx",
+    "category": "court",
     "description": "",
-    "meshName": "Coccyx",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Coccyx"
+    ]
   },
   {
     "id": "corniculate-cartilage",
-    "name": "Corniculate cartilage",
-    "nameFr": "Cartilage corniculé",
-    "altName": "",
-    "region": "larynx",
-    "side": "both",
-    "meshAliases": ["Corniculate cartilage.l", "Corniculate cartilage.r"],
+    "namefr": "Cartilage corniculé",
+    "category": "court",
     "description": "",
-    "meshName": "Corniculate cartilage.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "corniculate-cartilage",
-    "name": "Corniculate cartilage",
-    "nameFr": "Cartilage corniculé",
-    "altName": "",
-    "region": "larynx",
-    "side": "both",
-    "meshAliases": ["Corniculate cartilage.l", "Corniculate cartilage.r"],
-    "description": "",
-    "meshName": "Corniculate cartilage.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Corniculate cartilage.l",
+      "Corniculate cartilage.r"
+    ]
   },
   {
     "id": "costal-cartilage-of-eighth-rib",
-    "name": "Costal cartilage of eighth rib",
-    "nameFr": "Cartilage costal de la huitième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
+    "namefr": "Cartilage costal de la huitième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
       "Costal cartilage of eighth rib",
       "Costal cartilage of eighth rib.l",
       "Costal cartilage of eighth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of eighth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-eighth-rib",
-    "name": "Costal cartilage of eighth rib",
-    "nameFr": "Cartilage costal de la huitième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of eighth rib",
-      "Costal cartilage of eighth rib.l",
-      "Costal cartilage of eighth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of eighth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-eighth-rib",
-    "name": "Costal cartilage of eighth rib",
-    "nameFr": "Cartilage costal de la huitième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of eighth rib",
-      "Costal cartilage of eighth rib.l",
-      "Costal cartilage of eighth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of eighth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "costal-cartilage-of-fifth-rib",
-    "name": "Costal cartilage of fifth rib",
-    "nameFr": "Cartilage costal de la cinquième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
+    "namefr": "Cartilage costal de la cinquième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
       "Costal cartilage of fifth rib",
       "Costal cartilage of fifth rib.l",
       "Costal cartilage of fifth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of fifth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-fifth-rib",
-    "name": "Costal cartilage of fifth rib",
-    "nameFr": "Cartilage costal de la cinquième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of fifth rib",
-      "Costal cartilage of fifth rib.l",
-      "Costal cartilage of fifth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of fifth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-fifth-rib",
-    "name": "Costal cartilage of fifth rib",
-    "nameFr": "Cartilage costal de la cinquième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of fifth rib",
-      "Costal cartilage of fifth rib.l",
-      "Costal cartilage of fifth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of fifth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "costal-cartilage-of-first-rib",
-    "name": "Costal cartilage of first rib",
-    "nameFr": "Cartilage costal de la première côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
+    "namefr": "Cartilage costal de la première côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
       "Costal cartilage of first rib",
       "Costal cartilage of first rib.l",
       "Costal cartilage of first rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of first rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-first-rib",
-    "name": "Costal cartilage of first rib",
-    "nameFr": "Cartilage costal de la première côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of first rib",
-      "Costal cartilage of first rib.l",
-      "Costal cartilage of first rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of first rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-first-rib",
-    "name": "Costal cartilage of first rib",
-    "nameFr": "Cartilage costal de la première côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of first rib",
-      "Costal cartilage of first rib.l",
-      "Costal cartilage of first rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of first rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "costal-cartilage-of-fourth-rib",
-    "name": "Costal cartilage of fourth rib",
-    "nameFr": "Cartilage costal de la quatrième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
+    "namefr": "Cartilage costal de la quatrième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
       "Costal cartilage of fourth rib",
       "Costal cartilage of fourth rib.l",
       "Costal cartilage of fourth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of fourth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-fourth-rib",
-    "name": "Costal cartilage of fourth rib",
-    "nameFr": "Cartilage costal de la quatrième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of fourth rib",
-      "Costal cartilage of fourth rib.l",
-      "Costal cartilage of fourth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of fourth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-fourth-rib",
-    "name": "Costal cartilage of fourth rib",
-    "nameFr": "Cartilage costal de la quatrième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of fourth rib",
-      "Costal cartilage of fourth rib.l",
-      "Costal cartilage of fourth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of fourth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "costal-cartilage-of-ninth-rib",
-    "name": "Costal cartilage of ninth rib",
-    "nameFr": "Cartilage costal de la neuvième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
+    "namefr": "Cartilage costal de la neuvième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
       "Costal cartilage of ninth rib",
       "Costal cartilage of ninth rib.l",
       "Costal cartilage of ninth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of ninth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-ninth-rib",
-    "name": "Costal cartilage of ninth rib",
-    "nameFr": "Cartilage costal de la neuvième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of ninth rib",
-      "Costal cartilage of ninth rib.l",
-      "Costal cartilage of ninth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of ninth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-ninth-rib",
-    "name": "Costal cartilage of ninth rib",
-    "nameFr": "Cartilage costal de la neuvième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of ninth rib",
-      "Costal cartilage of ninth rib.l",
-      "Costal cartilage of ninth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of ninth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "costal-cartilage-of-second-rib",
-    "name": "Costal cartilage of second rib",
-    "nameFr": "Cartilage costal de la deuxième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
+    "namefr": "Cartilage costal de la deuxième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
       "Costal cartilage of second rib",
       "Costal cartilage of second rib.l",
       "Costal cartilage of second rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of second rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-second-rib",
-    "name": "Costal cartilage of second rib",
-    "nameFr": "Cartilage costal de la deuxième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of second rib",
-      "Costal cartilage of second rib.l",
-      "Costal cartilage of second rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of second rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-second-rib",
-    "name": "Costal cartilage of second rib",
-    "nameFr": "Cartilage costal de la deuxième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of second rib",
-      "Costal cartilage of second rib.l",
-      "Costal cartilage of second rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of second rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "costal-cartilage-of-seventh-rib",
-    "name": "Costal cartilage of seventh rib",
-    "nameFr": "Cartilage costal de la septième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
+    "namefr": "Cartilage costal de la septième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
       "Costal cartilage of seventh rib",
       "Costal cartilage of seventh rib.l",
       "Costal cartilage of seventh rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of seventh rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-seventh-rib",
-    "name": "Costal cartilage of seventh rib",
-    "nameFr": "Cartilage costal de la septième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of seventh rib",
-      "Costal cartilage of seventh rib.l",
-      "Costal cartilage of seventh rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of seventh rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-seventh-rib",
-    "name": "Costal cartilage of seventh rib",
-    "nameFr": "Cartilage costal de la septième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of seventh rib",
-      "Costal cartilage of seventh rib.l",
-      "Costal cartilage of seventh rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of seventh rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "costal-cartilage-of-sixth-rib",
-    "name": "Costal cartilage of sixth rib",
-    "nameFr": "Cartilage costal de la sixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
+    "namefr": "Cartilage costal de la sixième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
       "Costal cartilage of sixth rib",
       "Costal cartilage of sixth rib.l",
       "Costal cartilage of sixth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of sixth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-sixth-rib",
-    "name": "Costal cartilage of sixth rib",
-    "nameFr": "Cartilage costal de la sixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of sixth rib",
-      "Costal cartilage of sixth rib.l",
-      "Costal cartilage of sixth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of sixth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-sixth-rib",
-    "name": "Costal cartilage of sixth rib",
-    "nameFr": "Cartilage costal de la sixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of sixth rib",
-      "Costal cartilage of sixth rib.l",
-      "Costal cartilage of sixth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of sixth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "costal-cartilage-of-tenth-rib",
-    "name": "Costal cartilage of tenth rib",
-    "nameFr": "Cartilage costal de la dixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
+    "namefr": "Cartilage costal de la dixième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
       "Costal cartilage of tenth rib",
       "Costal cartilage of tenth rib.l",
       "Costal cartilage of tenth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of tenth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-tenth-rib",
-    "name": "Costal cartilage of tenth rib",
-    "nameFr": "Cartilage costal de la dixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of tenth rib",
-      "Costal cartilage of tenth rib.l",
-      "Costal cartilage of tenth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of tenth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-tenth-rib",
-    "name": "Costal cartilage of tenth rib",
-    "nameFr": "Cartilage costal de la dixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of tenth rib",
-      "Costal cartilage of tenth rib.l",
-      "Costal cartilage of tenth rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of tenth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "costal-cartilage-of-third-rib",
-    "name": "Costal cartilage of third rib",
-    "nameFr": "Cartilage costal de la troisième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
+    "namefr": "Cartilage costal de la troisième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
       "Costal cartilage of third rib",
       "Costal cartilage of third rib.l",
       "Costal cartilage of third rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of third rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-third-rib",
-    "name": "Costal cartilage of third rib",
-    "nameFr": "Cartilage costal de la troisième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of third rib",
-      "Costal cartilage of third rib.l",
-      "Costal cartilage of third rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of third rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "costal-cartilage-of-third-rib",
-    "name": "Costal cartilage of third rib",
-    "nameFr": "Cartilage costal de la troisième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": [
-      "Costal cartilage of third rib",
-      "Costal cartilage of third rib.l",
-      "Costal cartilage of third rib.r"
-    ],
-    "description": "",
-    "meshName": "Costal cartilage of third rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "cricoid-cartilage",
-    "name": "Cricoid cartilage",
-    "nameFr": "Cartilage cricoïde",
-    "altName": "",
-    "region": "larynx",
-    "side": "none",
-    "meshAliases": ["Cricoid cartilage"],
+    "namefr": "Cartilage cricoïde",
+    "category": "court",
     "description": "",
-    "meshName": "Cricoid cartilage",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Cricoid cartilage"
+    ]
   },
   {
     "id": "cuboid-bone",
-    "name": "Cuboid bone",
-    "nameFr": "Os cuboïde",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Cuboid bone", "Cuboid bone.l", "Cuboid bone.r"],
+    "namefr": "Os cuboïde",
+    "category": "court",
     "description": "",
-    "meshName": "Cuboid bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "cuboid-bone",
-    "name": "Cuboid bone",
-    "nameFr": "Os cuboïde",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Cuboid bone", "Cuboid bone.l", "Cuboid bone.r"],
-    "description": "",
-    "meshName": "Cuboid bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "cuboid-bone",
-    "name": "Cuboid bone",
-    "nameFr": "Os cuboïde",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Cuboid bone", "Cuboid bone.l", "Cuboid bone.r"],
-    "description": "",
-    "meshName": "Cuboid bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Cuboid bone",
+      "Cuboid bone.l",
+      "Cuboid bone.r"
+    ]
   },
   {
     "id": "distal-phalanx-of-fifth-finger-of-foot",
-    "name": "Distal phalanx of fifth finger of foot",
-    "nameFr": "Phalange distale du cinquième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange distale du cinquième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Distal phalanx of fifth finger of foot",
       "Distal phalanx of fifth finger of foot.l",
       "Distal phalanx of fifth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fifth finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-fifth-finger-of-foot",
-    "name": "Distal phalanx of fifth finger of foot",
-    "nameFr": "Phalange distale du cinquième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of fifth finger of foot",
-      "Distal phalanx of fifth finger of foot.l",
-      "Distal phalanx of fifth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fifth finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-fifth-finger-of-foot",
-    "name": "Distal phalanx of fifth finger of foot",
-    "nameFr": "Phalange distale du cinquième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of fifth finger of foot",
-      "Distal phalanx of fifth finger of foot.l",
-      "Distal phalanx of fifth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fifth finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "distal-phalanx-of-fifth-finger-of-hand",
-    "name": "Distal phalanx of fifth finger of hand",
-    "nameFr": "Phalange distale du cinquième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange distale du cinquième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Distal phalanx of fifth finger of hand.l",
       "Distal phalanx of fifth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fifth finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-fifth-finger-of-hand",
-    "name": "Distal phalanx of fifth finger of hand",
-    "nameFr": "Phalange distale du cinquième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of fifth finger of hand.l",
-      "Distal phalanx of fifth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fifth finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "distal-phalanx-of-first-finger-of-foot",
-    "name": "Distal phalanx of first finger of foot",
-    "nameFr": "Phalange distale du première orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange distale du première orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Distal phalanx of first finger of foot",
       "Distal phalanx of first finger of foot.l",
       "Distal phalanx of first finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of first finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-first-finger-of-foot",
-    "name": "Distal phalanx of first finger of foot",
-    "nameFr": "Phalange distale du première orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of first finger of foot",
-      "Distal phalanx of first finger of foot.l",
-      "Distal phalanx of first finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of first finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-first-finger-of-foot",
-    "name": "Distal phalanx of first finger of foot",
-    "nameFr": "Phalange distale du première orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of first finger of foot",
-      "Distal phalanx of first finger of foot.l",
-      "Distal phalanx of first finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of first finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "distal-phalanx-of-first-finger-of-hand",
-    "name": "Distal phalanx of first finger of hand",
-    "nameFr": "Phalange distale du première doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange distale du première doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Distal phalanx of first finger of hand",
       "Distal phalanx of first finger of hand.l",
       "Distal phalanx of first finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of first finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-first-finger-of-hand",
-    "name": "Distal phalanx of first finger of hand",
-    "nameFr": "Phalange distale du première doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of first finger of hand",
-      "Distal phalanx of first finger of hand.l",
-      "Distal phalanx of first finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of first finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-first-finger-of-hand",
-    "name": "Distal phalanx of first finger of hand",
-    "nameFr": "Phalange distale du première doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of first finger of hand",
-      "Distal phalanx of first finger of hand.l",
-      "Distal phalanx of first finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of first finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "distal-phalanx-of-fourth-finger-of-foot",
-    "name": "Distal phalanx of fourth finger of foot",
-    "nameFr": "Phalange distale du quatrième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange distale du quatrième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Distal phalanx of fourth finger of foot",
       "Distal phalanx of fourth finger of foot.l",
       "Distal phalanx of fourth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fourth finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-fourth-finger-of-foot",
-    "name": "Distal phalanx of fourth finger of foot",
-    "nameFr": "Phalange distale du quatrième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of fourth finger of foot",
-      "Distal phalanx of fourth finger of foot.l",
-      "Distal phalanx of fourth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fourth finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-fourth-finger-of-foot",
-    "name": "Distal phalanx of fourth finger of foot",
-    "nameFr": "Phalange distale du quatrième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of fourth finger of foot",
-      "Distal phalanx of fourth finger of foot.l",
-      "Distal phalanx of fourth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fourth finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "distal-phalanx-of-fourth-finger-of-hand",
-    "name": "Distal phalanx of fourth finger of hand",
-    "nameFr": "Phalange distale du quatrième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange distale du quatrième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Distal phalanx of fourth finger of hand",
       "Distal phalanx of fourth finger of hand.l",
       "Distal phalanx of fourth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fourth finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-fourth-finger-of-hand",
-    "name": "Distal phalanx of fourth finger of hand",
-    "nameFr": "Phalange distale du quatrième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of fourth finger of hand",
-      "Distal phalanx of fourth finger of hand.l",
-      "Distal phalanx of fourth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fourth finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-fourth-finger-of-hand",
-    "name": "Distal phalanx of fourth finger of hand",
-    "nameFr": "Phalange distale du quatrième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of fourth finger of hand",
-      "Distal phalanx of fourth finger of hand.l",
-      "Distal phalanx of fourth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of fourth finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "distal-phalanx-of-second-finger-of-foot",
-    "name": "Distal phalanx of second finger of foot",
-    "nameFr": "Phalange distale du deuxième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange distale du deuxième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Distal phalanx of second finger of foot",
       "Distal phalanx of second finger of foot.l",
       "Distal phalanx of second finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of second finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-second-finger-of-foot",
-    "name": "Distal phalanx of second finger of foot",
-    "nameFr": "Phalange distale du deuxième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of second finger of foot",
-      "Distal phalanx of second finger of foot.l",
-      "Distal phalanx of second finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of second finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-second-finger-of-foot",
-    "name": "Distal phalanx of second finger of foot",
-    "nameFr": "Phalange distale du deuxième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of second finger of foot",
-      "Distal phalanx of second finger of foot.l",
-      "Distal phalanx of second finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of second finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "distal-phalanx-of-second-finger-of-hand",
-    "name": "Distal phalanx of second finger of hand",
-    "nameFr": "Phalange distale du deuxième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange distale du deuxième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Distal phalanx of second finger of hand",
       "Distal phalanx of second finger of hand.l",
       "Distal phalanx of second finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of second finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-second-finger-of-hand",
-    "name": "Distal phalanx of second finger of hand",
-    "nameFr": "Phalange distale du deuxième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of second finger of hand",
-      "Distal phalanx of second finger of hand.l",
-      "Distal phalanx of second finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of second finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-second-finger-of-hand",
-    "name": "Distal phalanx of second finger of hand",
-    "nameFr": "Phalange distale du deuxième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of second finger of hand",
-      "Distal phalanx of second finger of hand.l",
-      "Distal phalanx of second finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of second finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "distal-phalanx-of-third-finger-of-foot",
-    "name": "Distal phalanx of third finger of foot",
-    "nameFr": "Phalange distale du troisième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange distale du troisième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Distal phalanx of third finger of foot",
       "Distal phalanx of third finger of foot.l",
       "Distal phalanx of third finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of third finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-third-finger-of-foot",
-    "name": "Distal phalanx of third finger of foot",
-    "nameFr": "Phalange distale du troisième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of third finger of foot",
-      "Distal phalanx of third finger of foot.l",
-      "Distal phalanx of third finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of third finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "distal-phalanx-of-third-finger-of-foot",
-    "name": "Distal phalanx of third finger of foot",
-    "nameFr": "Phalange distale du troisième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Distal phalanx of third finger of foot",
-      "Distal phalanx of third finger of foot.l",
-      "Distal phalanx of third finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of third finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "distal-phalanx-of-third-finger-of-hand",
-    "name": "Distal phalanx of third finger of hand",
-    "nameFr": "Phalange distale du troisième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange distale du troisième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Distal phalanx of third finger of hand",
       "Distal phalanx of third finger of hand.l",
       "Distal phalanx of third finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of third finger of hand",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "distal-phalanx-of-third-finger-of-hand",
-    "name": "Distal phalanx of third finger of hand",
-    "nameFr": "Phalange distale du troisième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "id": "eighth-rib",
+    "namefr": "Huitième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
-      "Distal phalanx of third finger of hand",
-      "Distal phalanx of third finger of hand.l",
-      "Distal phalanx of third finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of third finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
+      "Eighth rib",
+      "Eighth rib.l",
+      "Eighth rib.r"
+    ]
   },
   {
-    "id": "distal-phalanx-of-third-finger-of-hand",
-    "name": "Distal phalanx of third finger of hand",
-    "nameFr": "Phalange distale du troisième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "id": "eleventh-rib",
+    "namefr": "Onzième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
-      "Distal phalanx of third finger of hand",
-      "Distal phalanx of third finger of hand.l",
-      "Distal phalanx of third finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Distal phalanx of third finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "eighth-rib",
-    "name": "Eighth rib",
-    "nameFr": "Huitième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Eighth rib", "Eighth rib.l", "Eighth rib.r"],
-    "description": "",
-    "meshName": "Eighth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "eighth-rib",
-    "name": "Eighth rib",
-    "nameFr": "Huitième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Eighth rib", "Eighth rib.l", "Eighth rib.r"],
-    "description": "",
-    "meshName": "Eighth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "eighth-rib",
-    "name": "Eighth rib",
-    "nameFr": "Huitième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Eighth rib", "Eighth rib.l", "Eighth rib.r"],
-    "description": "",
-    "meshName": "Eighth rib.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "eleventh-rib",
-    "name": "Eleventh rib",
-    "nameFr": "Onzième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Eleventh rib", "Eleventh rib.l", "Eleventh rib.r"],
-    "description": "",
-    "meshName": "Eleventh rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "eleventh-rib",
-    "name": "Eleventh rib",
-    "nameFr": "Onzième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Eleventh rib", "Eleventh rib.l", "Eleventh rib.r"],
-    "description": "",
-    "meshName": "Eleventh rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "eleventh-rib",
-    "name": "Eleventh rib",
-    "nameFr": "Onzième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Eleventh rib", "Eleventh rib.l", "Eleventh rib.r"],
-    "description": "",
-    "meshName": "Eleventh rib.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Eleventh rib",
+      "Eleventh rib.l",
+      "Eleventh rib.r"
+    ]
   },
   {
     "id": "ethmoid-bone",
-    "name": "Ethmoid bone",
-    "nameFr": "Os ethmoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "none",
-    "meshAliases": ["Ethmoid bone"],
+    "namefr": "Os ethmoïde",
+    "category": "plat",
     "description": "",
-    "meshName": "Ethmoid bone",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Ethmoid bone"
+    ]
   },
   {
     "id": "femur-2",
-    "name": "Femur",
-    "nameFr": "Fémur",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Femur.l", "Femur.r"],
-    "description": "L'os long constituant le squelette de la cuisse. Son extrémité proximale comprend une tête sphérique munie d'une fovea pour le ligament de la tête fémorale, un col (définissant l'angle cervico-diaphysaire d'environ 130°), le grand trochanter latéralement et le petit trochanter médialement. Sa diaphyse (corps) présente sur sa face postérieure la ligne âpre, zone d'importantes insertions musculaires. Son extrémité distale s'articule avec le tibia et la patella, caractérisée en avant par la surface patellaire, et en bas par deux condyles (médial et latéral) séparés par une fosse intercondylaire.",
-    "meshName": "Femur.l",
-    "matched": true,
-    "matchedMeshName": "Femur.l"
-  },
-  {
-    "id": "femur-2",
-    "name": "Femur",
-    "nameFr": "Fémur",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Femur.l", "Femur.r"],
-    "description": "L'os long constituant le squelette de la cuisse. Son extrémité proximale comprend une tête sphérique munie d'une fovea pour le ligament de la tête fémorale, un col (définissant l'angle cervico-diaphysaire d'environ 130°), le grand trochanter latéralement et le petit trochanter médialement. Sa diaphyse (corps) présente sur sa face postérieure la ligne âpre, zone d'importantes insertions musculaires. Son extrémité distale s'articule avec le tibia et la patella, caractérisée en avant par la surface patellaire, et en bas par deux condyles (médial et latéral) séparés par une fosse intercondylaire.",
-    "meshName": "Femur.r",
-    "matched": true,
-    "matchedMeshName": "Femur.r"
+    "namefr": "Fémur",
+    "category": "long",
+    "description": "blablabla",
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Femur.l",
+      "Femur.r"
+    ]
   },
   {
     "id": "fibula-2",
-    "name": "Fibula",
-    "nameFr": "Fibula",
-    "altName": "Péroné",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Fibula.l", "Fibula.r"],
-    "description": "L'os latéral, fin et allongé de la jambe. Son extrémité proximale est formée par la tête de la fibula (prolongée par un apex) et un col, s'articulant avec le tibia. Sa diaphyse étroite donne insertion à la membrane interosseuse sur son bord interosseux. Son extrémité distale s'allonge pour former la malléole externe (malléole latérale), qui participe à la pince malléolaire pour l'articulation de la cheville.",
-    "meshName": "Fibula.l",
-    "matched": true,
-    "matchedMeshName": "Fibula.l"
-  },
-  {
-    "id": "fibula-2",
-    "name": "Fibula",
-    "nameFr": "Fibula",
-    "altName": "Péroné",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Fibula.l", "Fibula.r"],
-    "description": "L'os latéral, fin et allongé de la jambe. Son extrémité proximale est formée par la tête de la fibula (prolongée par un apex) et un col, s'articulant avec le tibia. Sa diaphyse étroite donne insertion à la membrane interosseuse sur son bord interosseux. Son extrémité distale s'allonge pour former la malléole externe (malléole latérale), qui participe à la pince malléolaire pour l'articulation de la cheville.",
-    "meshName": "Fibula.r",
-    "matched": true,
-    "matchedMeshName": "Fibula.r"
+    "namefr": "Fibula",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Fibula.l",
+      "Fibula.r"
+    ]
   },
   {
     "id": "fifth-metacarpal-bone",
-    "name": "Fifth metacarpal bone",
-    "nameFr": "Cinquième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Fifth metacarpal bone", "Fifth metacarpal bone.l", "Fifth metacarpal bone.r"],
+    "namefr": "Cinquième métacarpien",
+    "category": "long",
     "description": "",
-    "meshName": "Fifth metacarpal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fifth-metacarpal-bone",
-    "name": "Fifth metacarpal bone",
-    "nameFr": "Cinquième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Fifth metacarpal bone", "Fifth metacarpal bone.l", "Fifth metacarpal bone.r"],
-    "description": "",
-    "meshName": "Fifth metacarpal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fifth-metacarpal-bone",
-    "name": "Fifth metacarpal bone",
-    "nameFr": "Cinquième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Fifth metacarpal bone", "Fifth metacarpal bone.l", "Fifth metacarpal bone.r"],
-    "description": "",
-    "meshName": "Fifth metacarpal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Fifth metacarpal bone",
+      "Fifth metacarpal bone.l",
+      "Fifth metacarpal bone.r"
+    ]
   },
   {
     "id": "fifth-metatarsal-bone",
-    "name": "Fifth metatarsal bone",
-    "nameFr": "Cinquième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Fifth metatarsal bone", "Fifth metatarsal bone.l", "Fifth metatarsal bone.r"],
+    "namefr": "Cinquième métatarsien",
+    "category": "long",
     "description": "",
-    "meshName": "Fifth metatarsal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fifth-metatarsal-bone",
-    "name": "Fifth metatarsal bone",
-    "nameFr": "Cinquième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Fifth metatarsal bone", "Fifth metatarsal bone.l", "Fifth metatarsal bone.r"],
-    "description": "",
-    "meshName": "Fifth metatarsal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fifth-metatarsal-bone",
-    "name": "Fifth metatarsal bone",
-    "nameFr": "Cinquième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Fifth metatarsal bone", "Fifth metatarsal bone.l", "Fifth metatarsal bone.r"],
-    "description": "",
-    "meshName": "Fifth metatarsal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Fifth metatarsal bone",
+      "Fifth metatarsal bone.l",
+      "Fifth metatarsal bone.r"
+    ]
   },
   {
     "id": "fifth-rib",
-    "name": "Fifth rib",
-    "nameFr": "Cinquième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Fifth rib", "Fifth rib.l", "Fifth rib.r"],
+    "namefr": "Cinquième côte",
+    "category": "long",
     "description": "",
-    "meshName": "Fifth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fifth-rib",
-    "name": "Fifth rib",
-    "nameFr": "Cinquième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Fifth rib", "Fifth rib.l", "Fifth rib.r"],
-    "description": "",
-    "meshName": "Fifth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fifth-rib",
-    "name": "Fifth rib",
-    "nameFr": "Cinquième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Fifth rib", "Fifth rib.l", "Fifth rib.r"],
-    "description": "",
-    "meshName": "Fifth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Fifth rib",
+      "Fifth rib.l",
+      "Fifth rib.r"
+    ]
   },
   {
     "id": "first-metacarpal-bone",
-    "name": "First metacarpal bone",
-    "nameFr": "Premier métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["First metacarpal bone", "First metacarpal bone.l", "First metacarpal bone.r"],
+    "namefr": "Premier métacarpien",
+    "category": "long",
     "description": "",
-    "meshName": "First metacarpal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "first-metacarpal-bone",
-    "name": "First metacarpal bone",
-    "nameFr": "Premier métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["First metacarpal bone", "First metacarpal bone.l", "First metacarpal bone.r"],
-    "description": "",
-    "meshName": "First metacarpal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "first-metacarpal-bone",
-    "name": "First metacarpal bone",
-    "nameFr": "Premier métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["First metacarpal bone", "First metacarpal bone.l", "First metacarpal bone.r"],
-    "description": "",
-    "meshName": "First metacarpal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre supérieur",
+    "meshAliases": [
+      "First metacarpal bone",
+      "First metacarpal bone.l",
+      "First metacarpal bone.r"
+    ]
   },
   {
     "id": "first-metatarsal-bone",
-    "name": "First metatarsal bone",
-    "nameFr": "Premier métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["First metatarsal bone", "First metatarsal bone.l", "First metatarsal bone.r"],
+    "namefr": "Premier métatarsien",
+    "category": "long",
     "description": "",
-    "meshName": "First metatarsal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "first-metatarsal-bone",
-    "name": "First metatarsal bone",
-    "nameFr": "Premier métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["First metatarsal bone", "First metatarsal bone.l", "First metatarsal bone.r"],
-    "description": "",
-    "meshName": "First metatarsal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "first-metatarsal-bone",
-    "name": "First metatarsal bone",
-    "nameFr": "Premier métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["First metatarsal bone", "First metatarsal bone.l", "First metatarsal bone.r"],
-    "description": "",
-    "meshName": "First metatarsal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "First metatarsal bone",
+      "First metatarsal bone.l",
+      "First metatarsal bone.r"
+    ]
   },
   {
     "id": "first-rib",
-    "name": "First rib",
-    "nameFr": "Première côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["First rib", "First rib.l", "First rib.r"],
+    "namefr": "Première côte",
+    "category": "long",
     "description": "",
-    "meshName": "First rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "first-rib",
-    "name": "First rib",
-    "nameFr": "Première côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["First rib", "First rib.l", "First rib.r"],
-    "description": "",
-    "meshName": "First rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "first-rib",
-    "name": "First rib",
-    "nameFr": "Première côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["First rib", "First rib.l", "First rib.r"],
-    "description": "",
-    "meshName": "First rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "First rib",
+      "First rib.l",
+      "First rib.r"
+    ]
   },
   {
     "id": "fourth-metacarpal-bone",
-    "name": "Fourth metacarpal bone",
-    "nameFr": "Quatrième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Quatrième métacarpien",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Fourth metacarpal bone",
       "Fourth metacarpal bone.l",
       "Fourth metacarpal bone.r"
-    ],
-    "description": "",
-    "meshName": "Fourth metacarpal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fourth-metacarpal-bone",
-    "name": "Fourth metacarpal bone",
-    "nameFr": "Quatrième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Fourth metacarpal bone",
-      "Fourth metacarpal bone.l",
-      "Fourth metacarpal bone.r"
-    ],
-    "description": "",
-    "meshName": "Fourth metacarpal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fourth-metacarpal-bone",
-    "name": "Fourth metacarpal bone",
-    "nameFr": "Quatrième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Fourth metacarpal bone",
-      "Fourth metacarpal bone.l",
-      "Fourth metacarpal bone.r"
-    ],
-    "description": "",
-    "meshName": "Fourth metacarpal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "fourth-metatarsal-bone",
-    "name": "Fourth metatarsal bone",
-    "nameFr": "Quatrième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
+    "namefr": "Quatrième métatarsien",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Fourth metatarsal bone",
       "Fourth metatarsal bone.l",
       "Fourth metatarsal bone.r"
-    ],
-    "description": "",
-    "meshName": "Fourth metatarsal bone",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "fourth-metatarsal-bone",
-    "name": "Fourth metatarsal bone",
-    "nameFr": "Quatrième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
+    "id": "fourth-rib",
+    "namefr": "Quatrième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
-      "Fourth metatarsal bone",
-      "Fourth metatarsal bone.l",
-      "Fourth metatarsal bone.r"
-    ],
-    "description": "",
-    "meshName": "Fourth metatarsal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fourth-metatarsal-bone",
-    "name": "Fourth metatarsal bone",
-    "nameFr": "Quatrième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": [
-      "Fourth metatarsal bone",
-      "Fourth metatarsal bone.l",
-      "Fourth metatarsal bone.r"
-    ],
-    "description": "",
-    "meshName": "Fourth metatarsal bone.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fourth-rib",
-    "name": "Fourth rib",
-    "nameFr": "Quatrième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Fourth rib", "Fourth rib.l", "Fourth rib.r"],
-    "description": "",
-    "meshName": "Fourth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fourth-rib",
-    "name": "Fourth rib",
-    "nameFr": "Quatrième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Fourth rib", "Fourth rib.l", "Fourth rib.r"],
-    "description": "",
-    "meshName": "Fourth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "fourth-rib",
-    "name": "Fourth rib",
-    "nameFr": "Quatrième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Fourth rib", "Fourth rib.l", "Fourth rib.r"],
-    "description": "",
-    "meshName": "Fourth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Fourth rib",
+      "Fourth rib.l",
+      "Fourth rib.r"
+    ]
   },
   {
     "id": "frontal-bone",
-    "name": "Frontal bone",
-    "nameFr": "Os frontal",
-    "altName": "",
-    "region": "skull",
-    "side": "none",
-    "meshAliases": ["Frontal bone"],
+    "namefr": "Os frontal",
+    "category": "plat",
     "description": "",
-    "meshName": "Frontal bone",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Frontal bone"
+    ]
   },
   {
     "id": "hamate-bone",
-    "name": "Hamate bone",
-    "nameFr": "Hamatum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Hamate bone", "Hamate bone.l", "Hamate bone.r"],
+    "namefr": "Hamatum",
+    "category": "court",
     "description": "",
-    "meshName": "Hamate bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "hamate-bone",
-    "name": "Hamate bone",
-    "nameFr": "Hamatum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Hamate bone", "Hamate bone.l", "Hamate bone.r"],
-    "description": "",
-    "meshName": "Hamate bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "hamate-bone",
-    "name": "Hamate bone",
-    "nameFr": "Hamatum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Hamate bone", "Hamate bone.l", "Hamate bone.r"],
-    "description": "",
-    "meshName": "Hamate bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Hamate bone",
+      "Hamate bone.l",
+      "Hamate bone.r"
+    ]
   },
   {
     "id": "hip-bone",
-    "name": "Hip bone",
-    "nameFr": "Os coxal",
-    "altName": "",
-    "region": "pelvis",
-    "side": "both",
-    "meshAliases": ["Hip bone", "Hip bone.l", "Hip bone.r"],
+    "namefr": "Os coxal",
+    "category": "plat",
     "description": "",
-    "meshName": "Hip bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "hip-bone",
-    "name": "Hip bone",
-    "nameFr": "Os coxal",
-    "altName": "",
-    "region": "pelvis",
-    "side": "both",
-    "meshAliases": ["Hip bone", "Hip bone.l", "Hip bone.r"],
-    "description": "",
-    "meshName": "Hip bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "hip-bone",
-    "name": "Hip bone",
-    "nameFr": "Os coxal",
-    "altName": "",
-    "region": "pelvis",
-    "side": "both",
-    "meshAliases": ["Hip bone", "Hip bone.l", "Hip bone.r"],
-    "description": "",
-    "meshName": "Hip bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Hip bone",
+      "Hip bone.l",
+      "Hip bone.r"
+    ]
   },
   {
     "id": "humerus-2",
-    "name": "Humerus",
-    "nameFr": "Humérus",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Humerus.l", "Humerus.r"],
-    "description": "L'os long constituant le squelette du bras. Son extrémité proximale comprend la tête humérale (sphérique), le col anatomique, le tubercule majeur latéralement et le tubercule mineur en avant, délimitant le sillon intertuberculaire. Sa diaphyse présente la tubérosité deltoïdienne (V deltoïdien). Son extrémité distale (palette humérale) s'articule avec le radius et l'ulna grâce au capitulum et à la trochlée, encadrés par l'épicondyle latéral et l'epicondyle médial, et présente les fosses radiale, coronoïde et olécrânienne.",
-    "meshName": "Humerus.l",
-    "matched": true,
-    "matchedMeshName": "Humerus.l"
-  },
-  {
-    "id": "humerus-2",
-    "name": "Humerus",
-    "nameFr": "Humérus",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Humerus.l", "Humerus.r"],
-    "description": "L'os long constituant le squelette du bras. Son extrémité proximale comprend la tête humérale (sphérique), le col anatomique, le tubercule majeur latéralement et le tubercule mineur en avant, délimitant le sillon intertuberculaire. Sa diaphyse présente la tubérosité deltoïdienne (V deltoïdien). Son extrémité distale (palette humérale) s'articule avec le radius et l'ulna grâce au capitulum et à la trochlée, encadrés par l'épicondyle latéral et l'epicondyle médial, et présente les fosses radiale, coronoïde et olécrânienne.",
-    "meshName": "Humerus.r",
-    "matched": true,
-    "matchedMeshName": "Humerus.r"
+    "namefr": "Humérus",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Humerus.l",
+      "Humerus.r"
+    ]
   },
   {
     "id": "hyoid-bone",
-    "name": "Hyoid bone",
-    "nameFr": "Os hyoïde",
-    "altName": "",
-    "region": "larynx",
-    "side": "none",
-    "meshAliases": ["Hyoid bone"],
+    "namefr": "Os hyoïde",
+    "category": "court",
     "description": "",
-    "meshName": "Hyoid bone",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Hyoid bone"
+    ]
   },
   {
     "id": "incus",
-    "name": "Incus",
-    "nameFr": "Enclume",
-    "altName": "",
-    "region": "ear",
-    "side": "both",
-    "meshAliases": ["Incus", "Incus.l", "Incus.r"],
+    "namefr": "Enclume",
+    "category": "court",
     "description": "",
-    "meshName": "Incus",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "incus",
-    "name": "Incus",
-    "nameFr": "Enclume",
-    "altName": "",
-    "region": "ear",
-    "side": "both",
-    "meshAliases": ["Incus", "Incus.l", "Incus.r"],
-    "description": "",
-    "meshName": "Incus.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "incus",
-    "name": "Incus",
-    "nameFr": "Enclume",
-    "altName": "",
-    "region": "ear",
-    "side": "both",
-    "meshAliases": ["Incus", "Incus.l", "Incus.r"],
-    "description": "",
-    "meshName": "Incus.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Incus",
+      "Incus.l",
+      "Incus.r"
+    ]
   },
   {
     "id": "inferior-nasal-concha-bone",
-    "name": "Inferior nasal concha bone",
-    "nameFr": "Cornet nasal inférieur",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
+    "namefr": "Cornet nasal inférieur",
+    "category": "plat",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
       "Inferior nasal concha bone",
       "Inferior nasal concha bone.l",
       "Inferior nasal concha bone.r"
-    ],
-    "description": "",
-    "meshName": "Inferior nasal concha bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "inferior-nasal-concha-bone",
-    "name": "Inferior nasal concha bone",
-    "nameFr": "Cornet nasal inférieur",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": [
-      "Inferior nasal concha bone",
-      "Inferior nasal concha bone.l",
-      "Inferior nasal concha bone.r"
-    ],
-    "description": "",
-    "meshName": "Inferior nasal concha bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "inferior-nasal-concha-bone",
-    "name": "Inferior nasal concha bone",
-    "nameFr": "Cornet nasal inférieur",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": [
-      "Inferior nasal concha bone",
-      "Inferior nasal concha bone.l",
-      "Inferior nasal concha bone.r"
-    ],
-    "description": "",
-    "meshName": "Inferior nasal concha bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "intermediate-cuneiform-bone",
-    "name": "Intermediate cuneiform bone",
-    "nameFr": "Cunéiforme intermédiaire",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Intermediate cuneiform bone.l", "Intermediate cuneiform bone.r"],
+    "namefr": "Cunéiforme intermédiaire",
+    "category": "court",
     "description": "",
-    "meshName": "Intermediate cuneiform bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "intermediate-cuneiform-bone",
-    "name": "Intermediate cuneiform bone",
-    "nameFr": "Cunéiforme intermédiaire",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Intermediate cuneiform bone.l", "Intermediate cuneiform bone.r"],
-    "description": "",
-    "meshName": "Intermediate cuneiform bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Intermediate cuneiform bone.l",
+      "Intermediate cuneiform bone.r"
+    ]
   },
   {
     "id": "lacrimal-bone",
-    "name": "Lacrimal bone",
-    "nameFr": "Os lacrymal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Lacrimal bone", "Lacrimal bone.l", "Lacrimal bone.r"],
+    "namefr": "Os lacrymal",
+    "category": "plat",
     "description": "",
-    "meshName": "Lacrimal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lacrimal-bone",
-    "name": "Lacrimal bone",
-    "nameFr": "Os lacrymal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Lacrimal bone", "Lacrimal bone.l", "Lacrimal bone.r"],
-    "description": "",
-    "meshName": "Lacrimal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lacrimal-bone",
-    "name": "Lacrimal bone",
-    "nameFr": "Os lacrymal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Lacrimal bone", "Lacrimal bone.l", "Lacrimal bone.r"],
-    "description": "",
-    "meshName": "Lacrimal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Lacrimal bone",
+      "Lacrimal bone.l",
+      "Lacrimal bone.r"
+    ]
   },
   {
     "id": "lateral-cuneiform-bone",
-    "name": "Lateral cuneiform bone",
-    "nameFr": "Cunéiforme latéral",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Lateral cuneiform bone.l", "Lateral cuneiform bone.r"],
+    "namefr": "Cunéiforme latéral",
+    "category": "court",
     "description": "",
-    "meshName": "Lateral cuneiform bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lateral-cuneiform-bone",
-    "name": "Lateral cuneiform bone",
-    "nameFr": "Cunéiforme latéral",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Lateral cuneiform bone.l", "Lateral cuneiform bone.r"],
-    "description": "",
-    "meshName": "Lateral cuneiform bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Lateral cuneiform bone.l",
+      "Lateral cuneiform bone.r"
+    ]
   },
   {
     "id": "lateral-process-of-nasal-septal-cartilage",
-    "name": "Lateral process of nasal septal cartilage",
-    "nameFr": "Cartilage du septum nasal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
+    "namefr": "Cartilage du septum nasal",
+    "category": "plat",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
       "Lateral process of nasal septal cartilage",
       "Lateral process of nasal septal cartilage.l",
       "Lateral process of nasal septal cartilage.r"
-    ],
-    "description": "",
-    "meshName": "Lateral process of nasal septal cartilage",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "lateral-process-of-nasal-septal-cartilage",
-    "name": "Lateral process of nasal septal cartilage",
-    "nameFr": "Cartilage du septum nasal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
+    "id": "lower-canine",
+    "namefr": "Canine inférieure",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
-      "Lateral process of nasal septal cartilage",
-      "Lateral process of nasal septal cartilage.l",
-      "Lateral process of nasal septal cartilage.r"
-    ],
-    "description": "",
-    "meshName": "Lateral process of nasal septal cartilage.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lateral-process-of-nasal-septal-cartilage",
-    "name": "Lateral process of nasal septal cartilage",
-    "nameFr": "Cartilage du septum nasal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": [
-      "Lateral process of nasal septal cartilage",
-      "Lateral process of nasal septal cartilage.l",
-      "Lateral process of nasal septal cartilage.r"
-    ],
-    "description": "",
-    "meshName": "Lateral process of nasal septal cartilage.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-canine",
-    "name": "Lower canine",
-    "nameFr": "Canine inférieure",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower canine", "Lower canine.l", "Lower canine.r"],
-    "description": "",
-    "meshName": "Lower canine",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-canine",
-    "name": "Lower canine",
-    "nameFr": "Canine inférieure",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower canine", "Lower canine.l", "Lower canine.r"],
-    "description": "",
-    "meshName": "Lower canine.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-canine",
-    "name": "Lower canine",
-    "nameFr": "Canine inférieure",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower canine", "Lower canine.l", "Lower canine.r"],
-    "description": "",
-    "meshName": "Lower canine.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Lower canine",
+      "Lower canine.l",
+      "Lower canine.r"
+    ]
   },
   {
     "id": "lower-first-molar-tooth",
-    "name": "Lower first molar tooth",
-    "nameFr": "Molaire inférieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "namefr": "Molaire inférieure première",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
       "Lower first molar tooth",
       "Lower first molar tooth.l",
       "Lower first molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Lower first molar tooth",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "lower-first-molar-tooth",
-    "name": "Lower first molar tooth",
-    "nameFr": "Molaire inférieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "id": "lower-first-premolar",
+    "namefr": "Prémolaire inférieure première",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
-      "Lower first molar tooth",
-      "Lower first molar tooth.l",
-      "Lower first molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Lower first molar tooth.l",
-    "matched": false,
-    "matchedMeshName": null
+      "Lower first premolar",
+      "Lower first premolar.l",
+      "Lower first premolar.r"
+    ]
   },
   {
-    "id": "lower-first-molar-tooth",
-    "name": "Lower first molar tooth",
-    "nameFr": "Molaire inférieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "id": "lower-lateral-incisor",
+    "namefr": "Incisive inférieure latérale",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
-      "Lower first molar tooth",
-      "Lower first molar tooth.l",
-      "Lower first molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Lower first molar tooth.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-first-premolar",
-    "name": "Lower first premolar",
-    "nameFr": "Prémolaire inférieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower first premolar", "Lower first premolar.l", "Lower first premolar.r"],
-    "description": "",
-    "meshName": "Lower first premolar",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-first-premolar",
-    "name": "Lower first premolar",
-    "nameFr": "Prémolaire inférieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower first premolar", "Lower first premolar.l", "Lower first premolar.r"],
-    "description": "",
-    "meshName": "Lower first premolar.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-first-premolar",
-    "name": "Lower first premolar",
-    "nameFr": "Prémolaire inférieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower first premolar", "Lower first premolar.l", "Lower first premolar.r"],
-    "description": "",
-    "meshName": "Lower first premolar.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-lateral-incisor",
-    "name": "Lower lateral incisor",
-    "nameFr": "Incisive inférieure latérale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower lateral incisor", "Lower lateral incisor.l", "Lower lateral incisor.r"],
-    "description": "",
-    "meshName": "Lower lateral incisor",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-lateral-incisor",
-    "name": "Lower lateral incisor",
-    "nameFr": "Incisive inférieure latérale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower lateral incisor", "Lower lateral incisor.l", "Lower lateral incisor.r"],
-    "description": "",
-    "meshName": "Lower lateral incisor.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-lateral-incisor",
-    "name": "Lower lateral incisor",
-    "nameFr": "Incisive inférieure latérale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower lateral incisor", "Lower lateral incisor.l", "Lower lateral incisor.r"],
-    "description": "",
-    "meshName": "Lower lateral incisor.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Lower lateral incisor",
+      "Lower lateral incisor.l",
+      "Lower lateral incisor.r"
+    ]
   },
   {
     "id": "lower-medial-incisor",
-    "name": "Lower medial incisor",
-    "nameFr": "Incisive inférieure médiale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower medial incisor", "Lower medial incisor.l", "Lower medial incisor.r"],
+    "namefr": "Incisive inférieure médiale",
+    "category": "court",
     "description": "",
-    "meshName": "Lower medial incisor",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-medial-incisor",
-    "name": "Lower medial incisor",
-    "nameFr": "Incisive inférieure médiale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower medial incisor", "Lower medial incisor.l", "Lower medial incisor.r"],
-    "description": "",
-    "meshName": "Lower medial incisor.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-medial-incisor",
-    "name": "Lower medial incisor",
-    "nameFr": "Incisive inférieure médiale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower medial incisor", "Lower medial incisor.l", "Lower medial incisor.r"],
-    "description": "",
-    "meshName": "Lower medial incisor.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Lower medial incisor",
+      "Lower medial incisor.l",
+      "Lower medial incisor.r"
+    ]
   },
   {
     "id": "lower-second-molar-tooth",
-    "name": "Lower second molar tooth",
-    "nameFr": "Molaire inférieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "namefr": "Molaire inférieure deuxième",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
       "Lower second molar tooth",
       "Lower second molar tooth.l",
       "Lower second molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Lower second molar tooth",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "lower-second-molar-tooth",
-    "name": "Lower second molar tooth",
-    "nameFr": "Molaire inférieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "id": "lower-second-premolar",
+    "namefr": "Prémolaire inférieure deuxième",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
-      "Lower second molar tooth",
-      "Lower second molar tooth.l",
-      "Lower second molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Lower second molar tooth.l",
-    "matched": false,
-    "matchedMeshName": null
+      "Lower second premolar",
+      "Lower second premolar.l",
+      "Lower second premolar.r"
+    ]
   },
   {
-    "id": "lower-second-molar-tooth",
-    "name": "Lower second molar tooth",
-    "nameFr": "Molaire inférieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "id": "lunate-bone",
+    "namefr": "Lunatum",
+    "category": "court",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
-      "Lower second molar tooth",
-      "Lower second molar tooth.l",
-      "Lower second molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Lower second molar tooth.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-second-premolar",
-    "name": "Lower second premolar",
-    "nameFr": "Prémolaire inférieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower second premolar", "Lower second premolar.l", "Lower second premolar.r"],
-    "description": "",
-    "meshName": "Lower second premolar",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-second-premolar",
-    "name": "Lower second premolar",
-    "nameFr": "Prémolaire inférieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower second premolar", "Lower second premolar.l", "Lower second premolar.r"],
-    "description": "",
-    "meshName": "Lower second premolar.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lower-second-premolar",
-    "name": "Lower second premolar",
-    "nameFr": "Prémolaire inférieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Lower second premolar", "Lower second premolar.l", "Lower second premolar.r"],
-    "description": "",
-    "meshName": "Lower second premolar.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lunate-bone",
-    "name": "Lunate bone",
-    "nameFr": "Lunatum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Lunate bone", "Lunate bone.l", "Lunate bone.r"],
-    "description": "",
-    "meshName": "Lunate bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lunate-bone",
-    "name": "Lunate bone",
-    "nameFr": "Lunatum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Lunate bone", "Lunate bone.l", "Lunate bone.r"],
-    "description": "",
-    "meshName": "Lunate bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "lunate-bone",
-    "name": "Lunate bone",
-    "nameFr": "Lunatum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Lunate bone", "Lunate bone.l", "Lunate bone.r"],
-    "description": "",
-    "meshName": "Lunate bone.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Lunate bone",
+      "Lunate bone.l",
+      "Lunate bone.r"
+    ]
   },
   {
     "id": "major-alar-cartilage",
-    "name": "Major alar cartilage",
-    "nameFr": "Cartilage alaire majeur",
-    "altName": "",
-    "region": "nose",
-    "side": "both",
-    "meshAliases": ["Major alar cartilage", "Major alar cartilage.l", "Major alar cartilage.r"],
+    "namefr": "Cartilage alaire majeur",
+    "category": "court",
     "description": "",
-    "meshName": "Major alar cartilage",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "major-alar-cartilage",
-    "name": "Major alar cartilage",
-    "nameFr": "Cartilage alaire majeur",
-    "altName": "",
-    "region": "nose",
-    "side": "both",
-    "meshAliases": ["Major alar cartilage", "Major alar cartilage.l", "Major alar cartilage.r"],
-    "description": "",
-    "meshName": "Major alar cartilage.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "major-alar-cartilage",
-    "name": "Major alar cartilage",
-    "nameFr": "Cartilage alaire majeur",
-    "altName": "",
-    "region": "nose",
-    "side": "both",
-    "meshAliases": ["Major alar cartilage", "Major alar cartilage.l", "Major alar cartilage.r"],
-    "description": "",
-    "meshName": "Major alar cartilage.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Major alar cartilage",
+      "Major alar cartilage.l",
+      "Major alar cartilage.r"
+    ]
   },
   {
     "id": "malleus",
-    "name": "Malleus",
-    "nameFr": "Marteau",
-    "altName": "",
-    "region": "ear",
-    "side": "both",
-    "meshAliases": ["Malleus", "Malleus.l", "Malleus.r"],
+    "namefr": "Marteau",
+    "category": "court",
     "description": "",
-    "meshName": "Malleus",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "malleus",
-    "name": "Malleus",
-    "nameFr": "Marteau",
-    "altName": "",
-    "region": "ear",
-    "side": "both",
-    "meshAliases": ["Malleus", "Malleus.l", "Malleus.r"],
-    "description": "",
-    "meshName": "Malleus.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "malleus",
-    "name": "Malleus",
-    "nameFr": "Marteau",
-    "altName": "",
-    "region": "ear",
-    "side": "both",
-    "meshAliases": ["Malleus", "Malleus.l", "Malleus.r"],
-    "description": "",
-    "meshName": "Malleus.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Malleus",
+      "Malleus.l",
+      "Malleus.r"
+    ]
   },
   {
     "id": "mandible",
-    "name": "Mandible",
-    "nameFr": "Mandibule",
-    "altName": "",
-    "region": "skull",
-    "side": "none",
-    "meshAliases": ["Mandible"],
+    "namefr": "Mandibule",
+    "category": "plat",
     "description": "",
-    "meshName": "Mandible",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Mandible"
+    ]
   },
   {
     "id": "manubrium-of-sternum",
-    "name": "Manubrium of sternum",
-    "nameFr": "Sternum",
-    "altName": "",
-    "region": "thorax",
-    "side": "none",
-    "meshAliases": ["Manubrium of sternum"],
+    "namefr": "Sternum",
+    "category": "plat",
     "description": "",
-    "meshName": "Manubrium of sternum",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Manubrium of sternum"
+    ]
   },
   {
     "id": "maxilla",
-    "name": "Maxilla",
-    "nameFr": "Maxillaire",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Maxilla", "Maxilla.l", "Maxilla.r"],
+    "namefr": "Maxillaire",
+    "category": "plat",
     "description": "",
-    "meshName": "Maxilla",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "maxilla",
-    "name": "Maxilla",
-    "nameFr": "Maxillaire",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Maxilla", "Maxilla.l", "Maxilla.r"],
-    "description": "",
-    "meshName": "Maxilla.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "maxilla",
-    "name": "Maxilla",
-    "nameFr": "Maxillaire",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Maxilla", "Maxilla.l", "Maxilla.r"],
-    "description": "",
-    "meshName": "Maxilla.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Maxilla",
+      "Maxilla.l",
+      "Maxilla.r"
+    ]
   },
   {
     "id": "medial-cuneiform-bone",
-    "name": "Medial cuneiform bone",
-    "nameFr": "Cunéiforme médial",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Medial cuneiform bone.l", "Medial cuneiform bone.r"],
+    "namefr": "Cunéiforme médial",
+    "category": "court",
     "description": "",
-    "meshName": "Medial cuneiform bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "medial-cuneiform-bone",
-    "name": "Medial cuneiform bone",
-    "nameFr": "Cunéiforme médial",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Medial cuneiform bone.l", "Medial cuneiform bone.r"],
-    "description": "",
-    "meshName": "Medial cuneiform bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Medial cuneiform bone.l",
+      "Medial cuneiform bone.r"
+    ]
   },
   {
     "id": "middle-cells-of-ethmoid-bone",
-    "name": "Middle cells of ethmoid bone",
-    "nameFr": "Cellules moyennes de l’ethmoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
+    "namefr": "Cellules moyennes de l’ethmoïde",
+    "category": "plat",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
       "Middle cells of ethmoid bone",
       "Middle cells of ethmoid bone.l",
       "Middle cells of ethmoid bone.r"
-    ],
-    "description": "",
-    "meshName": "Middle cells of ethmoid bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-cells-of-ethmoid-bone",
-    "name": "Middle cells of ethmoid bone",
-    "nameFr": "Cellules moyennes de l’ethmoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": [
-      "Middle cells of ethmoid bone",
-      "Middle cells of ethmoid bone.l",
-      "Middle cells of ethmoid bone.r"
-    ],
-    "description": "",
-    "meshName": "Middle cells of ethmoid bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-cells-of-ethmoid-bone",
-    "name": "Middle cells of ethmoid bone",
-    "nameFr": "Cellules moyennes de l’ethmoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": [
-      "Middle cells of ethmoid bone",
-      "Middle cells of ethmoid bone.l",
-      "Middle cells of ethmoid bone.r"
-    ],
-    "description": "",
-    "meshName": "Middle cells of ethmoid bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "middle-phalanx-of-fifth-finger-of-foot",
-    "name": "Middle phalanx of fifth finger of foot",
-    "nameFr": "Phalange moyenne du cinquième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange moyenne du cinquième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Middle phalanx of fifth finger of foot",
       "Middle phalanx of fifth finger of foot.l",
       "Middle phalanx of fifth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fifth finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-fifth-finger-of-foot",
-    "name": "Middle phalanx of fifth finger of foot",
-    "nameFr": "Phalange moyenne du cinquième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of fifth finger of foot",
-      "Middle phalanx of fifth finger of foot.l",
-      "Middle phalanx of fifth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fifth finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-fifth-finger-of-foot",
-    "name": "Middle phalanx of fifth finger of foot",
-    "nameFr": "Phalange moyenne du cinquième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of fifth finger of foot",
-      "Middle phalanx of fifth finger of foot.l",
-      "Middle phalanx of fifth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fifth finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "middle-phalanx-of-fifth-finger-of-hand",
-    "name": "Middle phalanx of fifth finger of hand",
-    "nameFr": "Phalange moyenne du cinquième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange moyenne du cinquième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Middle phalanx of fifth finger of hand",
       "Middle phalanx of fifth finger of hand.l",
       "Middle phalanx of fifth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fifth finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-fifth-finger-of-hand",
-    "name": "Middle phalanx of fifth finger of hand",
-    "nameFr": "Phalange moyenne du cinquième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of fifth finger of hand",
-      "Middle phalanx of fifth finger of hand.l",
-      "Middle phalanx of fifth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fifth finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-fifth-finger-of-hand",
-    "name": "Middle phalanx of fifth finger of hand",
-    "nameFr": "Phalange moyenne du cinquième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of fifth finger of hand",
-      "Middle phalanx of fifth finger of hand.l",
-      "Middle phalanx of fifth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fifth finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "middle-phalanx-of-fourth-finger-of-foot",
-    "name": "Middle phalanx of fourth finger of foot",
-    "nameFr": "Phalange moyenne du quatrième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange moyenne du quatrième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Middle phalanx of fourth finger of foot",
       "Middle phalanx of fourth finger of foot.l",
       "Middle phalanx of fourth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fourth finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-fourth-finger-of-foot",
-    "name": "Middle phalanx of fourth finger of foot",
-    "nameFr": "Phalange moyenne du quatrième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of fourth finger of foot",
-      "Middle phalanx of fourth finger of foot.l",
-      "Middle phalanx of fourth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fourth finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-fourth-finger-of-foot",
-    "name": "Middle phalanx of fourth finger of foot",
-    "nameFr": "Phalange moyenne du quatrième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of fourth finger of foot",
-      "Middle phalanx of fourth finger of foot.l",
-      "Middle phalanx of fourth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fourth finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "middle-phalanx-of-fourth-finger-of-hand",
-    "name": "Middle phalanx of fourth finger of hand",
-    "nameFr": "Phalange moyenne du quatrième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange moyenne du quatrième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Middle phalanx of fourth finger of hand",
       "Middle phalanx of fourth finger of hand.l",
       "Middle phalanx of fourth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fourth finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-fourth-finger-of-hand",
-    "name": "Middle phalanx of fourth finger of hand",
-    "nameFr": "Phalange moyenne du quatrième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of fourth finger of hand",
-      "Middle phalanx of fourth finger of hand.l",
-      "Middle phalanx of fourth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fourth finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-fourth-finger-of-hand",
-    "name": "Middle phalanx of fourth finger of hand",
-    "nameFr": "Phalange moyenne du quatrième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of fourth finger of hand",
-      "Middle phalanx of fourth finger of hand.l",
-      "Middle phalanx of fourth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of fourth finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "middle-phalanx-of-second-finger-of-foot",
-    "name": "Middle phalanx of second finger of foot",
-    "nameFr": "Phalange moyenne du deuxième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange moyenne du deuxième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Middle phalanx of second finger of foot",
       "Middle phalanx of second finger of foot.l",
       "Middle phalanx of second finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of second finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-second-finger-of-foot",
-    "name": "Middle phalanx of second finger of foot",
-    "nameFr": "Phalange moyenne du deuxième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of second finger of foot",
-      "Middle phalanx of second finger of foot.l",
-      "Middle phalanx of second finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of second finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-second-finger-of-foot",
-    "name": "Middle phalanx of second finger of foot",
-    "nameFr": "Phalange moyenne du deuxième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of second finger of foot",
-      "Middle phalanx of second finger of foot.l",
-      "Middle phalanx of second finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of second finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "middle-phalanx-of-second-finger-of-hand",
-    "name": "Middle phalanx of second finger of hand",
-    "nameFr": "Phalange moyenne du deuxième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange moyenne du deuxième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Middle phalanx of second finger of hand",
       "Middle phalanx of second finger of hand.l",
       "Middle phalanx of second finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of second finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-second-finger-of-hand",
-    "name": "Middle phalanx of second finger of hand",
-    "nameFr": "Phalange moyenne du deuxième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of second finger of hand",
-      "Middle phalanx of second finger of hand.l",
-      "Middle phalanx of second finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of second finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-second-finger-of-hand",
-    "name": "Middle phalanx of second finger of hand",
-    "nameFr": "Phalange moyenne du deuxième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of second finger of hand",
-      "Middle phalanx of second finger of hand.l",
-      "Middle phalanx of second finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of second finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "middle-phalanx-of-third-finger-of-foot",
-    "name": "Middle phalanx of third finger of foot",
-    "nameFr": "Phalange moyenne du troisième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange moyenne du troisième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Middle phalanx of third finger of foot",
       "Middle phalanx of third finger of foot.l",
       "Middle phalanx of third finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of third finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-third-finger-of-foot",
-    "name": "Middle phalanx of third finger of foot",
-    "nameFr": "Phalange moyenne du troisième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of third finger of foot",
-      "Middle phalanx of third finger of foot.l",
-      "Middle phalanx of third finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of third finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-third-finger-of-foot",
-    "name": "Middle phalanx of third finger of foot",
-    "nameFr": "Phalange moyenne du troisième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of third finger of foot",
-      "Middle phalanx of third finger of foot.l",
-      "Middle phalanx of third finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of third finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "middle-phalanx-of-third-finger-of-hand",
-    "name": "Middle phalanx of third finger of hand",
-    "nameFr": "Phalange moyenne du troisième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange moyenne du troisième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Middle phalanx of third finger of hand",
       "Middle phalanx of third finger of hand.l",
       "Middle phalanx of third finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of third finger of hand",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "middle-phalanx-of-third-finger-of-hand",
-    "name": "Middle phalanx of third finger of hand",
-    "nameFr": "Phalange moyenne du troisième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "id": "nasal-bone",
+    "namefr": "Os nasal",
+    "category": "plat",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
-      "Middle phalanx of third finger of hand",
-      "Middle phalanx of third finger of hand.l",
-      "Middle phalanx of third finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of third finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "middle-phalanx-of-third-finger-of-hand",
-    "name": "Middle phalanx of third finger of hand",
-    "nameFr": "Phalange moyenne du troisième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Middle phalanx of third finger of hand",
-      "Middle phalanx of third finger of hand.l",
-      "Middle phalanx of third finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Middle phalanx of third finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "nasal-bone",
-    "name": "Nasal bone",
-    "nameFr": "Os nasal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Nasal bone", "Nasal bone.l", "Nasal bone.r"],
-    "description": "",
-    "meshName": "Nasal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "nasal-bone",
-    "name": "Nasal bone",
-    "nameFr": "Os nasal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Nasal bone", "Nasal bone.l", "Nasal bone.r"],
-    "description": "",
-    "meshName": "Nasal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "nasal-bone",
-    "name": "Nasal bone",
-    "nameFr": "Os nasal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Nasal bone", "Nasal bone.l", "Nasal bone.r"],
-    "description": "",
-    "meshName": "Nasal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Nasal bone",
+      "Nasal bone.l",
+      "Nasal bone.r"
+    ]
   },
   {
     "id": "nasal-septal-cartilage",
-    "name": "Nasal septal cartilage",
-    "nameFr": "Cartilage du septum nasal",
-    "altName": "",
-    "region": "skull",
-    "side": "none",
-    "meshAliases": ["Nasal septal cartilage"],
+    "namefr": "Cartilage du septum nasal",
+    "category": "plat",
     "description": "",
-    "meshName": "Nasal septal cartilage",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Nasal septal cartilage"
+    ]
   },
   {
     "id": "navicular-bone",
-    "name": "Navicular bone",
-    "nameFr": "Os naviculaire",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Navicular bone", "Navicular bone.l", "Navicular bone.r"],
+    "namefr": "Os naviculaire",
+    "category": "court",
     "description": "",
-    "meshName": "Navicular bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "navicular-bone",
-    "name": "Navicular bone",
-    "nameFr": "Os naviculaire",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Navicular bone", "Navicular bone.l", "Navicular bone.r"],
-    "description": "",
-    "meshName": "Navicular bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "navicular-bone",
-    "name": "Navicular bone",
-    "nameFr": "Os naviculaire",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Navicular bone", "Navicular bone.l", "Navicular bone.r"],
-    "description": "",
-    "meshName": "Navicular bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Navicular bone",
+      "Navicular bone.l",
+      "Navicular bone.r"
+    ]
   },
   {
     "id": "ninth-rib",
-    "name": "Ninth rib",
-    "nameFr": "Neuvième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Ninth rib", "Ninth rib.l", "Ninth rib.r"],
+    "namefr": "Neuvième côte",
+    "category": "long",
     "description": "",
-    "meshName": "Ninth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "ninth-rib",
-    "name": "Ninth rib",
-    "nameFr": "Neuvième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Ninth rib", "Ninth rib.l", "Ninth rib.r"],
-    "description": "",
-    "meshName": "Ninth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "ninth-rib",
-    "name": "Ninth rib",
-    "nameFr": "Neuvième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Ninth rib", "Ninth rib.l", "Ninth rib.r"],
-    "description": "",
-    "meshName": "Ninth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Ninth rib",
+      "Ninth rib.l",
+      "Ninth rib.r"
+    ]
   },
   {
     "id": "occipital-bone",
-    "name": "Occipital bone",
-    "nameFr": "Os occipital",
-    "altName": "",
-    "region": "skull",
-    "side": "none",
-    "meshAliases": ["Occipital bone"],
+    "namefr": "Os occipital",
+    "category": "plat",
     "description": "",
-    "meshName": "Occipital bone",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Occipital bone"
+    ]
   },
   {
     "id": "palatine-bone",
-    "name": "Palatine bone",
-    "nameFr": "Os palatin",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Palatine bone", "Palatine bone.l", "Palatine bone.r"],
+    "namefr": "Os palatin",
+    "category": "plat",
     "description": "",
-    "meshName": "Palatine bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "palatine-bone",
-    "name": "Palatine bone",
-    "nameFr": "Os palatin",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Palatine bone", "Palatine bone.l", "Palatine bone.r"],
-    "description": "",
-    "meshName": "Palatine bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "palatine-bone",
-    "name": "Palatine bone",
-    "nameFr": "Os palatin",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Palatine bone", "Palatine bone.l", "Palatine bone.r"],
-    "description": "",
-    "meshName": "Palatine bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Palatine bone",
+      "Palatine bone.l",
+      "Palatine bone.r"
+    ]
   },
   {
     "id": "parietal-bone",
-    "name": "Parietal bone",
-    "nameFr": "Os pariétal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Parietal bone.l", "Parietal bone.r"],
+    "namefr": "Os pariétal",
+    "category": "plat",
     "description": "",
-    "meshName": "Parietal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "parietal-bone",
-    "name": "Parietal bone",
-    "nameFr": "Os pariétal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Parietal bone.l", "Parietal bone.r"],
-    "description": "",
-    "meshName": "Parietal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Parietal bone.l",
+      "Parietal bone.r"
+    ]
   },
   {
     "id": "patella-2",
-    "name": "Patella",
-    "nameFr": "Patella",
-    "altName": "Rotule",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Patella.l", "Patella.r"],
-    "description": "Un os court et plat situé à la partie antérieure de la cuisse au niveau du genou. Elle présente une base supérieure, un apex inférieur, une face antérieure rugueuse sous-cutanée et une face postérieure articulaire divisée en deux facettes (latérale et médiale) pour répondre à la surface patellaire du fémur.",
-    "meshName": "Patella.l",
-    "matched": true,
-    "matchedMeshName": "Patella.l"
-  },
-  {
-    "id": "patella-2",
-    "name": "Patella",
-    "nameFr": "Patella",
-    "altName": "Rotule",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Patella.l", "Patella.r"],
-    "description": "Un os court et plat situé à la partie antérieure de la cuisse au niveau du genou. Elle présente une base supérieure, un apex inférieur, une face antérieure rugueuse sous-cutanée et une face postérieure articulaire divisée en deux facettes (latérale et médiale) pour répondre à la surface patellaire du fémur.",
-    "meshName": "Patella.r",
-    "matched": true,
-    "matchedMeshName": "Patella.r"
+    "namefr": "Patella",
+    "category": "court",
+    "description": "",
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Patella.l",
+      "Patella.r"
+    ]
   },
   {
     "id": "pisiform-bone",
-    "name": "Pisiform bone",
-    "nameFr": "Pisiforme",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Pisiform bone", "Pisiform bone.l", "Pisiform bone.r"],
+    "namefr": "Pisiforme",
+    "category": "court",
     "description": "",
-    "meshName": "Pisiform bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "pisiform-bone",
-    "name": "Pisiform bone",
-    "nameFr": "Pisiforme",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Pisiform bone", "Pisiform bone.l", "Pisiform bone.r"],
-    "description": "",
-    "meshName": "Pisiform bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "pisiform-bone",
-    "name": "Pisiform bone",
-    "nameFr": "Pisiforme",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Pisiform bone", "Pisiform bone.l", "Pisiform bone.r"],
-    "description": "",
-    "meshName": "Pisiform bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Pisiform bone",
+      "Pisiform bone.l",
+      "Pisiform bone.r"
+    ]
   },
   {
     "id": "posterior-cells-of-ethmoid-bone",
-    "name": "Posterior cells of ethmoid bone",
-    "nameFr": "Cellules postérieures de l’ethmoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
+    "namefr": "Cellules postérieures de l’ethmoïde",
+    "category": "plat",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
       "Posterior cells of ethmoid bone",
       "Posterior cells of ethmoid bone.l",
       "Posterior cells of ethmoid bone.r"
-    ],
-    "description": "",
-    "meshName": "Posterior cells of ethmoid bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "posterior-cells-of-ethmoid-bone",
-    "name": "Posterior cells of ethmoid bone",
-    "nameFr": "Cellules postérieures de l’ethmoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": [
-      "Posterior cells of ethmoid bone",
-      "Posterior cells of ethmoid bone.l",
-      "Posterior cells of ethmoid bone.r"
-    ],
-    "description": "",
-    "meshName": "Posterior cells of ethmoid bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "posterior-cells-of-ethmoid-bone",
-    "name": "Posterior cells of ethmoid bone",
-    "nameFr": "Cellules postérieures de l’ethmoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": [
-      "Posterior cells of ethmoid bone",
-      "Posterior cells of ethmoid bone.l",
-      "Posterior cells of ethmoid bone.r"
-    ],
-    "description": "",
-    "meshName": "Posterior cells of ethmoid bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "proximal-phalanx-of-fifth-finger-of-foot",
-    "name": "Proximal phalanx of fifth finger of foot",
-    "nameFr": "Phalange proximale du cinquième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange proximale du cinquième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Proximal phalanx of fifth finger of foot",
       "Proximal phalanx of fifth finger of foot.l",
       "Proximal phalanx of fifth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fifth finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-fifth-finger-of-foot",
-    "name": "Proximal phalanx of fifth finger of foot",
-    "nameFr": "Phalange proximale du cinquième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of fifth finger of foot",
-      "Proximal phalanx of fifth finger of foot.l",
-      "Proximal phalanx of fifth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fifth finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-fifth-finger-of-foot",
-    "name": "Proximal phalanx of fifth finger of foot",
-    "nameFr": "Phalange proximale du cinquième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of fifth finger of foot",
-      "Proximal phalanx of fifth finger of foot.l",
-      "Proximal phalanx of fifth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fifth finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "proximal-phalanx-of-fifth-finger-of-hand",
-    "name": "Proximal phalanx of fifth finger of hand",
-    "nameFr": "Phalange proximale du cinquième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange proximale du cinquième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Proximal phalanx of fifth finger of hand",
       "Proximal phalanx of fifth finger of hand.l",
       "Proximal phalanx of fifth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fifth finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-fifth-finger-of-hand",
-    "name": "Proximal phalanx of fifth finger of hand",
-    "nameFr": "Phalange proximale du cinquième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of fifth finger of hand",
-      "Proximal phalanx of fifth finger of hand.l",
-      "Proximal phalanx of fifth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fifth finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-fifth-finger-of-hand",
-    "name": "Proximal phalanx of fifth finger of hand",
-    "nameFr": "Phalange proximale du cinquième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of fifth finger of hand",
-      "Proximal phalanx of fifth finger of hand.l",
-      "Proximal phalanx of fifth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fifth finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "proximal-phalanx-of-first-finger-of-foot",
-    "name": "Proximal phalanx of first finger of foot",
-    "nameFr": "Phalange proximale du première orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange proximale du première orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Proximal phalanx of first finger of foot",
       "Proximal phalanx of first finger of foot.l",
       "Proximal phalanx of first finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of first finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-first-finger-of-foot",
-    "name": "Proximal phalanx of first finger of foot",
-    "nameFr": "Phalange proximale du première orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of first finger of foot",
-      "Proximal phalanx of first finger of foot.l",
-      "Proximal phalanx of first finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of first finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-first-finger-of-foot",
-    "name": "Proximal phalanx of first finger of foot",
-    "nameFr": "Phalange proximale du première orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of first finger of foot",
-      "Proximal phalanx of first finger of foot.l",
-      "Proximal phalanx of first finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of first finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "proximal-phalanx-of-first-finger-of-hand",
-    "name": "Proximal phalanx of first finger of hand",
-    "nameFr": "Phalange proximale du première doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange proximale du première doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Proximal phalanx of first finger of hand",
       "Proximal phalanx of first finger of hand.l",
       "Proximal phalanx of first finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of first finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-first-finger-of-hand",
-    "name": "Proximal phalanx of first finger of hand",
-    "nameFr": "Phalange proximale du première doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of first finger of hand",
-      "Proximal phalanx of first finger of hand.l",
-      "Proximal phalanx of first finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of first finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-first-finger-of-hand",
-    "name": "Proximal phalanx of first finger of hand",
-    "nameFr": "Phalange proximale du première doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of first finger of hand",
-      "Proximal phalanx of first finger of hand.l",
-      "Proximal phalanx of first finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of first finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "proximal-phalanx-of-fourth-finger-of-foot",
-    "name": "Proximal phalanx of fourth finger of foot",
-    "nameFr": "Phalange proximale du quatrième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange proximale du quatrième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Proximal phalanx of fourth finger of foot",
       "Proximal phalanx of fourth finger of foot.l",
       "Proximal phalanx of fourth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fourth finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-fourth-finger-of-foot",
-    "name": "Proximal phalanx of fourth finger of foot",
-    "nameFr": "Phalange proximale du quatrième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of fourth finger of foot",
-      "Proximal phalanx of fourth finger of foot.l",
-      "Proximal phalanx of fourth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fourth finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-fourth-finger-of-foot",
-    "name": "Proximal phalanx of fourth finger of foot",
-    "nameFr": "Phalange proximale du quatrième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of fourth finger of foot",
-      "Proximal phalanx of fourth finger of foot.l",
-      "Proximal phalanx of fourth finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fourth finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "proximal-phalanx-of-fourth-finger-of-hand",
-    "name": "Proximal phalanx of fourth finger of hand",
-    "nameFr": "Phalange proximale du quatrième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange proximale du quatrième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Proximal phalanx of fourth finger of hand",
       "Proximal phalanx of fourth finger of hand.l",
       "Proximal phalanx of fourth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fourth finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-fourth-finger-of-hand",
-    "name": "Proximal phalanx of fourth finger of hand",
-    "nameFr": "Phalange proximale du quatrième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of fourth finger of hand",
-      "Proximal phalanx of fourth finger of hand.l",
-      "Proximal phalanx of fourth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fourth finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-fourth-finger-of-hand",
-    "name": "Proximal phalanx of fourth finger of hand",
-    "nameFr": "Phalange proximale du quatrième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of fourth finger of hand",
-      "Proximal phalanx of fourth finger of hand.l",
-      "Proximal phalanx of fourth finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of fourth finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "proximal-phalanx-of-second-finger-of-foot",
-    "name": "Proximal phalanx of second finger of foot",
-    "nameFr": "Phalange proximale du deuxième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange proximale du deuxième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Proximal phalanx of second finger of foot",
       "Proximal phalanx of second finger of foot.l",
       "Proximal phalanx of second finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of second finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-second-finger-of-foot",
-    "name": "Proximal phalanx of second finger of foot",
-    "nameFr": "Phalange proximale du deuxième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of second finger of foot",
-      "Proximal phalanx of second finger of foot.l",
-      "Proximal phalanx of second finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of second finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-second-finger-of-foot",
-    "name": "Proximal phalanx of second finger of foot",
-    "nameFr": "Phalange proximale du deuxième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of second finger of foot",
-      "Proximal phalanx of second finger of foot.l",
-      "Proximal phalanx of second finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of second finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "proximal-phalanx-of-second-finger-of-hand",
-    "name": "Proximal phalanx of second finger of hand",
-    "nameFr": "Phalange proximale du deuxième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange proximale du deuxième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Proximal phalanx of second finger of hand",
       "Proximal phalanx of second finger of hand.l",
       "Proximal phalanx of second finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of second finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-second-finger-of-hand",
-    "name": "Proximal phalanx of second finger of hand",
-    "nameFr": "Phalange proximale du deuxième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of second finger of hand",
-      "Proximal phalanx of second finger of hand.l",
-      "Proximal phalanx of second finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of second finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-second-finger-of-hand",
-    "name": "Proximal phalanx of second finger of hand",
-    "nameFr": "Phalange proximale du deuxième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of second finger of hand",
-      "Proximal phalanx of second finger of hand.l",
-      "Proximal phalanx of second finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of second finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "proximal-phalanx-of-third-finger-of-foot",
-    "name": "Proximal phalanx of third finger of foot",
-    "nameFr": "Phalange proximale du troisième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange proximale du troisième orteil",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Proximal phalanx of third finger of foot",
       "Proximal phalanx of third finger of foot.l",
       "Proximal phalanx of third finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of third finger of foot",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-third-finger-of-foot",
-    "name": "Proximal phalanx of third finger of foot",
-    "nameFr": "Phalange proximale du troisième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of third finger of foot",
-      "Proximal phalanx of third finger of foot.l",
-      "Proximal phalanx of third finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of third finger of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-third-finger-of-foot",
-    "name": "Proximal phalanx of third finger of foot",
-    "nameFr": "Phalange proximale du troisième orteil",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of third finger of foot",
-      "Proximal phalanx of third finger of foot.l",
-      "Proximal phalanx of third finger of foot.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of third finger of foot.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "proximal-phalanx-of-third-finger-of-hand",
-    "name": "Proximal phalanx of third finger of hand",
-    "nameFr": "Phalange proximale du troisième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Phalange proximale du troisième doigt de la main",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Proximal phalanx of third finger of hand",
       "Proximal phalanx of third finger of hand.l",
       "Proximal phalanx of third finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of third finger of hand",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-third-finger-of-hand",
-    "name": "Proximal phalanx of third finger of hand",
-    "nameFr": "Phalange proximale du troisième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of third finger of hand",
-      "Proximal phalanx of third finger of hand.l",
-      "Proximal phalanx of third finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of third finger of hand.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "proximal-phalanx-of-third-finger-of-hand",
-    "name": "Proximal phalanx of third finger of hand",
-    "nameFr": "Phalange proximale du troisième doigt de la main",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Proximal phalanx of third finger of hand",
-      "Proximal phalanx of third finger of hand.l",
-      "Proximal phalanx of third finger of hand.r"
-    ],
-    "description": "",
-    "meshName": "Proximal phalanx of third finger of hand.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "radius-2",
-    "name": "Radius",
-    "nameFr": "Radius",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Radius.l", "Radius.r"],
-    "description": "L'os long latéral de l'avant-bras. Son extrémité proximale comporte une tête cylindrique (avec une fovéa et une circonférence articulaire) et un col, suivis en bas et en dedans par la tubérosité radiale. Sa diaphyse présente un bord interosseux aigu. Son extrémité distale, volumineuse et aplatie, se termine latéralement par le processus styloïde radial et présente en dedans l'incisure ulnaire pour s'articuler avec la tête de l'ulna.",
-    "meshName": "Radius.l",
-    "matched": true,
-    "matchedMeshName": "Radius.l"
-  },
-  {
-    "id": "radius-2",
-    "name": "Radius",
-    "nameFr": "Radius",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Radius.l", "Radius.r"],
-    "description": "L'os long latéral de l'avant-bras. Son extrémité proximale comporte une tête cylindrique (avec une fovéa et une circonférence articulaire) et un col, suivis en bas et en dedans par la tubérosité radiale. Sa diaphyse présente un bord interosseux aigu. Son extrémité distale, volumineuse et aplatie, se termine latéralement par le processus styloïde radial et présente en dedans l'incisure ulnaire pour s'articuler avec la tête de l'ulna.",
-    "meshName": "Radius.r",
-    "matched": true,
-    "matchedMeshName": "Radius.r"
+    "namefr": "Radius",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Radius.l",
+      "Radius.r"
+    ]
   },
   {
     "id": "sacrum",
-    "name": "Sacrum",
-    "nameFr": "Sacrum",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Sacrum"],
+    "namefr": "Sacrum",
+    "category": "court",
     "description": "",
-    "meshName": "Sacrum",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Sacrum"
+    ]
   },
   {
     "id": "scaphoid-bone",
-    "name": "Scaphoid bone",
-    "nameFr": "Scaphoïde",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Scaphoid bone", "Scaphoid bone.l", "Scaphoid bone.r"],
+    "namefr": "Scaphoïde",
+    "category": "court",
     "description": "",
-    "meshName": "Scaphoid bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "scaphoid-bone",
-    "name": "Scaphoid bone",
-    "nameFr": "Scaphoïde",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Scaphoid bone", "Scaphoid bone.l", "Scaphoid bone.r"],
-    "description": "",
-    "meshName": "Scaphoid bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "scaphoid-bone",
-    "name": "Scaphoid bone",
-    "nameFr": "Scaphoïde",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Scaphoid bone", "Scaphoid bone.l", "Scaphoid bone.r"],
-    "description": "",
-    "meshName": "Scaphoid bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Scaphoid bone",
+      "Scaphoid bone.l",
+      "Scaphoid bone.r"
+    ]
   },
   {
     "id": "scapula-2",
-    "name": "Scapula",
-    "nameFr": "Scapula",
-    "altName": "Omoplate",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Scapula.l", "Scapula.r"],
-    "description": "Os plat et triangulaire situé à la face postéro-supérieure du thorax en regard des 7 premières côtes. Sa face antérieure (costale) est occupée par la fosse subscapulaire. Sa face postérieure est divisée par l'épine de la scapula (qui se prolonge latéralement par l'acromion) en deux fosses : supra-épineuse et infra-épineuse. Son angle latéral présente la cavité glénoïdale, surface articulaire pour la tête de l'humérus, surmontée du processus coracoïde en avant.",
-    "meshName": "Scapula.l",
-    "matched": true,
-    "matchedMeshName": "Scapula.l"
-  },
-  {
-    "id": "scapula-2",
-    "name": "Scapula",
-    "nameFr": "Scapula",
-    "altName": "Omoplate",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Scapula.l", "Scapula.r"],
-    "description": "Os plat et triangulaire situé à la face postéro-supérieure du thorax en regard des 7 premières côtes. Sa face antérieure (costale) est occupée par la fosse subscapulaire. Sa face postérieure est divisée par l'épine de la scapula (qui se prolonge latéralement par l'acromion) en deux fosses : supra-épineuse et infra-épineuse. Son angle latéral présente la cavité glénoïdale, surface articulaire pour la tête de l'humérus, surmontée du processus coracoïde en avant.",
-    "meshName": "Scapula.r",
-    "matched": true,
-    "matchedMeshName": "Scapula.r"
+    "namefr": "Scapula",
+    "category": "plat",
+    "description": "",
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Scapula.l",
+      "Scapula.r"
+    ]
   },
   {
     "id": "second-metacarpal-bone",
-    "name": "Second metacarpal bone",
-    "nameFr": "Deuxième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
+    "namefr": "Deuxième métacarpien",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
     "meshAliases": [
       "Second metacarpal bone",
       "Second metacarpal bone.l",
       "Second metacarpal bone.r"
-    ],
-    "description": "",
-    "meshName": "Second metacarpal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "second-metacarpal-bone",
-    "name": "Second metacarpal bone",
-    "nameFr": "Deuxième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Second metacarpal bone",
-      "Second metacarpal bone.l",
-      "Second metacarpal bone.r"
-    ],
-    "description": "",
-    "meshName": "Second metacarpal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "second-metacarpal-bone",
-    "name": "Second metacarpal bone",
-    "nameFr": "Deuxième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": [
-      "Second metacarpal bone",
-      "Second metacarpal bone.l",
-      "Second metacarpal bone.r"
-    ],
-    "description": "",
-    "meshName": "Second metacarpal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
     "id": "second-metatarsal-bone",
-    "name": "Second metatarsal bone",
-    "nameFr": "Deuxième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
+    "namefr": "Deuxième métatarsien",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Second metatarsal bone",
       "Second metatarsal bone.l",
       "Second metatarsal bone.r"
-    ],
-    "description": "",
-    "meshName": "Second metatarsal bone",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "second-metatarsal-bone",
-    "name": "Second metatarsal bone",
-    "nameFr": "Deuxième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
+    "id": "second-rib",
+    "namefr": "Deuxième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
-      "Second metatarsal bone",
-      "Second metatarsal bone.l",
-      "Second metatarsal bone.r"
-    ],
-    "description": "",
-    "meshName": "Second metatarsal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "second-metatarsal-bone",
-    "name": "Second metatarsal bone",
-    "nameFr": "Deuxième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": [
-      "Second metatarsal bone",
-      "Second metatarsal bone.l",
-      "Second metatarsal bone.r"
-    ],
-    "description": "",
-    "meshName": "Second metatarsal bone.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "second-rib",
-    "name": "Second rib",
-    "nameFr": "Deuxième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Second rib", "Second rib.l", "Second rib.r"],
-    "description": "",
-    "meshName": "Second rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "second-rib",
-    "name": "Second rib",
-    "nameFr": "Deuxième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Second rib", "Second rib.l", "Second rib.r"],
-    "description": "",
-    "meshName": "Second rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "second-rib",
-    "name": "Second rib",
-    "nameFr": "Deuxième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Second rib", "Second rib.l", "Second rib.r"],
-    "description": "",
-    "meshName": "Second rib.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Second rib",
+      "Second rib.l",
+      "Second rib.r"
+    ]
   },
   {
     "id": "sesamoid-bones-of-foot",
-    "name": "Sesamoid bones of foot",
-    "nameFr": "Os sésamoïdes du pied",
-    "altName": "",
-    "region": "",
-    "side": "both",
+    "namefr": "Os sésamoïdes du pied",
+    "category": "court",
+    "description": "",
+    "place": "membre inférieur",
     "meshAliases": [
       "Sesamoid bones of foot",
       "Sesamoid bones of foot.l",
       "Sesamoid bones of foot.r"
-    ],
-    "description": "",
-    "meshName": "Sesamoid bones of foot",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "sesamoid-bones-of-foot",
-    "name": "Sesamoid bones of foot",
-    "nameFr": "Os sésamoïdes du pied",
-    "altName": "",
-    "region": "",
-    "side": "both",
+    "id": "seventh-rib",
+    "namefr": "Septième côte",
+    "category": "long",
+    "description": "",
+    "place": "thorax",
     "meshAliases": [
-      "Sesamoid bones of foot",
-      "Sesamoid bones of foot.l",
-      "Sesamoid bones of foot.r"
-    ],
-    "description": "",
-    "meshName": "Sesamoid bones of foot.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "sesamoid-bones-of-foot",
-    "name": "Sesamoid bones of foot",
-    "nameFr": "Os sésamoïdes du pied",
-    "altName": "",
-    "region": "",
-    "side": "both",
-    "meshAliases": [
-      "Sesamoid bones of foot",
-      "Sesamoid bones of foot.l",
-      "Sesamoid bones of foot.r"
-    ],
-    "description": "",
-    "meshName": "Sesamoid bones of foot.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "seventh-rib",
-    "name": "Seventh rib",
-    "nameFr": "Septième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Seventh rib", "Seventh rib.l", "Seventh rib.r"],
-    "description": "",
-    "meshName": "Seventh rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "seventh-rib",
-    "name": "Seventh rib",
-    "nameFr": "Septième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Seventh rib", "Seventh rib.l", "Seventh rib.r"],
-    "description": "",
-    "meshName": "Seventh rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "seventh-rib",
-    "name": "Seventh rib",
-    "nameFr": "Septième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Seventh rib", "Seventh rib.l", "Seventh rib.r"],
-    "description": "",
-    "meshName": "Seventh rib.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Seventh rib",
+      "Seventh rib.l",
+      "Seventh rib.r"
+    ]
   },
   {
     "id": "sinus-of-frontal-bone",
-    "name": "Sinus of frontal bone",
-    "nameFr": "Os frontal",
-    "altName": "",
-    "region": "skull",
-    "side": "none",
-    "meshAliases": ["Sinus of frontal bone"],
+    "namefr": "Os frontal",
+    "category": "plat",
     "description": "",
-    "meshName": "Sinus of frontal bone",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Sinus of frontal bone"
+    ]
   },
   {
     "id": "sinus-of-sphenoid-bone",
-    "name": "Sinus of sphenoid bone",
-    "nameFr": "Os sphénoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "none",
-    "meshAliases": ["Sinus of sphenoid bone"],
+    "namefr": "Os sphénoïde",
+    "category": "plat",
     "description": "",
-    "meshName": "Sinus of sphenoid bone",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Sinus of sphenoid bone"
+    ]
   },
   {
     "id": "sixth-rib",
-    "name": "Sixth rib",
-    "nameFr": "Sixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Sixth rib", "Sixth rib.l", "Sixth rib.r"],
+    "namefr": "Sixième côte",
+    "category": "long",
     "description": "",
-    "meshName": "Sixth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "sixth-rib",
-    "name": "Sixth rib",
-    "nameFr": "Sixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Sixth rib", "Sixth rib.l", "Sixth rib.r"],
-    "description": "",
-    "meshName": "Sixth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "sixth-rib",
-    "name": "Sixth rib",
-    "nameFr": "Sixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Sixth rib", "Sixth rib.l", "Sixth rib.r"],
-    "description": "",
-    "meshName": "Sixth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Sixth rib",
+      "Sixth rib.l",
+      "Sixth rib.r"
+    ]
   },
   {
     "id": "sphenoid-bone",
-    "name": "Sphenoid bone",
-    "nameFr": "Os sphénoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "left",
-    "meshAliases": ["Sphenoid bone", "Sphenoid bone.l"],
+    "namefr": "Os sphénoïde",
+    "category": "plat",
     "description": "",
-    "meshName": "Sphenoid bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "sphenoid-bone",
-    "name": "Sphenoid bone",
-    "nameFr": "Os sphénoïde",
-    "altName": "",
-    "region": "skull",
-    "side": "left",
-    "meshAliases": ["Sphenoid bone", "Sphenoid bone.l"],
-    "description": "",
-    "meshName": "Sphenoid bone.l",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Sphenoid bone",
+      "Sphenoid bone.l"
+    ]
   },
   {
     "id": "stapes",
-    "name": "Stapes",
-    "nameFr": "Étrier",
-    "altName": "",
-    "region": "ear",
-    "side": "both",
-    "meshAliases": ["Stapes", "Stapes.l", "Stapes.r"],
+    "namefr": "Étrier",
+    "category": "court",
     "description": "",
-    "meshName": "Stapes",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "stapes",
-    "name": "Stapes",
-    "nameFr": "Étrier",
-    "altName": "",
-    "region": "ear",
-    "side": "both",
-    "meshAliases": ["Stapes", "Stapes.l", "Stapes.r"],
-    "description": "",
-    "meshName": "Stapes.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "stapes",
-    "name": "Stapes",
-    "nameFr": "Étrier",
-    "altName": "",
-    "region": "ear",
-    "side": "both",
-    "meshAliases": ["Stapes", "Stapes.l", "Stapes.r"],
-    "description": "",
-    "meshName": "Stapes.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Stapes",
+      "Stapes.l",
+      "Stapes.r"
+    ]
   },
   {
     "id": "talus-2",
-    "name": "Talus",
-    "nameFr": "Talus",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Talus.l", "Talus.r"],
+    "namefr": "Talus",
+    "category": "court",
     "description": "",
-    "meshName": "Talus.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "talus-2",
-    "name": "Talus",
-    "nameFr": "Talus",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Talus.l", "Talus.r"],
-    "description": "",
-    "meshName": "Talus.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Talus.l",
+      "Talus.r"
+    ]
   },
   {
     "id": "temporal-bone",
-    "name": "Temporal bone",
-    "nameFr": "Os temporal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Temporal bone", "Temporal bone.l", "Temporal bone.r"],
+    "namefr": "Os temporal",
+    "category": "court",
     "description": "",
-    "meshName": "Temporal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "temporal-bone",
-    "name": "Temporal bone",
-    "nameFr": "Os temporal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Temporal bone", "Temporal bone.l", "Temporal bone.r"],
-    "description": "",
-    "meshName": "Temporal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "temporal-bone",
-    "name": "Temporal bone",
-    "nameFr": "Os temporal",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Temporal bone", "Temporal bone.l", "Temporal bone.r"],
-    "description": "",
-    "meshName": "Temporal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Temporal bone",
+      "Temporal bone.l",
+      "Temporal bone.r"
+    ]
   },
   {
     "id": "tenth-rib",
-    "name": "Tenth rib",
-    "nameFr": "Dixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Tenth rib", "Tenth rib.l", "Tenth rib.r"],
+    "namefr": "Dixième côte",
+    "category": "long",
     "description": "",
-    "meshName": "Tenth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "tenth-rib",
-    "name": "Tenth rib",
-    "nameFr": "Dixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Tenth rib", "Tenth rib.l", "Tenth rib.r"],
-    "description": "",
-    "meshName": "Tenth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "tenth-rib",
-    "name": "Tenth rib",
-    "nameFr": "Dixième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Tenth rib", "Tenth rib.l", "Tenth rib.r"],
-    "description": "",
-    "meshName": "Tenth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Tenth rib",
+      "Tenth rib.l",
+      "Tenth rib.r"
+    ]
   },
   {
     "id": "third-metacarpal-bone",
-    "name": "Third metacarpal bone",
-    "nameFr": "Troisième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Third metacarpal bone", "Third metacarpal bone.l", "Third metacarpal bone.r"],
+    "namefr": "Troisième métacarpien",
+    "category": "long",
     "description": "",
-    "meshName": "Third metacarpal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "third-metacarpal-bone",
-    "name": "Third metacarpal bone",
-    "nameFr": "Troisième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Third metacarpal bone", "Third metacarpal bone.l", "Third metacarpal bone.r"],
-    "description": "",
-    "meshName": "Third metacarpal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "third-metacarpal-bone",
-    "name": "Third metacarpal bone",
-    "nameFr": "Troisième métacarpien",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Third metacarpal bone", "Third metacarpal bone.l", "Third metacarpal bone.r"],
-    "description": "",
-    "meshName": "Third metacarpal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Third metacarpal bone",
+      "Third metacarpal bone.l",
+      "Third metacarpal bone.r"
+    ]
   },
   {
     "id": "third-metatarsal-bone",
-    "name": "Third metatarsal bone",
-    "nameFr": "Troisième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Third metatarsal bone", "Third metatarsal bone.l", "Third metatarsal bone.r"],
+    "namefr": "Troisième métatarsien",
+    "category": "long",
     "description": "",
-    "meshName": "Third metatarsal bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "third-metatarsal-bone",
-    "name": "Third metatarsal bone",
-    "nameFr": "Troisième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Third metatarsal bone", "Third metatarsal bone.l", "Third metatarsal bone.r"],
-    "description": "",
-    "meshName": "Third metatarsal bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "third-metatarsal-bone",
-    "name": "Third metatarsal bone",
-    "nameFr": "Troisième métatarsien",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Third metatarsal bone", "Third metatarsal bone.l", "Third metatarsal bone.r"],
-    "description": "",
-    "meshName": "Third metatarsal bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Third metatarsal bone",
+      "Third metatarsal bone.l",
+      "Third metatarsal bone.r"
+    ]
   },
   {
     "id": "third-rib",
-    "name": "Third rib",
-    "nameFr": "Troisième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Third rib", "Third rib.l", "Third rib.r"],
+    "namefr": "Troisième côte",
+    "category": "long",
     "description": "",
-    "meshName": "Third rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "third-rib",
-    "name": "Third rib",
-    "nameFr": "Troisième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Third rib", "Third rib.l", "Third rib.r"],
-    "description": "",
-    "meshName": "Third rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "third-rib",
-    "name": "Third rib",
-    "nameFr": "Troisième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Third rib", "Third rib.l", "Third rib.r"],
-    "description": "",
-    "meshName": "Third rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Third rib",
+      "Third rib.l",
+      "Third rib.r"
+    ]
   },
   {
     "id": "thyroid-cartilage",
-    "name": "Thyroid cartilage",
-    "nameFr": "Cartilage thyroïde",
-    "altName": "",
-    "region": "larynx",
-    "side": "none",
-    "meshAliases": ["Thyroid cartilage"],
+    "namefr": "Cartilage thyroïde",
+    "category": "court",
     "description": "",
-    "meshName": "Thyroid cartilage",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Thyroid cartilage"
+    ]
   },
   {
     "id": "tibia-2",
-    "name": "Tibia",
-    "nameFr": "Tibia",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Tibia.l", "Tibia.r"],
-    "description": "L'os médial et principal de la jambe. Son extrémité proximale volumineuse présente deux condyles (médial et latéral) surmontés des surfaces articulaires supérieures et de l'éminence intercondylaire, ainsi que la tubérosité tibiale en avant. Sa diaphyse présente une crête antérieure marquée et une face postérieure traversée par la ligne soléaire. Son extrémité distale, plus petite, forme la malléole médiale en dedans et présente une incisure fibulaire en dehors pour son articulation avec la fibula.",
-    "meshName": "Tibia.l",
-    "matched": true,
-    "matchedMeshName": "Tibia.l"
-  },
-  {
-    "id": "tibia-2",
-    "name": "Tibia",
-    "nameFr": "Tibia",
-    "altName": "",
-    "region": "leg-foot",
-    "side": "both",
-    "meshAliases": ["Tibia.l", "Tibia.r"],
-    "description": "L'os médial et principal de la jambe. Son extrémité proximale volumineuse présente deux condyles (médial et latéral) surmontés des surfaces articulaires supérieures et de l'éminence intercondylaire, ainsi que la tubérosité tibiale en avant. Sa diaphyse présente une crête antérieure marquée et une face postérieure traversée par la ligne soléaire. Son extrémité distale, plus petite, forme la malléole médiale en dedans et présente une incisure fibulaire en dehors pour son articulation avec la fibula.",
-    "meshName": "Tibia.r",
-    "matched": true,
-    "matchedMeshName": "Tibia.r"
+    "namefr": "Tibia",
+    "category": "long",
+    "description": "",
+    "place": "membre inférieur",
+    "meshAliases": [
+      "Tibia.l",
+      "Tibia.r"
+    ]
   },
   {
     "id": "trapezium-bone",
-    "name": "Trapezium bone",
-    "nameFr": "Trapèze",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Trapezium bone", "Trapezium bone.l", "Trapezium bone.r"],
+    "namefr": "Trapèze",
+    "category": "court",
     "description": "",
-    "meshName": "Trapezium bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "trapezium-bone",
-    "name": "Trapezium bone",
-    "nameFr": "Trapèze",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Trapezium bone", "Trapezium bone.l", "Trapezium bone.r"],
-    "description": "",
-    "meshName": "Trapezium bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "trapezium-bone",
-    "name": "Trapezium bone",
-    "nameFr": "Trapèze",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Trapezium bone", "Trapezium bone.l", "Trapezium bone.r"],
-    "description": "",
-    "meshName": "Trapezium bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Trapezium bone",
+      "Trapezium bone.l",
+      "Trapezium bone.r"
+    ]
   },
   {
     "id": "trapezoid-bone",
-    "name": "Trapezoid bone",
-    "nameFr": "Trapézoïde",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Trapezoid bone", "Trapezoid bone.l", "Trapezoid bone.r"],
+    "namefr": "Trapézoïde",
+    "category": "court",
     "description": "",
-    "meshName": "Trapezoid bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "trapezoid-bone",
-    "name": "Trapezoid bone",
-    "nameFr": "Trapézoïde",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Trapezoid bone", "Trapezoid bone.l", "Trapezoid bone.r"],
-    "description": "",
-    "meshName": "Trapezoid bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "trapezoid-bone",
-    "name": "Trapezoid bone",
-    "nameFr": "Trapézoïde",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Trapezoid bone", "Trapezoid bone.l", "Trapezoid bone.r"],
-    "description": "",
-    "meshName": "Trapezoid bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Trapezoid bone",
+      "Trapezoid bone.l",
+      "Trapezoid bone.r"
+    ]
   },
   {
     "id": "triquetrum-bone",
-    "name": "Triquetrum bone",
-    "nameFr": "Triquétrum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Triquetrum bone", "Triquetrum bone.l", "Triquetrum bone.r"],
+    "namefr": "Triquétrum",
+    "category": "court",
     "description": "",
-    "meshName": "Triquetrum bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "triquetrum-bone",
-    "name": "Triquetrum bone",
-    "nameFr": "Triquétrum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Triquetrum bone", "Triquetrum bone.l", "Triquetrum bone.r"],
-    "description": "",
-    "meshName": "Triquetrum bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "triquetrum-bone",
-    "name": "Triquetrum bone",
-    "nameFr": "Triquétrum",
-    "altName": "",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Triquetrum bone", "Triquetrum bone.l", "Triquetrum bone.r"],
-    "description": "",
-    "meshName": "Triquetrum bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Triquetrum bone",
+      "Triquetrum bone.l",
+      "Triquetrum bone.r"
+    ]
   },
   {
     "id": "twelfth-rib",
-    "name": "Twelfth rib",
-    "nameFr": "Douzième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Twelfth rib", "Twelfth rib.l", "Twelfth rib.r"],
+    "namefr": "Douzième côte",
+    "category": "long",
     "description": "",
-    "meshName": "Twelfth rib",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "twelfth-rib",
-    "name": "Twelfth rib",
-    "nameFr": "Douzième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Twelfth rib", "Twelfth rib.l", "Twelfth rib.r"],
-    "description": "",
-    "meshName": "Twelfth rib.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "twelfth-rib",
-    "name": "Twelfth rib",
-    "nameFr": "Douzième côte",
-    "altName": "",
-    "region": "thorax",
-    "side": "both",
-    "meshAliases": ["Twelfth rib", "Twelfth rib.l", "Twelfth rib.r"],
-    "description": "",
-    "meshName": "Twelfth rib.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Twelfth rib",
+      "Twelfth rib.l",
+      "Twelfth rib.r"
+    ]
   },
   {
     "id": "ulna-2",
-    "name": "Ulna",
-    "nameFr": "Ulna",
-    "altName": "Cubitus",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Ulna.l", "Ulna.r"],
-    "description": "L'os long médial de l'avant-bras. Son extrémité proximale, très développée, présente l'olécrâne en arrière et le processus coronoïde en avant, formant l'incisure trochléaire pour l'humérus, ainsi que l'incisure radiale latéralement. Sa diaphyse donne insertion à la membrane interosseuse. Son extrémité distale est constituée par la tête de l'ulna et se termine en dedans par le processus styloïde ulnaire.",
-    "meshName": "Ulna.l",
-    "matched": true,
-    "matchedMeshName": "Ulna.l"
-  },
-  {
-    "id": "ulna-2",
-    "name": "Ulna",
-    "nameFr": "Ulna",
-    "altName": "Cubitus",
-    "region": "arm-hand",
-    "side": "both",
-    "meshAliases": ["Ulna.l", "Ulna.r"],
-    "description": "L'os long médial de l'avant-bras. Son extrémité proximale, très développée, présente l'olécrâne en arrière et le processus coronoïde en avant, formant l'incisure trochléaire pour l'humérus, ainsi que l'incisure radiale latéralement. Sa diaphyse donne insertion à la membrane interosseuse. Son extrémité distale est constituée par la tête de l'ulna et se termine en dedans par le processus styloïde ulnaire.",
-    "meshName": "Ulna.r",
-    "matched": true,
-    "matchedMeshName": "Ulna.r"
+    "namefr": "Ulna",
+    "category": "long",
+    "description": "",
+    "place": "membre supérieur",
+    "meshAliases": [
+      "Ulna.l",
+      "Ulna.r"
+    ]
   },
   {
     "id": "upper-canine",
-    "name": "Upper canine",
-    "nameFr": "Canine supérieure",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper canine", "Upper canine.l", "Upper canine.r"],
+    "namefr": "Canine supérieure",
+    "category": "court",
     "description": "",
-    "meshName": "Upper canine",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-canine",
-    "name": "Upper canine",
-    "nameFr": "Canine supérieure",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper canine", "Upper canine.l", "Upper canine.r"],
-    "description": "",
-    "meshName": "Upper canine.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-canine",
-    "name": "Upper canine",
-    "nameFr": "Canine supérieure",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper canine", "Upper canine.l", "Upper canine.r"],
-    "description": "",
-    "meshName": "Upper canine.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Upper canine",
+      "Upper canine.l",
+      "Upper canine.r"
+    ]
   },
   {
     "id": "upper-first-molar-tooth",
-    "name": "Upper first molar tooth",
-    "nameFr": "Molaire supérieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "namefr": "Molaire supérieure première",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
       "Upper first molar tooth",
       "Upper first molar tooth.l",
       "Upper first molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Upper first molar tooth",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "upper-first-molar-tooth",
-    "name": "Upper first molar tooth",
-    "nameFr": "Molaire supérieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "id": "upper-first-premolar",
+    "namefr": "Prémolaire supérieure première",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
-      "Upper first molar tooth",
-      "Upper first molar tooth.l",
-      "Upper first molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Upper first molar tooth.l",
-    "matched": false,
-    "matchedMeshName": null
+      "Upper first premolar",
+      "Upper first premolar.l",
+      "Upper first premolar.r"
+    ]
   },
   {
-    "id": "upper-first-molar-tooth",
-    "name": "Upper first molar tooth",
-    "nameFr": "Molaire supérieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "id": "upper-lateral-incisor",
+    "namefr": "Incisive supérieure latérale",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
-      "Upper first molar tooth",
-      "Upper first molar tooth.l",
-      "Upper first molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Upper first molar tooth.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-first-premolar",
-    "name": "Upper first premolar",
-    "nameFr": "Prémolaire supérieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper first premolar", "Upper first premolar.l", "Upper first premolar.r"],
-    "description": "",
-    "meshName": "Upper first premolar",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-first-premolar",
-    "name": "Upper first premolar",
-    "nameFr": "Prémolaire supérieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper first premolar", "Upper first premolar.l", "Upper first premolar.r"],
-    "description": "",
-    "meshName": "Upper first premolar.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-first-premolar",
-    "name": "Upper first premolar",
-    "nameFr": "Prémolaire supérieure première",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper first premolar", "Upper first premolar.l", "Upper first premolar.r"],
-    "description": "",
-    "meshName": "Upper first premolar.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-lateral-incisor",
-    "name": "Upper lateral incisor",
-    "nameFr": "Incisive supérieure latérale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper lateral incisor", "Upper lateral incisor.l", "Upper lateral incisor.r"],
-    "description": "",
-    "meshName": "Upper lateral incisor",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-lateral-incisor",
-    "name": "Upper lateral incisor",
-    "nameFr": "Incisive supérieure latérale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper lateral incisor", "Upper lateral incisor.l", "Upper lateral incisor.r"],
-    "description": "",
-    "meshName": "Upper lateral incisor.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-lateral-incisor",
-    "name": "Upper lateral incisor",
-    "nameFr": "Incisive supérieure latérale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper lateral incisor", "Upper lateral incisor.l", "Upper lateral incisor.r"],
-    "description": "",
-    "meshName": "Upper lateral incisor.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Upper lateral incisor",
+      "Upper lateral incisor.l",
+      "Upper lateral incisor.r"
+    ]
   },
   {
     "id": "upper-medial-incisor",
-    "name": "Upper medial incisor",
-    "nameFr": "Incisive supérieure médiale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper medial incisor", "Upper medial incisor.l", "Upper medial incisor.r"],
+    "namefr": "Incisive supérieure médiale",
+    "category": "court",
     "description": "",
-    "meshName": "Upper medial incisor",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-medial-incisor",
-    "name": "Upper medial incisor",
-    "nameFr": "Incisive supérieure médiale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper medial incisor", "Upper medial incisor.l", "Upper medial incisor.r"],
-    "description": "",
-    "meshName": "Upper medial incisor.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-medial-incisor",
-    "name": "Upper medial incisor",
-    "nameFr": "Incisive supérieure médiale",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper medial incisor", "Upper medial incisor.l", "Upper medial incisor.r"],
-    "description": "",
-    "meshName": "Upper medial incisor.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Upper medial incisor",
+      "Upper medial incisor.l",
+      "Upper medial incisor.r"
+    ]
   },
   {
     "id": "upper-second-molar-tooth",
-    "name": "Upper second molar tooth",
-    "nameFr": "Molaire supérieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "namefr": "Molaire supérieure deuxième",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
       "Upper second molar tooth",
       "Upper second molar tooth.l",
       "Upper second molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Upper second molar tooth",
-    "matched": false,
-    "matchedMeshName": null
+    ]
   },
   {
-    "id": "upper-second-molar-tooth",
-    "name": "Upper second molar tooth",
-    "nameFr": "Molaire supérieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
+    "id": "upper-second-premolar",
+    "namefr": "Prémolaire supérieure deuxième",
+    "category": "court",
+    "description": "",
+    "place": "tête",
     "meshAliases": [
-      "Upper second molar tooth",
-      "Upper second molar tooth.l",
-      "Upper second molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Upper second molar tooth.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-second-molar-tooth",
-    "name": "Upper second molar tooth",
-    "nameFr": "Molaire supérieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": [
-      "Upper second molar tooth",
-      "Upper second molar tooth.l",
-      "Upper second molar tooth.r"
-    ],
-    "description": "",
-    "meshName": "Upper second molar tooth.r",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-second-premolar",
-    "name": "Upper second premolar",
-    "nameFr": "Prémolaire supérieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper second premolar", "Upper second premolar.l", "Upper second premolar.r"],
-    "description": "",
-    "meshName": "Upper second premolar",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-second-premolar",
-    "name": "Upper second premolar",
-    "nameFr": "Prémolaire supérieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper second premolar", "Upper second premolar.l", "Upper second premolar.r"],
-    "description": "",
-    "meshName": "Upper second premolar.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "upper-second-premolar",
-    "name": "Upper second premolar",
-    "nameFr": "Prémolaire supérieure deuxième",
-    "altName": "",
-    "region": "dental",
-    "side": "both",
-    "meshAliases": ["Upper second premolar", "Upper second premolar.l", "Upper second premolar.r"],
-    "description": "",
-    "meshName": "Upper second premolar.r",
-    "matched": false,
-    "matchedMeshName": null
+      "Upper second premolar",
+      "Upper second premolar.l",
+      "Upper second premolar.r"
+    ]
   },
   {
     "id": "vertebra-c3",
-    "name": "Vertebra C3",
-    "nameFr": "Vertèbre cervicale C3",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra C3"],
+    "namefr": "Vertèbre cervicale C3",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra C3",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra C3"
+    ]
   },
   {
     "id": "vertebra-c4",
-    "name": "Vertebra C4",
-    "nameFr": "Vertèbre cervicale C4",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra C4"],
+    "namefr": "Vertèbre cervicale C4",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra C4",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra C4"
+    ]
   },
   {
     "id": "vertebra-c5",
-    "name": "Vertebra C5",
-    "nameFr": "Vertèbre cervicale C5",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra C5"],
+    "namefr": "Vertèbre cervicale C5",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra C5",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra C5"
+    ]
   },
   {
     "id": "vertebra-c6",
-    "name": "Vertebra C6",
-    "nameFr": "Vertèbre cervicale C6",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra C6"],
+    "namefr": "Vertèbre cervicale C6",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra C6",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra C6"
+    ]
   },
   {
     "id": "vertebra-c7",
-    "name": "Vertebra C7",
-    "nameFr": "Vertèbre cervicale C7",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra C7"],
+    "namefr": "Vertèbre cervicale C7",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra C7",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra C7"
+    ]
   },
   {
     "id": "vertebra-l1",
-    "name": "Vertebra L1",
-    "nameFr": "Vertèbre lombaire L1",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra L1"],
+    "namefr": "Vertèbre lombaire L1",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra L1",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra L1"
+    ]
   },
   {
     "id": "vertebra-l2",
-    "name": "Vertebra L2",
-    "nameFr": "Vertèbre lombaire L2",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra L2"],
+    "namefr": "Vertèbre lombaire L2",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra L2",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra L2"
+    ]
   },
   {
     "id": "vertebra-l3",
-    "name": "Vertebra L3",
-    "nameFr": "Vertèbre lombaire L3",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra L3"],
+    "namefr": "Vertèbre lombaire L3",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra L3",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra L3"
+    ]
   },
   {
     "id": "vertebra-l4",
-    "name": "Vertebra L4",
-    "nameFr": "Vertèbre lombaire L4",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra L4"],
+    "namefr": "Vertèbre lombaire L4",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra L4",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra L4"
+    ]
   },
   {
     "id": "vertebra-l5",
-    "name": "Vertebra L5",
-    "nameFr": "Vertèbre lombaire L5",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra L5"],
+    "namefr": "Vertèbre lombaire L5",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra L5",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra L5"
+    ]
   },
   {
     "id": "vertebra-t1",
-    "name": "Vertebra T1",
-    "nameFr": "Vertèbre thoracique T1",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T1"],
+    "namefr": "Vertèbre thoracique T1",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T1",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T1"
+    ]
   },
   {
     "id": "vertebra-t10",
-    "name": "Vertebra T10",
-    "nameFr": "Vertèbre thoracique T10",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T10"],
+    "namefr": "Vertèbre thoracique T10",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T10",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T10"
+    ]
   },
   {
     "id": "vertebra-t11",
-    "name": "Vertebra T11",
-    "nameFr": "Vertèbre thoracique T11",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T11"],
+    "namefr": "Vertèbre thoracique T11",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T11",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T11"
+    ]
   },
   {
     "id": "vertebra-t12",
-    "name": "Vertebra T12",
-    "nameFr": "Vertèbre thoracique T12",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T12"],
+    "namefr": "Vertèbre thoracique T12",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T12",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T12"
+    ]
   },
   {
     "id": "vertebra-t2",
-    "name": "Vertebra T2",
-    "nameFr": "Vertèbre thoracique T2",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T2"],
+    "namefr": "Vertèbre thoracique T2",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T2",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T2"
+    ]
   },
   {
     "id": "vertebra-t3",
-    "name": "Vertebra T3",
-    "nameFr": "Vertèbre thoracique T3",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T3"],
+    "namefr": "Vertèbre thoracique T3",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T3",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T3"
+    ]
   },
   {
     "id": "vertebra-t4",
-    "name": "Vertebra T4",
-    "nameFr": "Vertèbre thoracique T4",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T4"],
+    "namefr": "Vertèbre thoracique T4",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T4",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T4"
+    ]
   },
   {
     "id": "vertebra-t5",
-    "name": "Vertebra T5",
-    "nameFr": "Vertèbre thoracique T5",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T5"],
+    "namefr": "Vertèbre thoracique T5",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T5",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T5"
+    ]
   },
   {
     "id": "vertebra-t6",
-    "name": "Vertebra T6",
-    "nameFr": "Vertèbre thoracique T6",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T6"],
+    "namefr": "Vertèbre thoracique T6",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T6",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T6"
+    ]
   },
   {
     "id": "vertebra-t7",
-    "name": "Vertebra T7",
-    "nameFr": "Vertèbre thoracique T7",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T7"],
+    "namefr": "Vertèbre thoracique T7",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T7",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T7"
+    ]
   },
   {
     "id": "vertebra-t8",
-    "name": "Vertebra T8",
-    "nameFr": "Vertèbre thoracique T8",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T8"],
+    "namefr": "Vertèbre thoracique T8",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T8",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T8"
+    ]
   },
   {
     "id": "vertebra-t9",
-    "name": "Vertebra T9",
-    "nameFr": "Vertèbre thoracique T9",
-    "altName": "",
-    "region": "spine",
-    "side": "none",
-    "meshAliases": ["Vertebra T9"],
+    "namefr": "Vertèbre thoracique T9",
+    "category": "court",
     "description": "",
-    "meshName": "Vertebra T9",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "rachi",
+    "meshAliases": [
+      "Vertebra T9"
+    ]
   },
   {
     "id": "vomer",
-    "name": "Vomer",
-    "nameFr": "Vomer",
-    "altName": "",
-    "region": "skull",
-    "side": "none",
-    "meshAliases": ["Vomer"],
+    "namefr": "Vomer",
+    "category": "plat",
     "description": "",
-    "meshName": "Vomer",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Vomer"
+    ]
   },
   {
     "id": "xiphoid-process",
-    "name": "Xiphoid process",
-    "nameFr": "Processus xiphoïde",
-    "altName": "",
-    "region": "thorax",
-    "side": "none",
-    "meshAliases": ["Xiphoid process"],
+    "namefr": "Processus xiphoïde",
+    "category": "plat",
     "description": "",
-    "meshName": "Xiphoid process",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "thorax",
+    "meshAliases": [
+      "Xiphoid process"
+    ]
   },
   {
     "id": "zygomatic-bone",
-    "name": "Zygomatic bone",
-    "nameFr": "Os zygomatique",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Zygomatic bone", "Zygomatic bone.l", "Zygomatic bone.r"],
+    "namefr": "Os zygomatique",
+    "category": "plat",
     "description": "",
-    "meshName": "Zygomatic bone",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "zygomatic-bone",
-    "name": "Zygomatic bone",
-    "nameFr": "Os zygomatique",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Zygomatic bone", "Zygomatic bone.l", "Zygomatic bone.r"],
-    "description": "",
-    "meshName": "Zygomatic bone.l",
-    "matched": false,
-    "matchedMeshName": null
-  },
-  {
-    "id": "zygomatic-bone",
-    "name": "Zygomatic bone",
-    "nameFr": "Os zygomatique",
-    "altName": "",
-    "region": "skull",
-    "side": "both",
-    "meshAliases": ["Zygomatic bone", "Zygomatic bone.l", "Zygomatic bone.r"],
-    "description": "",
-    "meshName": "Zygomatic bone.r",
-    "matched": false,
-    "matchedMeshName": null
+    "place": "tête",
+    "meshAliases": [
+      "Zygomatic bone",
+      "Zygomatic bone.l",
+      "Zygomatic bone.r"
+    ]
   }
 ]

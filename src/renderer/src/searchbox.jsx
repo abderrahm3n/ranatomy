@@ -30,13 +30,13 @@ export default function SearchBox({ bones, onSelectBone }) {
     return bones
       .map((bone) => {
         const name = (bone.name || '').toLowerCase()
-        const nameFr = (bone.nameFr || '').toLowerCase()
+        const namefr = (bone.namefr || '').toLowerCase()
         const desc = (bone.description || '').toLowerCase()
 
         let score = 0
         if (name === q || nameFr === q) score = 100
-        else if (name.startsWith(q) || nameFr.startsWith(q)) score = 80
-        else if (name.includes(q) || nameFr.includes(q)) score = 60
+        else if (name.startsWith(q) || namefr.startsWith(q)) score = 80
+        else if (name.includes(q) || namefr.includes(q)) score = 60
         else if (desc.includes(q)) score = 20
         else return null
 
@@ -122,7 +122,7 @@ export default function SearchBox({ bones, onSelectBone }) {
         <ul className="search-dropdown">
           {results.map((bone, i) => (
             <li
-              key={bone.id}
+              key={bone.namefr}
               onMouseDown={() => selectBone(bone)}
               onMouseEnter={() => setActiveIndex(i)}
               className={`search-item ${i === activeIndex ? 'active' : ''}`}
