@@ -568,14 +568,14 @@
     ]
   },
   {
-    "id": "humerus-2",
+    "id": "humerus",
     "namefr": "Humérus",
     "category": "long",
     "description": "",
     "place": "membre supérieur",
     "meshAliases": [
-      "Humerus.l",
-      "Humerus.r"
+      "Humerusl",
+      "Humerusr"
     ]
   },
   {
@@ -790,7 +790,7 @@
   },
   {
     "id": "manubrium-of-sternum",
-    "namefr": "Sternum",
+    "namefr": "manubrium de Sternum",
     "category": "plat",
     "description": "",
     "place": "thorax",

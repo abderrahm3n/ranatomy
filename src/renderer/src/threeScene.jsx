@@ -186,7 +186,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
       controls.reset()
     }
 
-    function selectBoneExternally(bone) {
+    function selectBoneSearchBox(bone) {
       if (!bone) {
         clearSelection()
         return
@@ -219,7 +219,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
       toggleIsolate,
       resetView,
       clearSelection,
-      selectBoneExternally,
+      selectBoneSearchBox,
       hideSelected,
     }
 
@@ -257,7 +257,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     toggleIsolate: () => sceneApiRef.current.toggleIsolate?.(),
     reset: () => sceneApiRef.current.resetView?.(),
     clearSelection: () => sceneApiRef.current.clearSelection?.(),
-    selectBone: (bone) => sceneApiRef.current.selectBoneExternally?.(bone),
+    selectBone: (bone) => sceneApiRef.current.selectBoneSearchBox?.(bone),
     hideSelected: () => sceneApiRef.current.hideSelected?.(),
   }))
 

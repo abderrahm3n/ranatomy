@@ -16,7 +16,7 @@ function Sidebar({ bone, isIsolated, onToggleIsolate, onHide }) {
   return (
     <div className="sidebar">
       <span className="bone-category">{bone.category || 'Bone'}</span>
-      <p className="bone-name">{bone.namefr || bone.name}</p>
+      <p className="bone-name">{bone.namefr }</p>
       {bone.description && <p className="bone-description">{bone.description}</p>}
       <div className="sidebar-divider" />
       <div className="sidebar-actions">

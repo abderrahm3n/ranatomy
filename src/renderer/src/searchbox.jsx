@@ -34,7 +34,7 @@ export default function SearchBox({ bones, onSelectBone }) {
         const desc = (bone.description || '').toLowerCase()
 
         let score = 0
-        if (name === q || nameFr === q) score = 100
+        if (name === q || namefr === q) score = 100
         else if (name.startsWith(q) || namefr.startsWith(q)) score = 80
         else if (name.includes(q) || namefr.includes(q)) score = 60
         else if (desc.includes(q)) score = 20
@@ -66,7 +66,7 @@ export default function SearchBox({ bones, onSelectBone }) {
   function selectBone(bone) {
     if (!bone) return
     onSelectBone(bone)
-    setQuery(bone.name)
+    setQuery(bone.namefr)
     setIsOpen(false)
     inputRef.current?.blur()
   }
@@ -128,9 +128,9 @@ export default function SearchBox({ bones, onSelectBone }) {
               className={`search-item ${i === activeIndex ? 'active' : ''}`}
             >
               <div className="search-item-name">
-                {highlightMatch(bone.name, query)}
-                {bone.nameFr && bone.nameFr !== bone.name && (
-                  <span className="search-item-namefr"> — {bone.nameFr}</span>
+                {highlightMatch(bone.namefr, query)}
+                {bone.namefr && bone.namefr !== bone.name && (
+                  <span className="search-item-namefr"> — {bone.namefr}</span>
                 )}
               </div>
               {bone.description && (

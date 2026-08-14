@@ -28,7 +28,7 @@ function App() {
         <SearchBox
           bones={bonesData}
           onSelectBone={(bone) => {
-            sceneRef.current?.selectBone(bone)
+            sceneRef.current?.selectBoneSearchBox(bone)
           }}
         />
       </div>

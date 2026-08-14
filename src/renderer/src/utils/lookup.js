@@ -1,6 +1,17 @@
 import boneData from '../assets/bones.json'
 
-const normalize = (str = '') => str.toLowerCase().replace(/[_\-\s]/g, '')
+//const normalize = (str = '') => str.toLowerCase().replace(/\./g, '')
+function normalize(str) {
+  if (typeof str !== 'string') return '';
+
+  return str
+    .trim()
+    .toLowerCase()
+    .normalize('NFD')                       // decompose accented letters
+    .replace(/[\u0300-\u036f]/g, '')       // remove combining diacritical marks
+    .replace(/\s+/g, '')                   // remove all whitespace
+    .replace(/[^a-z0-9]/g, '');            // keep only letters and digits
+}
 
 const aliasMap = new Map()
 
