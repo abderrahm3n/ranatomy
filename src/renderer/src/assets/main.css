@@ -114,7 +114,7 @@ body {
 .app-body {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 280px;
+  grid-template-columns: 1fr 380px;
   min-height: 0;
 }
 
@@ -319,9 +319,11 @@ body {
   display: flex;
   align-items: center;
   gap: 7px;
+  width: 80px;
   font-family: var(--font-mono);
   font-size: 10.5px;
   font-weight: 500;
+  border-radius: 2rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--accent);
@@ -331,9 +333,7 @@ body {
 .bone-category::before {
   content: '';
   width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background: var(--accent);
+  height: 15px;
   flex-shrink: 0;
 }
 

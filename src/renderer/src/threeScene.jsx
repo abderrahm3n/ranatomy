@@ -3,6 +3,7 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import { findBoneByMeshName } from './utils/lookup'
+import skeleton from './assets/skeleton4.glb?url'
 
 const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChange }, ref) {
   const mountRef = useRef(null)
@@ -69,7 +70,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     const highlightMaterial = new THREE.MeshStandardMaterial({
       color: 0xe8e2d5,
       emissive: 0x00ffff,
-      emissiveIntensity: 0.6,
+      emissiveIntensity: 0.4,
       roughness: 0.6,
       metalness: 0.05,
     })
@@ -83,7 +84,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
 
     // --- 5. Loader ---
     const loader = new GLTFLoader()
-    loader.load('/src/assets/skeleton4.glb', (gltf) => {
+    loader.load(skeleton, (gltf) => {
       const model = gltf.scene
       model.scale.set(4, 4, 4)
 
@@ -155,15 +156,36 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     renderer.domElement.addEventListener('pointerup', onPointerUp)
 
     // --- 8. Public Actions ---
-    function toggleIsolate() {
-      if (!selectedMesh) return
+    // Add this variable inside the useEffect, near other state variables
+let previousVisibility = null; // stores an array of booleans
 
-      isIsolated = !isIsolated
-      meshes.forEach((mesh) => {
-        mesh.visible = isIsolated ? mesh === selectedMesh : true
-      })
-      onIsolateChange(isIsolated)
+function toggleIsolate() {
+  // --- Turn OFF isolation (always possible) ---
+  if (isIsolated) {
+    if (previousVisibility) {
+      meshes.forEach((mesh, index) => {
+        mesh.visible = previousVisibility[index];
+      });
+      previousVisibility = null;
+    } else {
+      // fallback – should not happen
+      meshes.forEach(mesh => (mesh.visible = true));
     }
+    isIsolated = false;
+    onIsolateChange(false);
+    return;
+  }
+
+  // --- Turn ON isolation (requires a selected mesh) ---
+  if (!selectedMesh) return;
+
+  previousVisibility = meshes.map(mesh => mesh.visible);
+  meshes.forEach(mesh => {
+    mesh.visible = mesh === selectedMesh;
+  });
+  isIsolated = true;
+  onIsolateChange(true);
+}
 
     function hideSelected() {
       if (!selectedMesh) return
