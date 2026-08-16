@@ -64,7 +64,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     const baseMaterial = new THREE.MeshStandardMaterial({
       color: 0xe8e2d5,
       roughness: 0.6,
-      metalness: 0.05,
+      metalness: 0.05
     })
 
     const highlightMaterial = new THREE.MeshStandardMaterial({
@@ -72,7 +72,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
       emissive: 0x00ffff,
       emissiveIntensity: 0.4,
       roughness: 0.6,
-      metalness: 0.05,
+      metalness: 0.05
     })
 
     const raycaster = new THREE.Raycaster()
@@ -157,35 +157,35 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
 
     // --- 8. Public Actions ---
     // Add this variable inside the useEffect, near other state variables
-let previousVisibility = null; // stores an array of booleans
+    let previousVisibility = null // stores an array of booleans
 
-function toggleIsolate() {
-  // --- Turn OFF isolation (always possible) ---
-  if (isIsolated) {
-    if (previousVisibility) {
-      meshes.forEach((mesh, index) => {
-        mesh.visible = previousVisibility[index];
-      });
-      previousVisibility = null;
-    } else {
-      // fallback – should not happen
-      meshes.forEach(mesh => (mesh.visible = true));
+    function toggleIsolate() {
+      // --- Turn OFF isolation (always possible) ---
+      if (isIsolated) {
+        if (previousVisibility) {
+          meshes.forEach((mesh, index) => {
+            mesh.visible = previousVisibility[index]
+          })
+          previousVisibility = null
+        } else {
+          // fallback – should not happen
+          meshes.forEach((mesh) => (mesh.visible = true))
+        }
+        isIsolated = false
+        onIsolateChange(false)
+        return
+      }
+
+      // --- Turn ON isolation (requires a selected mesh) ---
+      if (!selectedMesh) return
+
+      previousVisibility = meshes.map((mesh) => mesh.visible)
+      meshes.forEach((mesh) => {
+        mesh.visible = mesh === selectedMesh
+      })
+      isIsolated = true
+      onIsolateChange(true)
     }
-    isIsolated = false;
-    onIsolateChange(false);
-    return;
-  }
-
-  // --- Turn ON isolation (requires a selected mesh) ---
-  if (!selectedMesh) return;
-
-  previousVisibility = meshes.map(mesh => mesh.visible);
-  meshes.forEach(mesh => {
-    mesh.visible = mesh === selectedMesh;
-  });
-  isIsolated = true;
-  onIsolateChange(true);
-}
 
     function hideSelected() {
       if (!selectedMesh) return
@@ -215,7 +215,9 @@ function toggleIsolate() {
       }
 
       if (isIsolated) {
-        meshes.forEach((mesh) => { mesh.visible = true })
+        meshes.forEach((mesh) => {
+          mesh.visible = true
+        })
         isIsolated = false
         onIsolateChange(false)
       }
@@ -242,7 +244,7 @@ function toggleIsolate() {
       resetView,
       clearSelection,
       selectBoneSearchBox,
-      hideSelected,
+      hideSelected
     }
 
     // --- 9. Resize & Render Loop ---
@@ -280,7 +282,7 @@ function toggleIsolate() {
     reset: () => sceneApiRef.current.resetView?.(),
     clearSelection: () => sceneApiRef.current.clearSelection?.(),
     selectBone: (bone) => sceneApiRef.current.selectBoneSearchBox?.(bone),
-    hideSelected: () => sceneApiRef.current.hideSelected?.(),
+    hideSelected: () => sceneApiRef.current.hideSelected?.()
   }))
 
   return <div ref={mountRef} style={{ width: '100%', height: '100%' }} />

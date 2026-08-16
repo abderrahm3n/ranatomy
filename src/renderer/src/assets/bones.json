@@ -17,11 +17,7 @@
     "category": "court",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Arytenoid cartilage",
-      "Arytenoid cartilage.l",
-      "Arytenoid cartilage.r"
-    ]
+    "meshAliases": ["Arytenoid cartilage", "Arytenoid cartilage.l", "Arytenoid cartilage.r"]
   },
   {
     "id": "atlas-c1",
@@ -29,9 +25,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Atlas (C1)"
-    ]
+    "meshAliases": ["Atlas (C1)"]
   },
   {
     "id": "axis-c2",
@@ -39,9 +33,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Axis (C2)"
-    ]
+    "meshAliases": ["Axis (C2)"]
   },
   {
     "id": "body-of-sternum",
@@ -49,9 +41,7 @@
     "category": "plat",
     "description": "blablablabla",
     "place": "thorax",
-    "meshAliases": [
-      "Body of sternum"
-    ]
+    "meshAliases": ["Body of sternum"]
   },
   {
     "id": "calcaneus-2",
@@ -59,10 +49,7 @@
     "category": "court",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Calcaneus.l",
-      "Calcaneus.r"
-    ]
+    "meshAliases": ["Calcaneus.l", "Calcaneus.r"]
   },
   {
     "id": "capitate-bone",
@@ -70,11 +57,7 @@
     "category": "court",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Capitate bone",
-      "Capitate bone.l",
-      "Capitate bone.r"
-    ]
+    "meshAliases": ["Capitate bone", "Capitate bone.l", "Capitate bone.r"]
   },
   {
     "id": "clavicle",
@@ -82,10 +65,7 @@
     "category": "long",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Clavicle.l",
-      "Clavicle.r"
-    ]
+    "meshAliases": ["Clavicle.l", "Clavicle.r"]
   },
   {
     "id": "coccyx",
@@ -93,9 +73,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Coccyx"
-    ]
+    "meshAliases": ["Coccyx"]
   },
   {
     "id": "corniculate-cartilage",
@@ -103,10 +81,7 @@
     "category": "court",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Corniculate cartilage.l",
-      "Corniculate cartilage.r"
-    ]
+    "meshAliases": ["Corniculate cartilage.l", "Corniculate cartilage.r"]
   },
   {
     "id": "costal-cartilage-of-eighth-rib",
@@ -234,9 +209,7 @@
     "category": "court",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Cricoid cartilage"
-    ]
+    "meshAliases": ["Cricoid cartilage"]
   },
   {
     "id": "cuboid-bone",
@@ -244,11 +217,7 @@
     "category": "court",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Cuboid bone",
-      "Cuboid bone.l",
-      "Cuboid bone.r"
-    ]
+    "meshAliases": ["Cuboid bone", "Cuboid bone.l", "Cuboid bone.r"]
   },
   {
     "id": "distal-phalanx-of-fifth-finger-of-foot",
@@ -375,11 +344,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Eighth rib",
-      "Eighth rib.l",
-      "Eighth rib.r"
-    ]
+    "meshAliases": ["Eighth rib", "Eighth rib.l", "Eighth rib.r"]
   },
   {
     "id": "eleventh-rib",
@@ -387,11 +352,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Eleventh rib",
-      "Eleventh rib.l",
-      "Eleventh rib.r"
-    ]
+    "meshAliases": ["Eleventh rib", "Eleventh rib.l", "Eleventh rib.r"]
   },
   {
     "id": "ethmoid-bone",
@@ -399,9 +360,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Ethmoid bone"
-    ]
+    "meshAliases": ["Ethmoid bone"]
   },
   {
     "id": "femur-2",
@@ -409,10 +368,7 @@
     "category": "long",
     "description": "blablabla",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Femur.l",
-      "Femur.r"
-    ]
+    "meshAliases": ["Femur.l", "Femur.r"]
   },
   {
     "id": "fibula-2",
@@ -420,10 +376,7 @@
     "category": "long",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Fibula.l",
-      "Fibula.r"
-    ]
+    "meshAliases": ["Fibula.l", "Fibula.r"]
   },
   {
     "id": "fifth-metacarpal-bone",
@@ -431,11 +384,7 @@
     "category": "long",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Fifth metacarpal bone",
-      "Fifth metacarpal bone.l",
-      "Fifth metacarpal bone.r"
-    ]
+    "meshAliases": ["Fifth metacarpal bone", "Fifth metacarpal bone.l", "Fifth metacarpal bone.r"]
   },
   {
     "id": "fifth-metatarsal-bone",
@@ -443,11 +392,7 @@
     "category": "long",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Fifth metatarsal bone",
-      "Fifth metatarsal bone.l",
-      "Fifth metatarsal bone.r"
-    ]
+    "meshAliases": ["Fifth metatarsal bone", "Fifth metatarsal bone.l", "Fifth metatarsal bone.r"]
   },
   {
     "id": "fifth-rib",
@@ -455,11 +400,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Fifth rib",
-      "Fifth rib.l",
-      "Fifth rib.r"
-    ]
+    "meshAliases": ["Fifth rib", "Fifth rib.l", "Fifth rib.r"]
   },
   {
     "id": "first-metacarpal-bone",
@@ -467,11 +408,7 @@
     "category": "long",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "First metacarpal bone",
-      "First metacarpal bone.l",
-      "First metacarpal bone.r"
-    ]
+    "meshAliases": ["First metacarpal bone", "First metacarpal bone.l", "First metacarpal bone.r"]
   },
   {
     "id": "first-metatarsal-bone",
@@ -479,11 +416,7 @@
     "category": "long",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "First metatarsal bone",
-      "First metatarsal bone.l",
-      "First metatarsal bone.r"
-    ]
+    "meshAliases": ["First metatarsal bone", "First metatarsal bone.l", "First metatarsal bone.r"]
   },
   {
     "id": "first-rib",
@@ -491,11 +424,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "First rib",
-      "First rib.l",
-      "First rib.r"
-    ]
+    "meshAliases": ["First rib", "First rib.l", "First rib.r"]
   },
   {
     "id": "fourth-metacarpal-bone",
@@ -527,11 +456,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Fourth rib",
-      "Fourth rib.l",
-      "Fourth rib.r"
-    ]
+    "meshAliases": ["Fourth rib", "Fourth rib.l", "Fourth rib.r"]
   },
   {
     "id": "frontal-bone",
@@ -539,9 +464,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Frontal bone"
-    ]
+    "meshAliases": ["Frontal bone"]
   },
   {
     "id": "hamate-bone",
@@ -549,11 +472,7 @@
     "category": "court",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Hamate bone",
-      "Hamate bone.l",
-      "Hamate bone.r"
-    ]
+    "meshAliases": ["Hamate bone", "Hamate bone.l", "Hamate bone.r"]
   },
   {
     "id": "hip-bone",
@@ -561,11 +480,7 @@
     "category": "plat",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Hip bone",
-      "Hip bone.l",
-      "Hip bone.r"
-    ]
+    "meshAliases": ["Hip bone", "Hip bone.l", "Hip bone.r"]
   },
   {
     "id": "humerus",
@@ -573,10 +488,7 @@
     "category": "long",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Humerusl",
-      "Humerusr"
-    ]
+    "meshAliases": ["Humerusl", "Humerusr"]
   },
   {
     "id": "hyoid-bone",
@@ -584,9 +496,7 @@
     "category": "court",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Hyoid bone"
-    ]
+    "meshAliases": ["Hyoid bone"]
   },
   {
     "id": "incus",
@@ -594,11 +504,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Incus",
-      "Incus.l",
-      "Incus.r"
-    ]
+    "meshAliases": ["Incus", "Incus.l", "Incus.r"]
   },
   {
     "id": "inferior-nasal-concha-bone",
@@ -618,10 +524,7 @@
     "category": "court",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Intermediate cuneiform bone.l",
-      "Intermediate cuneiform bone.r"
-    ]
+    "meshAliases": ["Intermediate cuneiform bone.l", "Intermediate cuneiform bone.r"]
   },
   {
     "id": "lacrimal-bone",
@@ -629,11 +532,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Lacrimal bone",
-      "Lacrimal bone.l",
-      "Lacrimal bone.r"
-    ]
+    "meshAliases": ["Lacrimal bone", "Lacrimal bone.l", "Lacrimal bone.r"]
   },
   {
     "id": "lateral-cuneiform-bone",
@@ -641,10 +540,7 @@
     "category": "court",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Lateral cuneiform bone.l",
-      "Lateral cuneiform bone.r"
-    ]
+    "meshAliases": ["Lateral cuneiform bone.l", "Lateral cuneiform bone.r"]
   },
   {
     "id": "lateral-process-of-nasal-septal-cartilage",
@@ -664,11 +560,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Lower canine",
-      "Lower canine.l",
-      "Lower canine.r"
-    ]
+    "meshAliases": ["Lower canine", "Lower canine.l", "Lower canine.r"]
   },
   {
     "id": "lower-first-molar-tooth",
@@ -688,11 +580,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Lower first premolar",
-      "Lower first premolar.l",
-      "Lower first premolar.r"
-    ]
+    "meshAliases": ["Lower first premolar", "Lower first premolar.l", "Lower first premolar.r"]
   },
   {
     "id": "lower-lateral-incisor",
@@ -700,11 +588,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Lower lateral incisor",
-      "Lower lateral incisor.l",
-      "Lower lateral incisor.r"
-    ]
+    "meshAliases": ["Lower lateral incisor", "Lower lateral incisor.l", "Lower lateral incisor.r"]
   },
   {
     "id": "lower-medial-incisor",
@@ -712,11 +596,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Lower medial incisor",
-      "Lower medial incisor.l",
-      "Lower medial incisor.r"
-    ]
+    "meshAliases": ["Lower medial incisor", "Lower medial incisor.l", "Lower medial incisor.r"]
   },
   {
     "id": "lower-second-molar-tooth",
@@ -736,11 +616,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Lower second premolar",
-      "Lower second premolar.l",
-      "Lower second premolar.r"
-    ]
+    "meshAliases": ["Lower second premolar", "Lower second premolar.l", "Lower second premolar.r"]
   },
   {
     "id": "lunate-bone",
@@ -748,11 +624,7 @@
     "category": "court",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Lunate bone",
-      "Lunate bone.l",
-      "Lunate bone.r"
-    ]
+    "meshAliases": ["Lunate bone", "Lunate bone.l", "Lunate bone.r"]
   },
   {
     "id": "major-alar-cartilage",
@@ -760,11 +632,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Major alar cartilage",
-      "Major alar cartilage.l",
-      "Major alar cartilage.r"
-    ]
+    "meshAliases": ["Major alar cartilage", "Major alar cartilage.l", "Major alar cartilage.r"]
   },
   {
     "id": "malleus",
@@ -772,11 +640,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Malleus",
-      "Malleus.l",
-      "Malleus.r"
-    ]
+    "meshAliases": ["Malleus", "Malleus.l", "Malleus.r"]
   },
   {
     "id": "mandible",
@@ -784,9 +648,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Mandible"
-    ]
+    "meshAliases": ["Mandible"]
   },
   {
     "id": "manubrium-of-sternum",
@@ -794,9 +656,7 @@
     "category": "plat",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Manubrium of sternum"
-    ]
+    "meshAliases": ["Manubrium of sternum"]
   },
   {
     "id": "maxilla",
@@ -804,11 +664,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Maxilla",
-      "Maxilla.l",
-      "Maxilla.r"
-    ]
+    "meshAliases": ["Maxilla", "Maxilla.l", "Maxilla.r"]
   },
   {
     "id": "medial-cuneiform-bone",
@@ -816,10 +672,7 @@
     "category": "court",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Medial cuneiform bone.l",
-      "Medial cuneiform bone.r"
-    ]
+    "meshAliases": ["Medial cuneiform bone.l", "Medial cuneiform bone.r"]
   },
   {
     "id": "middle-cells-of-ethmoid-bone",
@@ -935,11 +788,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Nasal bone",
-      "Nasal bone.l",
-      "Nasal bone.r"
-    ]
+    "meshAliases": ["Nasal bone", "Nasal bone.l", "Nasal bone.r"]
   },
   {
     "id": "nasal-septal-cartilage",
@@ -947,9 +796,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Nasal septal cartilage"
-    ]
+    "meshAliases": ["Nasal septal cartilage"]
   },
   {
     "id": "navicular-bone",
@@ -957,11 +804,7 @@
     "category": "court",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Navicular bone",
-      "Navicular bone.l",
-      "Navicular bone.r"
-    ]
+    "meshAliases": ["Navicular bone", "Navicular bone.l", "Navicular bone.r"]
   },
   {
     "id": "ninth-rib",
@@ -969,11 +812,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Ninth rib",
-      "Ninth rib.l",
-      "Ninth rib.r"
-    ]
+    "meshAliases": ["Ninth rib", "Ninth rib.l", "Ninth rib.r"]
   },
   {
     "id": "occipital-bone",
@@ -981,9 +820,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Occipital bone"
-    ]
+    "meshAliases": ["Occipital bone"]
   },
   {
     "id": "palatine-bone",
@@ -991,11 +828,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Palatine bone",
-      "Palatine bone.l",
-      "Palatine bone.r"
-    ]
+    "meshAliases": ["Palatine bone", "Palatine bone.l", "Palatine bone.r"]
   },
   {
     "id": "parietal-bone",
@@ -1003,10 +836,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Parietal bone.l",
-      "Parietal bone.r"
-    ]
+    "meshAliases": ["Parietal bone.l", "Parietal bone.r"]
   },
   {
     "id": "patella-2",
@@ -1014,10 +844,7 @@
     "category": "court",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Patella.l",
-      "Patella.r"
-    ]
+    "meshAliases": ["Patella.l", "Patella.r"]
   },
   {
     "id": "pisiform-bone",
@@ -1025,11 +852,7 @@
     "category": "court",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Pisiform bone",
-      "Pisiform bone.l",
-      "Pisiform bone.r"
-    ]
+    "meshAliases": ["Pisiform bone", "Pisiform bone.l", "Pisiform bone.r"]
   },
   {
     "id": "posterior-cells-of-ethmoid-bone",
@@ -1169,10 +992,7 @@
     "category": "long",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Radius.l",
-      "Radius.r"
-    ]
+    "meshAliases": ["Radius.l", "Radius.r"]
   },
   {
     "id": "sacrum",
@@ -1180,9 +1000,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Sacrum"
-    ]
+    "meshAliases": ["Sacrum"]
   },
   {
     "id": "scaphoid-bone",
@@ -1190,11 +1008,7 @@
     "category": "court",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Scaphoid bone",
-      "Scaphoid bone.l",
-      "Scaphoid bone.r"
-    ]
+    "meshAliases": ["Scaphoid bone", "Scaphoid bone.l", "Scaphoid bone.r"]
   },
   {
     "id": "scapula-2",
@@ -1202,10 +1016,7 @@
     "category": "plat",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Scapula.l",
-      "Scapula.r"
-    ]
+    "meshAliases": ["Scapula.l", "Scapula.r"]
   },
   {
     "id": "second-metacarpal-bone",
@@ -1237,11 +1048,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Second rib",
-      "Second rib.l",
-      "Second rib.r"
-    ]
+    "meshAliases": ["Second rib", "Second rib.l", "Second rib.r"]
   },
   {
     "id": "sesamoid-bones-of-foot",
@@ -1261,11 +1068,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Seventh rib",
-      "Seventh rib.l",
-      "Seventh rib.r"
-    ]
+    "meshAliases": ["Seventh rib", "Seventh rib.l", "Seventh rib.r"]
   },
   {
     "id": "sinus-of-frontal-bone",
@@ -1273,9 +1076,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Sinus of frontal bone"
-    ]
+    "meshAliases": ["Sinus of frontal bone"]
   },
   {
     "id": "sinus-of-sphenoid-bone",
@@ -1283,9 +1084,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Sinus of sphenoid bone"
-    ]
+    "meshAliases": ["Sinus of sphenoid bone"]
   },
   {
     "id": "sixth-rib",
@@ -1293,11 +1092,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Sixth rib",
-      "Sixth rib.l",
-      "Sixth rib.r"
-    ]
+    "meshAliases": ["Sixth rib", "Sixth rib.l", "Sixth rib.r"]
   },
   {
     "id": "sphenoid-bone",
@@ -1305,10 +1100,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Sphenoid bone",
-      "Sphenoid bone.l"
-    ]
+    "meshAliases": ["Sphenoid bone", "Sphenoid bone.l"]
   },
   {
     "id": "stapes",
@@ -1316,11 +1108,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Stapes",
-      "Stapes.l",
-      "Stapes.r"
-    ]
+    "meshAliases": ["Stapes", "Stapes.l", "Stapes.r"]
   },
   {
     "id": "talus-2",
@@ -1328,10 +1116,7 @@
     "category": "court",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Talus.l",
-      "Talus.r"
-    ]
+    "meshAliases": ["Talus.l", "Talus.r"]
   },
   {
     "id": "temporal-bone",
@@ -1339,11 +1124,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Temporal bone",
-      "Temporal bone.l",
-      "Temporal bone.r"
-    ]
+    "meshAliases": ["Temporal bone", "Temporal bone.l", "Temporal bone.r"]
   },
   {
     "id": "tenth-rib",
@@ -1351,11 +1132,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Tenth rib",
-      "Tenth rib.l",
-      "Tenth rib.r"
-    ]
+    "meshAliases": ["Tenth rib", "Tenth rib.l", "Tenth rib.r"]
   },
   {
     "id": "third-metacarpal-bone",
@@ -1363,11 +1140,7 @@
     "category": "long",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Third metacarpal bone",
-      "Third metacarpal bone.l",
-      "Third metacarpal bone.r"
-    ]
+    "meshAliases": ["Third metacarpal bone", "Third metacarpal bone.l", "Third metacarpal bone.r"]
   },
   {
     "id": "third-metatarsal-bone",
@@ -1375,11 +1148,7 @@
     "category": "long",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Third metatarsal bone",
-      "Third metatarsal bone.l",
-      "Third metatarsal bone.r"
-    ]
+    "meshAliases": ["Third metatarsal bone", "Third metatarsal bone.l", "Third metatarsal bone.r"]
   },
   {
     "id": "third-rib",
@@ -1387,11 +1156,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Third rib",
-      "Third rib.l",
-      "Third rib.r"
-    ]
+    "meshAliases": ["Third rib", "Third rib.l", "Third rib.r"]
   },
   {
     "id": "thyroid-cartilage",
@@ -1399,9 +1164,7 @@
     "category": "court",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Thyroid cartilage"
-    ]
+    "meshAliases": ["Thyroid cartilage"]
   },
   {
     "id": "tibia-2",
@@ -1409,10 +1172,7 @@
     "category": "long",
     "description": "",
     "place": "membre inférieur",
-    "meshAliases": [
-      "Tibia.l",
-      "Tibia.r"
-    ]
+    "meshAliases": ["Tibia.l", "Tibia.r"]
   },
   {
     "id": "trapezium-bone",
@@ -1420,11 +1180,7 @@
     "category": "court",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Trapezium bone",
-      "Trapezium bone.l",
-      "Trapezium bone.r"
-    ]
+    "meshAliases": ["Trapezium bone", "Trapezium bone.l", "Trapezium bone.r"]
   },
   {
     "id": "trapezoid-bone",
@@ -1432,11 +1188,7 @@
     "category": "court",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Trapezoid bone",
-      "Trapezoid bone.l",
-      "Trapezoid bone.r"
-    ]
+    "meshAliases": ["Trapezoid bone", "Trapezoid bone.l", "Trapezoid bone.r"]
   },
   {
     "id": "triquetrum-bone",
@@ -1444,11 +1196,7 @@
     "category": "court",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Triquetrum bone",
-      "Triquetrum bone.l",
-      "Triquetrum bone.r"
-    ]
+    "meshAliases": ["Triquetrum bone", "Triquetrum bone.l", "Triquetrum bone.r"]
   },
   {
     "id": "twelfth-rib",
@@ -1456,11 +1204,7 @@
     "category": "long",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Twelfth rib",
-      "Twelfth rib.l",
-      "Twelfth rib.r"
-    ]
+    "meshAliases": ["Twelfth rib", "Twelfth rib.l", "Twelfth rib.r"]
   },
   {
     "id": "ulna-2",
@@ -1468,10 +1212,7 @@
     "category": "long",
     "description": "",
     "place": "membre supérieur",
-    "meshAliases": [
-      "Ulna.l",
-      "Ulna.r"
-    ]
+    "meshAliases": ["Ulna.l", "Ulna.r"]
   },
   {
     "id": "upper-canine",
@@ -1479,11 +1220,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Upper canine",
-      "Upper canine.l",
-      "Upper canine.r"
-    ]
+    "meshAliases": ["Upper canine", "Upper canine.l", "Upper canine.r"]
   },
   {
     "id": "upper-first-molar-tooth",
@@ -1503,11 +1240,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Upper first premolar",
-      "Upper first premolar.l",
-      "Upper first premolar.r"
-    ]
+    "meshAliases": ["Upper first premolar", "Upper first premolar.l", "Upper first premolar.r"]
   },
   {
     "id": "upper-lateral-incisor",
@@ -1515,11 +1248,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Upper lateral incisor",
-      "Upper lateral incisor.l",
-      "Upper lateral incisor.r"
-    ]
+    "meshAliases": ["Upper lateral incisor", "Upper lateral incisor.l", "Upper lateral incisor.r"]
   },
   {
     "id": "upper-medial-incisor",
@@ -1527,11 +1256,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Upper medial incisor",
-      "Upper medial incisor.l",
-      "Upper medial incisor.r"
-    ]
+    "meshAliases": ["Upper medial incisor", "Upper medial incisor.l", "Upper medial incisor.r"]
   },
   {
     "id": "upper-second-molar-tooth",
@@ -1551,11 +1276,7 @@
     "category": "court",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Upper second premolar",
-      "Upper second premolar.l",
-      "Upper second premolar.r"
-    ]
+    "meshAliases": ["Upper second premolar", "Upper second premolar.l", "Upper second premolar.r"]
   },
   {
     "id": "vertebra-c3",
@@ -1563,9 +1284,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra C3"
-    ]
+    "meshAliases": ["Vertebra C3"]
   },
   {
     "id": "vertebra-c4",
@@ -1573,9 +1292,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra C4"
-    ]
+    "meshAliases": ["Vertebra C4"]
   },
   {
     "id": "vertebra-c5",
@@ -1583,9 +1300,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra C5"
-    ]
+    "meshAliases": ["Vertebra C5"]
   },
   {
     "id": "vertebra-c6",
@@ -1593,9 +1308,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra C6"
-    ]
+    "meshAliases": ["Vertebra C6"]
   },
   {
     "id": "vertebra-c7",
@@ -1603,9 +1316,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra C7"
-    ]
+    "meshAliases": ["Vertebra C7"]
   },
   {
     "id": "vertebra-l1",
@@ -1613,9 +1324,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra L1"
-    ]
+    "meshAliases": ["Vertebra L1"]
   },
   {
     "id": "vertebra-l2",
@@ -1623,9 +1332,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra L2"
-    ]
+    "meshAliases": ["Vertebra L2"]
   },
   {
     "id": "vertebra-l3",
@@ -1633,9 +1340,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra L3"
-    ]
+    "meshAliases": ["Vertebra L3"]
   },
   {
     "id": "vertebra-l4",
@@ -1643,9 +1348,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra L4"
-    ]
+    "meshAliases": ["Vertebra L4"]
   },
   {
     "id": "vertebra-l5",
@@ -1653,9 +1356,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra L5"
-    ]
+    "meshAliases": ["Vertebra L5"]
   },
   {
     "id": "vertebra-t1",
@@ -1663,9 +1364,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T1"
-    ]
+    "meshAliases": ["Vertebra T1"]
   },
   {
     "id": "vertebra-t10",
@@ -1673,9 +1372,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T10"
-    ]
+    "meshAliases": ["Vertebra T10"]
   },
   {
     "id": "vertebra-t11",
@@ -1683,9 +1380,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T11"
-    ]
+    "meshAliases": ["Vertebra T11"]
   },
   {
     "id": "vertebra-t12",
@@ -1693,9 +1388,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T12"
-    ]
+    "meshAliases": ["Vertebra T12"]
   },
   {
     "id": "vertebra-t2",
@@ -1703,9 +1396,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T2"
-    ]
+    "meshAliases": ["Vertebra T2"]
   },
   {
     "id": "vertebra-t3",
@@ -1713,9 +1404,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T3"
-    ]
+    "meshAliases": ["Vertebra T3"]
   },
   {
     "id": "vertebra-t4",
@@ -1723,9 +1412,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T4"
-    ]
+    "meshAliases": ["Vertebra T4"]
   },
   {
     "id": "vertebra-t5",
@@ -1733,9 +1420,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T5"
-    ]
+    "meshAliases": ["Vertebra T5"]
   },
   {
     "id": "vertebra-t6",
@@ -1743,9 +1428,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T6"
-    ]
+    "meshAliases": ["Vertebra T6"]
   },
   {
     "id": "vertebra-t7",
@@ -1753,9 +1436,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T7"
-    ]
+    "meshAliases": ["Vertebra T7"]
   },
   {
     "id": "vertebra-t8",
@@ -1763,9 +1444,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T8"
-    ]
+    "meshAliases": ["Vertebra T8"]
   },
   {
     "id": "vertebra-t9",
@@ -1773,9 +1452,7 @@
     "category": "court",
     "description": "",
     "place": "rachi",
-    "meshAliases": [
-      "Vertebra T9"
-    ]
+    "meshAliases": ["Vertebra T9"]
   },
   {
     "id": "vomer",
@@ -1783,9 +1460,7 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Vomer"
-    ]
+    "meshAliases": ["Vomer"]
   },
   {
     "id": "xiphoid-process",
@@ -1793,9 +1468,7 @@
     "category": "plat",
     "description": "",
     "place": "thorax",
-    "meshAliases": [
-      "Xiphoid process"
-    ]
+    "meshAliases": ["Xiphoid process"]
   },
   {
     "id": "zygomatic-bone",
@@ -1803,10 +1476,6 @@
     "category": "plat",
     "description": "",
     "place": "tête",
-    "meshAliases": [
-      "Zygomatic bone",
-      "Zygomatic bone.l",
-      "Zygomatic bone.r"
-    ]
+    "meshAliases": ["Zygomatic bone", "Zygomatic bone.l", "Zygomatic bone.r"]
   }
 ]
