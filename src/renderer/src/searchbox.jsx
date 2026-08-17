@@ -29,7 +29,7 @@ export default function SearchBox({ bones, onSelectBone }) {
 
     return bones
       .map((bone) => {
-        const name = (bone.name || '').toLowerCase()
+        const name = (bone.name || bone.id || '').toLowerCase()
         const namefr = (bone.namefr || '').toLowerCase()
         const desc = (bone.description || '').toLowerCase()
 
@@ -122,7 +122,7 @@ export default function SearchBox({ bones, onSelectBone }) {
         <ul className="search-dropdown">
           {results.map((bone, i) => (
             <li
-              key={bone.namefr}
+              key={bone.id} // Changed from bone.namefr to unique bone.id
               onMouseDown={() => selectBone(bone)}
               onMouseEnter={() => setActiveIndex(i)}
               className={`search-item ${i === activeIndex ? 'active' : ''}`}

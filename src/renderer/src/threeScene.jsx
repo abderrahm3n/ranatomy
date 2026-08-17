@@ -4,6 +4,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import { findBoneByMeshName } from './utils/lookup'
 import skeleton from './assets/skeleton4.glb?url'
+import cardio from './assets/cardio.glb?url'
 
 const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChange }, ref) {
   const mountRef = useRef(null)
@@ -74,6 +75,13 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
       roughness: 0.6,
       metalness: 0.05
     })
+    const cardioMaterial = new THREE.MeshStandardMaterial({
+      color: 0xff4d4d,
+      roughness: 0.4,
+      metalness: 0.1,
+      transparent: true,
+      opacity: 0.85
+    })
 
     const raycaster = new THREE.Raycaster()
     const pointer = new THREE.Vector2()
@@ -98,8 +106,24 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
       scene.add(model)
     })
 
+    loader.load(cardio, (gltf) => {
+      const cardioModel = gltf.scene
+      // Adjust position/scale to sit correctly relative to the skeleton
+      cardioModel.position.set(0, 0, 0) // example offset
+      cardioModel.scale.set(4, 4, 4) // adjust as needed
+
+      cardioModel.traverse((node) => {
+        if (!node.isMesh) return
+        node.geometry.computeVertexNormals()
+        node.material = cardioMaterial // use the cardio-specific material
+        meshes.push(node) // add to the interactive list
+      })
+
+      scene.add(cardioModel)
+    })
+
     // --- 6. Material Swapping & Selection Helpers ---
-    function selectMesh(mesh) {
+    function selectMesh(mesh, boneDataOverride) {
       if (selectedMesh) {
         selectedMesh.material = baseMaterial
       }
@@ -108,7 +132,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
 
       if (mesh) {
         mesh.material = highlightMaterial
-        const boneData = findBoneByMeshName(mesh.name)
+        const boneData = boneDataOverride || findBoneByMeshName(mesh.name)
         onSelectBone(boneData || { name: mesh.name })
       } else {
         onSelectBone(null)
@@ -134,6 +158,7 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
 
       if (intersects.length > 0) {
         const hitMesh = intersects[0].object
+        console.log(hitMesh)
         selectMesh(hitMesh)
       } else {
         clearSelection()
@@ -222,19 +247,29 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
         onIsolateChange(false)
       }
 
-      const aliases = (bone.meshAliases || []).map((a) => a.toLowerCase())
-      const targetName = (bone.name || '').toLowerCase()
+      // Collect potential target keys: bone ID, explicit meshAliases, or name variants
+      const searchTerms = [bone.id, bone.name, bone.namefr, ...(bone.meshAliases || [])]
+        .filter(Boolean)
+        .map((term) => term.toLowerCase())
 
       const foundMesh = meshes.find((mesh) => {
         if (!mesh.visible) return false
-        const lower = mesh.name.toLowerCase()
-        return lower === targetName || aliases.includes(lower)
+        const meshName = mesh.name.toLowerCase()
+
+        return searchTerms.some((term) => {
+          // 1. Exact match
+          if (meshName === term) return true
+
+          // 2. Prefix/Suffix match for left/right designations (e.g. "radius.l", "radius_l", "radius.r")
+          const pattern = new RegExp(`^${term}[._-]?(l|r|left|right)?$`, 'i')
+          return pattern.test(meshName)
+        })
       })
 
       if (foundMesh) {
-        selectMesh(foundMesh)
+        selectMesh(foundMesh, bone)
       } else {
-        console.warn(`⚠️ Mesh not found for bone "${bone.name}"`)
+        console.warn(`⚠️ Mesh not found for bone "${bone.name || bone.namefr || bone.id}"`)
         clearSelection()
       }
     }
