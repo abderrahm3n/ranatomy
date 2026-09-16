@@ -4,7 +4,7 @@ import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
 import { findBoneByMeshName } from './utils/lookup'
 import skeleton from './assets/skeleton4.glb?url'
-import cardio from './assets/cardio.glb?url'
+import cardio from './assets/cardio2.glb?url'
 
 const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChange }, ref) {
   const mountRef = useRef(null)
