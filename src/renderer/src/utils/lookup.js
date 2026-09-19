@@ -1,4 +1,8 @@
-import boneData from '../assets/bones.json'
+// utils/lookup.js
+import bones from '../assets/bones.json'
+import cardio from '../assets/cardio.json'   // your cardio data, same shape
+
+const TABLES = { skeletal: bones, cardiovascular: cardio }
 
 //const normalize = (str = '') => str.toLowerCase().replace(/\./g, '')
 function normalize(str) {
@@ -13,26 +17,40 @@ function normalize(str) {
     .replace(/[^a-z0-9]/g, '') // keep only letters and digits
 }
 
-const aliasMap = new Map()
-
-boneData.forEach((bone) => {
-  const aliases = bone.meshAliases || []
-  aliases.forEach((alias) => {
-    aliasMap.set(normalize(alias), bone)
+export function findEntityByMeshName(meshName, system) {
+  console.log('[lookup]', {
+    meshName,
+    system,
+    tableLen: (TABLES[system] || []).length,
+    tables: Object.keys(TABLES)
   })
-  if (bone.name) {
-    aliasMap.set(normalize(bone.name), bone)
-  }
-})
-
-export function findBoneByMeshName(meshName) {
   if (!meshName) return null
+
   const norm = normalize(meshName)
+  const table = TABLES[system] || []
 
-  if (aliasMap.has(norm)) return aliasMap.get(norm)
+  // 1. Direct match check
+  for (const entity of table) {
+    const nameNorm = normalize(entity.name)
+    const aliases = (entity.meshAliases || []).map(normalize)
 
-  for (const [alias, bone] of aliasMap) {
-    if (norm.includes(alias)) return bone
+    if (nameNorm === norm || aliases.includes(norm)) {
+      return entity
+    }
   }
+
+  // 2. Partial match fallback
+  for (const entity of table) {
+    const nameNorm = normalize(entity.name)
+    const aliases = (entity.meshAliases || []).map(normalize)
+
+    if (
+      (nameNorm && norm.includes(nameNorm)) ||
+      aliases.some((alias) => alias && norm.includes(alias))
+    ) {
+      return entity
+    }
+  }
+
   return null
 }

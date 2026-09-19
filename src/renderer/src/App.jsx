@@ -4,10 +4,12 @@ import Sidebar from './sidebar'
 import SearchBox from './searchbox'
 import bonesData from './assets/bones.json'
 import Reset from './reset'
+import SystemTray from './systemtray'
 
 function App() {
   const [selectedBone, setSelectedBone] = useState(null)
   const [isIsolated, setIsIsolated] = useState(false)
+  const [systemsVisible, setSystemsVisible] = useState({})
   const sceneRef = useRef(null)
 
   const handleSelectBone = useCallback((bone) => {
@@ -16,6 +18,9 @@ function App() {
 
   const handleIsolateChange = useCallback((val) => {
     setIsIsolated(val)
+  }, [])
+  const handleSystemsChange = useCallback((systems) => {
+    setSystemsVisible(systems)
   }, [])
 
   return (
@@ -39,6 +44,7 @@ function App() {
             ref={sceneRef}
             onSelectBone={handleSelectBone}
             onIsolateChange={handleIsolateChange}
+                onSystemsChange={handleSystemsChange}
           />
         </div>
         <Sidebar
@@ -47,6 +53,11 @@ function App() {
           onToggleIsolate={() => sceneRef.current?.toggleIsolate()}
           onHide={() => sceneRef.current?.hideSelected()}
         />
+            <SystemTray
+          systems={systemsVisible}
+          onToggle={(key) => sceneRef.current?.toggleSystem(key)}
+        />
+
         <Reset onReset={() => sceneRef.current?.reset()} />
       </div>
     </div>

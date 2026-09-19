@@ -508,3 +508,98 @@ body {
   opacity: 1;
   transform: translateX(-50%) translateY(0);
 }
+
+.system-tray {
+  position: fixed;
+  left: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.system-btn {
+  position: relative;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--hairline-strong);
+  background: rgba(18, 18, 20, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+  color: var(--stone);
+  cursor: pointer;
+  transition:
+    border-color 0.2s var(--ease),
+    color 0.2s var(--ease),
+    opacity 0.2s var(--ease),
+    box-shadow 0.2s var(--ease);
+}
+
+.system-btn i {
+  font-size: 17px;
+}
+
+/* On: this system is currently visible in the scene — reads the same as
+   the reset button's resting state. */
+.system-btn.active {
+  border-color: var(--accent-dim);
+  color: var(--accent-bright);
+}
+
+/* Off: hidden from the scene. Dimmed rather than removed, so the tray
+   stays a stable map of what's shown, not just a row of actions. */
+.system-btn.off {
+  color: var(--ash);
+  opacity: 0.55;
+}
+
+.system-btn:hover {
+  border-color: var(--accent-dim);
+  color: var(--accent-bright);
+  opacity: 1;
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.5),
+    0 0 0 1px var(--accent-wash);
+}
+
+.system-btn:active {
+  transform: scale(0.94);
+}
+
+/* Label appears to the right of the tray on hover — mirrors
+   .reset-fab-label, just rotated 90° since the tray sits on the edge
+   instead of bottom-center. */
+.system-btn-label {
+  position: absolute;
+  left: calc(100% + 12px);
+  top: 50%;
+  transform: translateY(-50%) translateX(-4px);
+  white-space: nowrap;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ivory);
+  background: var(--surface-raised);
+  border: 1px solid var(--hairline-strong);
+  padding: 6px 10px;
+  border-radius: var(--radius-sm);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    opacity 0.2s var(--ease),
+    transform 0.2s var(--ease);
+}
+
+.system-btn:hover .system-btn-label {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
+}
+
+

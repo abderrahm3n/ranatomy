@@ -2,11 +2,11 @@ import { forwardRef, useImperativeHandle, useEffect, useRef } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
-import { findBoneByMeshName } from './utils/lookup'
+import { findEntityByMeshName } from './utils/lookup'
 import skeleton from './assets/skeleton4.glb?url'
 import cardio from './assets/cardio2.glb?url'
 
-const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChange }, ref) {
+const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChange , onSystemsChange}, ref) {
   const mountRef = useRef(null)
   const sceneApiRef = useRef({})
 
@@ -89,6 +89,16 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     let meshes = []
     let selectedMesh = null
     let isIsolated = false
+    // Per-system mesh membership + on/off state, driven by the SystemTray.
+    // A mesh can only belong to one system here; toggling a system just
+    // flips .visible on every mesh registered under that key.
+    const systemMeshes = { skeletal: [], cardiovascular: [] }
+    const systemVisible = { skeletal: true, cardiovascular: true }
+
+    function notifySystems() {
+      onSystemsChange?.({ ...systemVisible })
+    }
+
 
     // --- 5. Loader ---
     const loader = new GLTFLoader()
@@ -101,9 +111,11 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
         node.geometry.computeVertexNormals()
         node.material = baseMaterial
         meshes.push(node)
+            systemMeshes.skeletal.push(node)   // ← ADD
       })
 
       scene.add(model)
+        notifySystems()                      // ← ADD
     })
 
     loader.load(cardio, (gltf) => {
@@ -117,33 +129,42 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
         node.geometry.computeVertexNormals()
         node.material = cardioMaterial // use the cardio-specific material
         meshes.push(node) // add to the interactive list
+            systemMeshes.cardiovascular.push(node)  // ← ADD
       })
 
       scene.add(cardioModel)
+        notifySystems()                            // ← ADD
     })
 
     // --- 6. Material Swapping & Selection Helpers ---
-    function selectMesh(mesh, boneDataOverride) {
-      if (selectedMesh) {
-        selectedMesh.material = baseMaterial
-      }
+function getSystemForMesh(mesh) {
+  if (systemMeshes.skeletal.includes(mesh)) return 'skeletal'
+  if (systemMeshes.cardiovascular.includes(mesh)) return 'cardiovascular'
+  return null
+}
 
-      selectedMesh = mesh
+function selectMesh(mesh, dataOverride) {
+  if (selectedMesh) {
+    selectedMesh.material = baseMaterial
+  }
 
-      if (mesh) {
-        mesh.material = highlightMaterial
-        const boneData = boneDataOverride || findBoneByMeshName(mesh.name)
-        onSelectBone(boneData || { name: mesh.name })
-      } else {
-        onSelectBone(null)
-      }
-    }
+  selectedMesh = mesh
 
-    function clearSelection() {
-      selectMesh(null)
-    }
+  if (mesh) {
+    mesh.material = highlightMaterial
 
-    // --- 7. Click & Drag Handling ---
+    const system = getSystemForMesh(mesh)
+    const data = dataOverride || findEntityByMeshName(mesh.name, system)
+    onSelectBone({ ...(data || { name: mesh.name }), system })
+  } else {
+    onSelectBone(null)
+  }
+}
+
+function clearSelection() {
+  selectMesh(null)
+}
+// --- 7. Click & Drag Handling ---
     let pointerDownPos = { x: 0, y: 0 }
     const DRAG_THRESHOLD = 3
 
@@ -221,6 +242,32 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
       onSelectBone(null)
     }
 
+    function toggleSystem(key) {
+      if (!systemMeshes[key]) return
+
+      // A system toggle overrides isolate mode — otherwise the stale
+      // previousVisibility snapshot fights with the system's new state
+      // next time isolate is turned off.
+      if (isIsolated) {
+        isIsolated = false
+        previousVisibility = null
+        onIsolateChange(false)
+      }
+
+      const nextVisible = !systemVisible[key]
+      systemVisible[key] = nextVisible
+      systemMeshes[key].forEach((mesh) => {
+        mesh.visible = nextVisible
+      })
+
+      if (selectedMesh && systemMeshes[key].includes(selectedMesh) && !nextVisible) {
+        clearSelection()
+      }
+
+      notifySystems()
+    }
+
+
     function resetView() {
       meshes.forEach((mesh) => {
         mesh.visible = true
@@ -279,7 +326,8 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
       resetView,
       clearSelection,
       selectBoneSearchBox,
-      hideSelected
+      hideSelected,
+      toggleSystem
     }
 
     // --- 9. Resize & Render Loop ---
@@ -310,14 +358,15 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
         currentMount.removeChild(renderer.domElement)
       }
     }
-  }, [onSelectBone, onIsolateChange])
+  }, [onSelectBone, onIsolateChange, onSystemsChange])
 
   useImperativeHandle(ref, () => ({
     toggleIsolate: () => sceneApiRef.current.toggleIsolate?.(),
     reset: () => sceneApiRef.current.resetView?.(),
     clearSelection: () => sceneApiRef.current.clearSelection?.(),
     selectBone: (bone) => sceneApiRef.current.selectBoneSearchBox?.(bone),
-    hideSelected: () => sceneApiRef.current.hideSelected?.()
+    hideSelected: () => sceneApiRef.current.hideSelected?.(),
+        toggleSystem: (key) => sceneApiRef.current.toggleSystem?.(key)
   }))
 
   return <div ref={mountRef} style={{ width: '100%', height: '100%' }} />
