@@ -1,18 +1,18 @@
-// Ordered list of anatomical systems the tray can control. Add an entry
-// here (and load the matching model in threeScene.jsx, tagging its meshes
-// under the same key) to grow the tray — nothing else needs to change.
 import { SYSTEMS } from './systems'
 
-function SystemTray({ systems, onToggle }) {
+// Ordered list of anatomical systems the tray can control. Add an entry to
+// systems.js and load the matching model in threeScene.jsx under the same
+// key — nothing else needs to change.
+function SystemTray({ systemVisibility, onToggleSystem }) {
   return (
     <div className="system-tray">
       {SYSTEMS.map(({ key, label, icon }) => {
-        const isOn = systems[key] !== false
+        const isOn = systemVisibility[key] !== false
         return (
           <button
             key={key}
             className={`system-btn ${isOn ? 'active' : 'off'}`}
-            onClick={() => onToggle(key)}
+            onClick={() => onToggleSystem(key)}
             aria-label={label}
             aria-pressed={isOn}
           >
@@ -26,4 +26,3 @@ function SystemTray({ systems, onToggle }) {
 }
 
 export default SystemTray
-

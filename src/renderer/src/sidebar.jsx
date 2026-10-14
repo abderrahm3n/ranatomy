@@ -1,8 +1,3 @@
-// Per-system look: category palette + fallback wording. Add an entry here
-// (keyed to the same system key used in threeScene.jsx / systemtray.jsx)
-// whenever a new system gets its own selectable meshes. `categoryColors`
-// keys should match whatever `category`-like field that system's catalog
-// uses (bones-data.json today; a future vessels-data.json, etc.).
 const SYSTEM_META = {
   skeletal: {
     categoryColors: {
@@ -14,9 +9,9 @@ const SYSTEM_META = {
   },
   cardiovascular: {
     categoryColors: {
-      artere: '#EF4444',
+      artère: '#EF4444',
       veine: '#3B82F6',
-      capillaire: '#F59E0B'
+      'sinus / plexus': '#9b7ec9'
     },
     categoryFallback: 'Vaisseau'
   }
@@ -36,9 +31,10 @@ const FALLBACK_COLORS = [
 
 // Deterministic fallback so categories missing from a system's palette
 // still get a stable color, rather than all collapsing to one default.
-function getCategoryColor(category, categoryColors) {
+function colorForCategory(category, categoryColors) {
   if (!category) return FALLBACK_COLORS[0]
   if (categoryColors[category]) return categoryColors[category]
+
   let hash = 0
   for (let i = 0; i < category.length; i++) {
     hash = (hash << 5) - hash + category.charCodeAt(i)
@@ -47,14 +43,18 @@ function getCategoryColor(category, categoryColors) {
   return FALLBACK_COLORS[Math.abs(hash) % FALLBACK_COLORS.length]
 }
 
-function Sidebar({ bone, isIsolated, onToggleIsolate, onHide }) {
-  if (!bone) {
+function displayNameFor(entity) {
+  return entity.namefr || entity.name || entity.id || 'Structure'
+}
+
+function Sidebar({ entity, isIsolated, onToggleIsolation, onHideSelection }) {
+  if (!entity) {
     return (
       <div className="sidebar sidebar-empty">
         <i className="ti ti-focus-2" aria-hidden="true"></i>
         <p>Sélectionnez une structure pour voir les détails</p>
         {isIsolated && (
-          <button className="pill-show-all" onClick={onToggleIsolate}>
+          <button className="pill-show-all" onClick={onToggleIsolation}>
             Show all
           </button>
         )}
@@ -62,42 +62,37 @@ function Sidebar({ bone, isIsolated, onToggleIsolate, onHide }) {
     )
   }
 
-  const meta = SYSTEM_META[bone.system] || DEFAULT_META
-  const color = getCategoryColor(bone.category, meta.categoryColors)
-  // namefr is bone-catalog-specific; anything without a catalog entry yet
-  // (e.g. an unmatched vessel mesh) falls back to its raw mesh name.
-  const displayName = bone.namefr || bone.name
-  // The category pill only makes sense for systems whose catalog actually
-  // assigns a category (bones today). Selecting from a system with no
-  // catalog entries yet would otherwise show a made-up fallback label.
-  const showCategory = Boolean(bone.category) || bone.system === 'skeletal'
+  const meta = SYSTEM_META[entity.system] || DEFAULT_META
+  const categoryColor = colorForCategory(entity.category, meta.categoryColors)
+  const displayName = displayNameFor(entity)
+  const showCategory = Boolean(entity.category)
 
   return (
     <div className="sidebar">
       {showCategory && (
         <span
-          className="bone-category"
+          className="entity-category"
           style={{
-            color,
-            borderColor: color,
-            backgroundColor: `${color}1a`
+            color: categoryColor,
+            borderColor: categoryColor,
+            backgroundColor: `${categoryColor}1a`
           }}
         >
-          {bone.category || meta.categoryFallback}
+          {entity.category || meta.categoryFallback}
         </span>
       )}
-      <p className="bone-name">{displayName}</p>
-      {bone.description && <p className="bone-description">{bone.description}</p>}
+      <p className="entity-name">{displayName}</p>
+      {entity.description && <p className="entity-description">{entity.description}</p>}
       <div className="sidebar-divider" />
       <div className="sidebar-actions">
         <button
           className={`btn btn-primary ${isIsolated ? 'active' : ''}`}
-          onClick={onToggleIsolate}
+          onClick={onToggleIsolation}
         >
           <i className={`ti ${isIsolated ? 'ti-eye' : 'ti-focus-2'}`} aria-hidden="true"></i>
           {isIsolated ? 'Show all' : 'Isolate'}
         </button>
-        <button className="btn btn-ghost" onClick={onHide}>
+        <button className="btn btn-ghost" onClick={onHideSelection}>
           <i className="ti ti-eye-off" aria-hidden="true"></i>
           Hide
         </button>

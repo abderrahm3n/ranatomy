@@ -1,6 +1,6 @@
 // utils/lookup.js
-import bones from '../assets/bones.json'
-import cardio from '../assets/cardio.json'   // your cardio data, same shape
+import bones from '../assets/bones2.json'
+import cardio from '../assets/cardio.json' // your cardio data, same shape
 
 const TABLES = { skeletal: bones, cardiovascular: cardio }
 

@@ -1,1481 +1,1478 @@
 [
   {
-    "id": "anterior-cells-of-ethmoid-bone",
-    "namefr": "Cellules antérieures de l’ethmoïde",
-    "category": "plat",
+    "id": "Cellules_ethmodales_antrieures_gauches",
+    "namefr": "Cellules ethmoïdales antérieures gauches",
     "description": "",
-    "place": "tête",
-    "meshAliases": [
-      "Anterior cells of ethmoid bone",
-      "Anterior cells of ethmoid bone.l",
-      "Anterior cells of ethmoid bone.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "arytenoid-cartilage",
-    "namefr": "Cartilage aryténoïde",
-    "category": "court",
+    "id": "Cellules_ethmodales_antrieures_droites",
+    "namefr": "Cellules ethmoïdales antérieures droites",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Arytenoid cartilage", "Arytenoid cartilage.l", "Arytenoid cartilage.r"]
+    "category": "court"
   },
   {
-    "id": "atlas-c1",
+    "id": "Atlas_C1",
     "namefr": "Atlas (C1)",
-    "category": "court",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Atlas (C1)"]
+    "category": "court"
   },
   {
-    "id": "axis-c2",
+    "id": "Axis_C2",
     "namefr": "Axis (C2)",
-    "category": "court",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Axis (C2)"]
+    "category": "court"
   },
   {
-    "id": "body-of-sternum",
-    "namefr": "Sternum",
-    "category": "plat",
-    "description": "blablablabla",
-    "place": "thorax",
-    "meshAliases": ["Body of sternum"]
-  },
-  {
-    "id": "calcaneus-2",
-    "namefr": "Calcanéus",
-    "category": "court",
+    "id": "Corps_du_sternum",
+    "namefr": "Corps du sternum",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Calcaneus.l", "Calcaneus.r"]
+    "category": "plat"
   },
   {
-    "id": "capitate-bone",
-    "namefr": "Capitatum",
-    "category": "court",
+    "id": "Calcanum_gauche",
+    "namefr": "Calcanéum gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Capitate bone", "Capitate bone.l", "Capitate bone.r"]
+    "category": "court"
   },
   {
-    "id": "clavicle",
-    "namefr": "Clavicule",
-    "category": "long",
+    "id": "Calcanum_droit",
+    "namefr": "Calcanéum droit",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Clavicle.l", "Clavicle.r"]
+    "category": "court"
   },
   {
-    "id": "coccyx",
+    "id": "Os_capitatum_gauche",
+    "namefr": "Os capitatum gauche",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Os_capitatum_droit",
+    "namefr": "Os capitatum droit",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Clavicule_gauche",
+    "namefr": "Clavicule gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Clavicule_droite",
+    "namefr": "Clavicule droite",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Coccyx",
     "namefr": "Coccyx",
-    "category": "court",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Coccyx"]
+    "category": "court"
   },
   {
-    "id": "corniculate-cartilage",
-    "namefr": "Cartilage corniculé",
-    "category": "court",
+    "id": "Os_cubode_gauche",
+    "namefr": "Os cuboïde gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Corniculate cartilage.l", "Corniculate cartilage.r"]
+    "category": "court"
   },
   {
-    "id": "costal-cartilage-of-eighth-rib",
-    "namefr": "Cartilage costal de la huitième côte",
-    "category": "long",
+    "id": "Os_cubode_droit",
+    "namefr": "Os cuboïde droit",
     "description": "",
-    "place": "thorax",
-    "meshAliases": [
-      "Costal cartilage of eighth rib",
-      "Costal cartilage of eighth rib.l",
-      "Costal cartilage of eighth rib.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "costal-cartilage-of-fifth-rib",
-    "namefr": "Cartilage costal de la cinquième côte",
-    "category": "long",
+    "id": "Phalange_distale_du_cinquime_orteil_du_pied_gauche",
+    "namefr": "Phalange distale du cinquième orteil du pied gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": [
-      "Costal cartilage of fifth rib",
-      "Costal cartilage of fifth rib.l",
-      "Costal cartilage of fifth rib.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "costal-cartilage-of-first-rib",
-    "namefr": "Cartilage costal de la première côte",
-    "category": "long",
+    "id": "Phalange_distale_du_cinquime_orteil_du_pied_droit",
+    "namefr": "Phalange distale du cinquième orteil du pied droit",
     "description": "",
-    "place": "thorax",
-    "meshAliases": [
-      "Costal cartilage of first rib",
-      "Costal cartilage of first rib.l",
-      "Costal cartilage of first rib.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "costal-cartilage-of-fourth-rib",
-    "namefr": "Cartilage costal de la quatrième côte",
-    "category": "long",
+    "id": "Phalange_distale_du_cinquime_doigt_de_la_main_gauche",
+    "namefr": "Phalange distale du cinquième doigt de la main gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": [
-      "Costal cartilage of fourth rib",
-      "Costal cartilage of fourth rib.l",
-      "Costal cartilage of fourth rib.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "costal-cartilage-of-ninth-rib",
-    "namefr": "Cartilage costal de la neuvième côte",
-    "category": "long",
+    "id": "Phalange_distale_du_cinquime_doigt_de_la_main_droite",
+    "namefr": "Phalange distale du cinquième doigt de la main droite",
     "description": "",
-    "place": "thorax",
-    "meshAliases": [
-      "Costal cartilage of ninth rib",
-      "Costal cartilage of ninth rib.l",
-      "Costal cartilage of ninth rib.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "costal-cartilage-of-second-rib",
-    "namefr": "Cartilage costal de la deuxième côte",
-    "category": "long",
+    "id": "Phalange_distale_du_premier_orteil_du_pied_gauche",
+    "namefr": "Phalange distale du premier orteil du pied gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": [
-      "Costal cartilage of second rib",
-      "Costal cartilage of second rib.l",
-      "Costal cartilage of second rib.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "costal-cartilage-of-seventh-rib",
-    "namefr": "Cartilage costal de la septième côte",
-    "category": "long",
+    "id": "Phalange_distale_du_premier_orteil_du_pied_droit",
+    "namefr": "Phalange distale du premier orteil du pied droit",
     "description": "",
-    "place": "thorax",
-    "meshAliases": [
-      "Costal cartilage of seventh rib",
-      "Costal cartilage of seventh rib.l",
-      "Costal cartilage of seventh rib.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "costal-cartilage-of-sixth-rib",
-    "namefr": "Cartilage costal de la sixième côte",
-    "category": "long",
+    "id": "Phalange_distale_du_premier_doigt_de_la_main_gauche",
+    "namefr": "Phalange distale du premier doigt de la main gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": [
-      "Costal cartilage of sixth rib",
-      "Costal cartilage of sixth rib.l",
-      "Costal cartilage of sixth rib.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "costal-cartilage-of-tenth-rib",
-    "namefr": "Cartilage costal de la dixième côte",
-    "category": "long",
+    "id": "Phalange_distale_du_premier_doigt_de_la_main_droite",
+    "namefr": "Phalange distale du premier doigt de la main droite",
     "description": "",
-    "place": "thorax",
-    "meshAliases": [
-      "Costal cartilage of tenth rib",
-      "Costal cartilage of tenth rib.l",
-      "Costal cartilage of tenth rib.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "costal-cartilage-of-third-rib",
-    "namefr": "Cartilage costal de la troisième côte",
-    "category": "long",
+    "id": "Phalange_distale_du_quatrime_orteil_du_pied_gauche",
+    "namefr": "Phalange distale du quatrième orteil du pied gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": [
-      "Costal cartilage of third rib",
-      "Costal cartilage of third rib.l",
-      "Costal cartilage of third rib.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "cricoid-cartilage",
-    "namefr": "Cartilage cricoïde",
-    "category": "court",
+    "id": "Phalange_distale_du_quatrime_orteil_du_pied_droit",
+    "namefr": "Phalange distale du quatrième orteil du pied droit",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Cricoid cartilage"]
+    "category": "long"
   },
   {
-    "id": "cuboid-bone",
-    "namefr": "Os cuboïde",
-    "category": "court",
+    "id": "Phalange_distale_du_quatrime_doigt_de_la_main_gauche",
+    "namefr": "Phalange distale du quatrième doigt de la main gauche",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Cuboid bone", "Cuboid bone.l", "Cuboid bone.r"]
+    "category": "long"
   },
   {
-    "id": "distal-phalanx-of-fifth-finger-of-foot",
-    "namefr": "Phalange distale du cinquième orteil",
-    "category": "long",
+    "id": "Phalange_distale_du_quatrime_doigt_de_la_main_droite",
+    "namefr": "Phalange distale du quatrième doigt de la main droite",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Distal phalanx of fifth finger of foot",
-      "Distal phalanx of fifth finger of foot.l",
-      "Distal phalanx of fifth finger of foot.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "distal-phalanx-of-fifth-finger-of-hand",
-    "namefr": "Phalange distale du cinquième doigt de la main",
-    "category": "long",
+    "id": "Phalange_distale_du_deuxime_orteil_du_pied_gauche",
+    "namefr": "Phalange distale du deuxième orteil du pied gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Distal phalanx of fifth finger of hand.l",
-      "Distal phalanx of fifth finger of hand.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "distal-phalanx-of-first-finger-of-foot",
-    "namefr": "Phalange distale du première orteil",
-    "category": "long",
+    "id": "Phalange_distale_du_deuxime_orteil_du_pied_droit",
+    "namefr": "Phalange distale du deuxième orteil du pied droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Distal phalanx of first finger of foot",
-      "Distal phalanx of first finger of foot.l",
-      "Distal phalanx of first finger of foot.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "distal-phalanx-of-first-finger-of-hand",
-    "namefr": "Phalange distale du première doigt de la main",
-    "category": "long",
+    "id": "Phalange_distale_du_deuxime_doigt_de_la_main_gauche",
+    "namefr": "Phalange distale du deuxième doigt de la main gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Distal phalanx of first finger of hand",
-      "Distal phalanx of first finger of hand.l",
-      "Distal phalanx of first finger of hand.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "distal-phalanx-of-fourth-finger-of-foot",
-    "namefr": "Phalange distale du quatrième orteil",
-    "category": "long",
+    "id": "Phalange_distale_du_deuxime_doigt_de_la_main_droite",
+    "namefr": "Phalange distale du deuxième doigt de la main droite",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Distal phalanx of fourth finger of foot",
-      "Distal phalanx of fourth finger of foot.l",
-      "Distal phalanx of fourth finger of foot.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "distal-phalanx-of-fourth-finger-of-hand",
-    "namefr": "Phalange distale du quatrième doigt de la main",
-    "category": "long",
+    "id": "Phalange_distale_du_troisime_orteil_du_pied_gauche",
+    "namefr": "Phalange distale du troisième orteil du pied gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Distal phalanx of fourth finger of hand",
-      "Distal phalanx of fourth finger of hand.l",
-      "Distal phalanx of fourth finger of hand.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "distal-phalanx-of-second-finger-of-foot",
-    "namefr": "Phalange distale du deuxième orteil",
-    "category": "long",
+    "id": "Phalange_distale_du_troisime_orteil_du_pied_droit",
+    "namefr": "Phalange distale du troisième orteil du pied droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Distal phalanx of second finger of foot",
-      "Distal phalanx of second finger of foot.l",
-      "Distal phalanx of second finger of foot.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "distal-phalanx-of-second-finger-of-hand",
-    "namefr": "Phalange distale du deuxième doigt de la main",
-    "category": "long",
+    "id": "Phalange_distale_du_troisime_doigt_de_la_main_gauche",
+    "namefr": "Phalange distale du troisième doigt de la main gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Distal phalanx of second finger of hand",
-      "Distal phalanx of second finger of hand.l",
-      "Distal phalanx of second finger of hand.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "distal-phalanx-of-third-finger-of-foot",
-    "namefr": "Phalange distale du troisième orteil",
-    "category": "long",
+    "id": "Phalange_distale_du_troisime_doigt_de_la_main_droite",
+    "namefr": "Phalange distale du troisième doigt de la main droite",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Distal phalanx of third finger of foot",
-      "Distal phalanx of third finger of foot.l",
-      "Distal phalanx of third finger of foot.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "distal-phalanx-of-third-finger-of-hand",
-    "namefr": "Phalange distale du troisième doigt de la main",
-    "category": "long",
+    "id": "Huitime_cte_gauche",
+    "namefr": "Huitième côte gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Distal phalanx of third finger of hand",
-      "Distal phalanx of third finger of hand.l",
-      "Distal phalanx of third finger of hand.r"
-    ]
+    "category": "plat"
   },
   {
-    "id": "eighth-rib",
-    "namefr": "Huitième côte",
-    "category": "long",
+    "id": "Huitime_cte_droite",
+    "namefr": "Huitième côte droite",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Eighth rib", "Eighth rib.l", "Eighth rib.r"]
+    "category": "plat"
   },
   {
-    "id": "eleventh-rib",
-    "namefr": "Onzième côte",
-    "category": "long",
+    "id": "Onzime_cte_gauche",
+    "namefr": "Onzième côte gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Eleventh rib", "Eleventh rib.l", "Eleventh rib.r"]
+    "category": "plat"
   },
   {
-    "id": "ethmoid-bone",
+    "id": "Onzime_cte_droite",
+    "namefr": "Onzième côte droite",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Os_ethmode",
     "namefr": "Os ethmoïde",
-    "category": "plat",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Ethmoid bone"]
+    "category": "plat"
   },
   {
-    "id": "femur-2",
-    "namefr": "Fémur",
-    "category": "long",
-    "description": "blablabla",
-    "place": "membre inférieur",
-    "meshAliases": ["Femur.l", "Femur.r"]
-  },
-  {
-    "id": "fibula-2",
-    "namefr": "Fibula",
-    "category": "long",
+    "id": "Fmur_gauche",
+    "namefr": "Fémur gauche",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Fibula.l", "Fibula.r"]
+    "category": "long"
   },
   {
-    "id": "fifth-metacarpal-bone",
-    "namefr": "Cinquième métacarpien",
-    "category": "long",
+    "id": "Fmur_droit",
+    "namefr": "Fémur droit",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Fifth metacarpal bone", "Fifth metacarpal bone.l", "Fifth metacarpal bone.r"]
+    "category": "long"
   },
   {
-    "id": "fifth-metatarsal-bone",
-    "namefr": "Cinquième métatarsien",
-    "category": "long",
+    "id": "Pron_gauche",
+    "namefr": "Péroné gauche",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Fifth metatarsal bone", "Fifth metatarsal bone.l", "Fifth metatarsal bone.r"]
+    "category": "long"
   },
   {
-    "id": "fifth-rib",
-    "namefr": "Cinquième côte",
-    "category": "long",
+    "id": "Pron_droit",
+    "namefr": "Péroné droit",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Fifth rib", "Fifth rib.l", "Fifth rib.r"]
+    "category": "long"
   },
   {
-    "id": "first-metacarpal-bone",
-    "namefr": "Premier métacarpien",
-    "category": "long",
+    "id": "Cinquime_os_mtacarpien_gauche",
+    "namefr": "Cinquième os métacarpien gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["First metacarpal bone", "First metacarpal bone.l", "First metacarpal bone.r"]
+    "category": "long"
   },
   {
-    "id": "first-metatarsal-bone",
-    "namefr": "Premier métatarsien",
-    "category": "long",
+    "id": "Cinquime_os_mtacarpien_droit",
+    "namefr": "Cinquième os métacarpien droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["First metatarsal bone", "First metatarsal bone.l", "First metatarsal bone.r"]
+    "category": "long"
   },
   {
-    "id": "first-rib",
-    "namefr": "Première côte",
-    "category": "long",
+    "id": "Cinquime_os_mtatarsien_gauche",
+    "namefr": "Cinquième os métatarsien gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["First rib", "First rib.l", "First rib.r"]
+    "category": "long"
   },
   {
-    "id": "fourth-metacarpal-bone",
-    "namefr": "Quatrième métacarpien",
-    "category": "long",
+    "id": "Cinquime_os_mtatarsien_droit",
+    "namefr": "Cinquième os métatarsien droit",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Fourth metacarpal bone",
-      "Fourth metacarpal bone.l",
-      "Fourth metacarpal bone.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "fourth-metatarsal-bone",
-    "namefr": "Quatrième métatarsien",
-    "category": "long",
+    "id": "Cinquime_cte_gauche",
+    "namefr": "Cinquième côte gauche",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Fourth metatarsal bone",
-      "Fourth metatarsal bone.l",
-      "Fourth metatarsal bone.r"
-    ]
+    "category": "plat"
   },
   {
-    "id": "fourth-rib",
-    "namefr": "Quatrième côte",
-    "category": "long",
+    "id": "Cinquime_cte_droite",
+    "namefr": "Cinquième côte droite",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Fourth rib", "Fourth rib.l", "Fourth rib.r"]
+    "category": "plat"
   },
   {
-    "id": "frontal-bone",
+    "id": "Premier_os_mtacarpien_gauche",
+    "namefr": "Premier os métacarpien gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Premier_os_mtacarpien_droit",
+    "namefr": "Premier os métacarpien droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Premier_os_mtatarsien_gauche",
+    "namefr": "Premier os métatarsien gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Premier_os_mtatarsien_droit",
+    "namefr": "Premier os métatarsien droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Premire_cte_gauche",
+    "namefr": "Première côte gauche",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Premire_cte_droite",
+    "namefr": "Première côte droite",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Quatrime_os_mtacarpien_gauche",
+    "namefr": "Quatrième os métacarpien gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Quatrime_os_mtacarpien_droit",
+    "namefr": "Quatrième os métacarpien droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Quatrime_os_mtatarsien_gauche",
+    "namefr": "Quatrième os métatarsien gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Quatrime_os_mtatarsien_droit",
+    "namefr": "Quatrième os métatarsien droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Quatrime_cte_gauche",
+    "namefr": "Quatrième côte gauche",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Quatrime_cte_droite",
+    "namefr": "Quatrième côte droite",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Os_frontal",
     "namefr": "Os frontal",
-    "category": "plat",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Frontal bone"]
+    "category": "plat"
   },
   {
-    "id": "hamate-bone",
-    "namefr": "Hamatum",
-    "category": "court",
+    "id": "Os_hamatum_gauche",
+    "namefr": "Os hamatum gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Hamate bone", "Hamate bone.l", "Hamate bone.r"]
+    "category": "court"
   },
   {
-    "id": "hip-bone",
-    "namefr": "Os coxal",
-    "category": "plat",
+    "id": "Os_hamatum_droit",
+    "namefr": "Os hamatum droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Hip bone", "Hip bone.l", "Hip bone.r"]
+    "category": "court"
   },
   {
-    "id": "humerus",
-    "namefr": "Humérus",
-    "category": "long",
+    "id": "Os_coxal_gauche",
+    "namefr": "Os coxal gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Humerusl", "Humerusr"]
+    "category": "plat"
   },
   {
-    "id": "hyoid-bone",
+    "id": "Os_coxal_droit",
+    "namefr": "Os coxal droit",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Humrus_gauche",
+    "namefr": "Humérus gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Humrus_droit",
+    "namefr": "Humérus droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Os_hyode",
     "namefr": "Os hyoïde",
-    "category": "court",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Hyoid bone"]
+    "category": "court"
   },
   {
-    "id": "incus",
-    "namefr": "Enclume",
-    "category": "court",
+    "id": "Enclume_gauche",
+    "namefr": "Enclume gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Incus", "Incus.l", "Incus.r"]
+    "category": "court"
   },
   {
-    "id": "inferior-nasal-concha-bone",
-    "namefr": "Cornet nasal inférieur",
-    "category": "plat",
+    "id": "Enclume_droite",
+    "namefr": "Enclume droite",
     "description": "",
-    "place": "tête",
-    "meshAliases": [
-      "Inferior nasal concha bone",
-      "Inferior nasal concha bone.l",
-      "Inferior nasal concha bone.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "intermediate-cuneiform-bone",
-    "namefr": "Cunéiforme intermédiaire",
-    "category": "court",
+    "id": "Cornet_nasal_infrieur_gauche",
+    "namefr": "Cornet nasal inférieur gauche",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Intermediate cuneiform bone.l", "Intermediate cuneiform bone.r"]
+    "category": "plat"
   },
   {
-    "id": "lacrimal-bone",
-    "namefr": "Os lacrymal",
-    "category": "plat",
+    "id": "Cornet_nasal_infrieur_droit",
+    "namefr": "Cornet nasal inférieur droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Lacrimal bone", "Lacrimal bone.l", "Lacrimal bone.r"]
+    "category": "plat"
   },
   {
-    "id": "lateral-cuneiform-bone",
-    "namefr": "Cunéiforme latéral",
-    "category": "court",
+    "id": "Os_cuniforme_intermdiaire_gauche",
+    "namefr": "Os cunéiforme intermédiaire gauche",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Lateral cuneiform bone.l", "Lateral cuneiform bone.r"]
+    "category": "court"
   },
   {
-    "id": "lateral-process-of-nasal-septal-cartilage",
-    "namefr": "Cartilage du septum nasal",
-    "category": "plat",
+    "id": "Os_cuniforme_intermdiaire_droit",
+    "namefr": "Os cunéiforme intermédiaire droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": [
-      "Lateral process of nasal septal cartilage",
-      "Lateral process of nasal septal cartilage.l",
-      "Lateral process of nasal septal cartilage.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "lower-canine",
-    "namefr": "Canine inférieure",
-    "category": "court",
+    "id": "Os_lacrymal_gauche",
+    "namefr": "Os lacrymal gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Lower canine", "Lower canine.l", "Lower canine.r"]
+    "category": "plat"
   },
   {
-    "id": "lower-first-molar-tooth",
-    "namefr": "Molaire inférieure première",
-    "category": "court",
+    "id": "Os_lacrymal_droit",
+    "namefr": "Os lacrymal droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": [
-      "Lower first molar tooth",
-      "Lower first molar tooth.l",
-      "Lower first molar tooth.r"
-    ]
+    "category": "plat"
   },
   {
-    "id": "lower-first-premolar",
-    "namefr": "Prémolaire inférieure première",
-    "category": "court",
+    "id": "Os_cuniforme_latral_gauche",
+    "namefr": "Os cunéiforme latéral gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Lower first premolar", "Lower first premolar.l", "Lower first premolar.r"]
+    "category": "court"
   },
   {
-    "id": "lower-lateral-incisor",
-    "namefr": "Incisive inférieure latérale",
-    "category": "court",
+    "id": "Os_cuniforme_latral_droit",
+    "namefr": "Os cunéiforme latéral droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Lower lateral incisor", "Lower lateral incisor.l", "Lower lateral incisor.r"]
+    "category": "court"
   },
   {
-    "id": "lower-medial-incisor",
-    "namefr": "Incisive inférieure médiale",
-    "category": "court",
+    "id": "Canine_infrieure_gauche",
+    "namefr": "Canine inférieure gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Lower medial incisor", "Lower medial incisor.l", "Lower medial incisor.r"]
+    "category": "court"
   },
   {
-    "id": "lower-second-molar-tooth",
-    "namefr": "Molaire inférieure deuxième",
-    "category": "court",
+    "id": "Canine_infrieure_droite",
+    "namefr": "Canine inférieure droite",
     "description": "",
-    "place": "tête",
-    "meshAliases": [
-      "Lower second molar tooth",
-      "Lower second molar tooth.l",
-      "Lower second molar tooth.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "lower-second-premolar",
-    "namefr": "Prémolaire inférieure deuxième",
-    "category": "court",
+    "id": "Premire_molaire_infrieure_gauche",
+    "namefr": "Première molaire inférieure gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Lower second premolar", "Lower second premolar.l", "Lower second premolar.r"]
+    "category": "court"
   },
   {
-    "id": "lunate-bone",
-    "namefr": "Lunatum",
-    "category": "court",
+    "id": "Premire_molaire_infrieure_droite",
+    "namefr": "Première molaire inférieure droite",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Lunate bone", "Lunate bone.l", "Lunate bone.r"]
+    "category": "court"
   },
   {
-    "id": "major-alar-cartilage",
-    "namefr": "Cartilage alaire majeur",
-    "category": "court",
+    "id": "Premire_prmolaire_infrieure_gauche",
+    "namefr": "Première prémolaire inférieure gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Major alar cartilage", "Major alar cartilage.l", "Major alar cartilage.r"]
+    "category": "court"
   },
   {
-    "id": "malleus",
-    "namefr": "Marteau",
-    "category": "court",
+    "id": "Premire_prmolaire_infrieure_droite",
+    "namefr": "Première prémolaire inférieure droite",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Malleus", "Malleus.l", "Malleus.r"]
+    "category": "court"
   },
   {
-    "id": "mandible",
+    "id": "Incisive_latrale_infrieure_gauche",
+    "namefr": "Incisive latérale inférieure gauche",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Incisive_latrale_infrieure_droite",
+    "namefr": "Incisive latérale inférieure droite",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Incisive_mdiale_infrieure_gauche",
+    "namefr": "Incisive médiale inférieure gauche",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Incisive_mdiale_infrieure_droite",
+    "namefr": "Incisive médiale inférieure droite",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Deuxime_molaire_infrieure_gauche",
+    "namefr": "Deuxième molaire inférieure gauche",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Deuxime_molaire_infrieure_droite",
+    "namefr": "Deuxième molaire inférieure droite",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Deuxime_prmolaire_infrieure_gauche",
+    "namefr": "Deuxième prémolaire inférieure gauche",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Deuxime_prmolaire_infrieure_droite",
+    "namefr": "Deuxième prémolaire inférieure droite",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Os_lunatum_gauche",
+    "namefr": "Os lunatum gauche",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Os_lunatum_droit",
+    "namefr": "Os lunatum droit",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Marteau_gauche",
+    "namefr": "Marteau gauche",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Marteau_droit",
+    "namefr": "Marteau droit",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Mandibule",
     "namefr": "Mandibule",
-    "category": "plat",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Mandible"]
+    "category": "plat"
   },
   {
-    "id": "manubrium-of-sternum",
-    "namefr": "manubrium de Sternum",
-    "category": "plat",
+    "id": "Manubrium_du_sternum",
+    "namefr": "Manubrium du sternum",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Manubrium of sternum"]
+    "category": "plat"
   },
   {
-    "id": "maxilla",
-    "namefr": "Maxillaire",
-    "category": "plat",
+    "id": "Maxillaire_gauche",
+    "namefr": "Maxillaire gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Maxilla", "Maxilla.l", "Maxilla.r"]
+    "category": "plat"
   },
   {
-    "id": "medial-cuneiform-bone",
-    "namefr": "Cunéiforme médial",
-    "category": "court",
+    "id": "Maxillaire_droit",
+    "namefr": "Maxillaire droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Medial cuneiform bone.l", "Medial cuneiform bone.r"]
+    "category": "plat"
   },
   {
-    "id": "middle-cells-of-ethmoid-bone",
-    "namefr": "Cellules moyennes de l’ethmoïde",
-    "category": "plat",
+    "id": "Os_cuniforme_mdial_gauche",
+    "namefr": "Os cunéiforme médial gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": [
-      "Middle cells of ethmoid bone",
-      "Middle cells of ethmoid bone.l",
-      "Middle cells of ethmoid bone.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "middle-phalanx-of-fifth-finger-of-foot",
-    "namefr": "Phalange moyenne du cinquième orteil",
-    "category": "long",
+    "id": "Os_cuniforme_mdial_droit",
+    "namefr": "Os cunéiforme médial droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Middle phalanx of fifth finger of foot",
-      "Middle phalanx of fifth finger of foot.l",
-      "Middle phalanx of fifth finger of foot.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "middle-phalanx-of-fifth-finger-of-hand",
-    "namefr": "Phalange moyenne du cinquième doigt de la main",
-    "category": "long",
+    "id": "Cellules_ethmodales_moyennes_gauches",
+    "namefr": "Cellules ethmoïdales moyennes gauches",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Middle phalanx of fifth finger of hand",
-      "Middle phalanx of fifth finger of hand.l",
-      "Middle phalanx of fifth finger of hand.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "middle-phalanx-of-fourth-finger-of-foot",
-    "namefr": "Phalange moyenne du quatrième orteil",
-    "category": "long",
+    "id": "Cellules_ethmodales_moyennes_droites",
+    "namefr": "Cellules ethmoïdales moyennes droites",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Middle phalanx of fourth finger of foot",
-      "Middle phalanx of fourth finger of foot.l",
-      "Middle phalanx of fourth finger of foot.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "middle-phalanx-of-fourth-finger-of-hand",
-    "namefr": "Phalange moyenne du quatrième doigt de la main",
-    "category": "long",
+    "id": "Phalange_moyenne_du_cinquime_orteil_du_pied_gauche",
+    "namefr": "Phalange moyenne du cinquième orteil du pied gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Middle phalanx of fourth finger of hand",
-      "Middle phalanx of fourth finger of hand.l",
-      "Middle phalanx of fourth finger of hand.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "middle-phalanx-of-second-finger-of-foot",
-    "namefr": "Phalange moyenne du deuxième orteil",
-    "category": "long",
+    "id": "Phalange_moyenne_du_cinquime_orteil_du_pied_droit",
+    "namefr": "Phalange moyenne du cinquième orteil du pied droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Middle phalanx of second finger of foot",
-      "Middle phalanx of second finger of foot.l",
-      "Middle phalanx of second finger of foot.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "middle-phalanx-of-second-finger-of-hand",
-    "namefr": "Phalange moyenne du deuxième doigt de la main",
-    "category": "long",
+    "id": "Phalange_moyenne_du_cinquime_doigt_de_la_main_gauche",
+    "namefr": "Phalange moyenne du cinquième doigt de la main gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Middle phalanx of second finger of hand",
-      "Middle phalanx of second finger of hand.l",
-      "Middle phalanx of second finger of hand.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "middle-phalanx-of-third-finger-of-foot",
-    "namefr": "Phalange moyenne du troisième orteil",
-    "category": "long",
+    "id": "Phalange_moyenne_du_cinquime_doigt_de_la_main_droite",
+    "namefr": "Phalange moyenne du cinquième doigt de la main droite",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Middle phalanx of third finger of foot",
-      "Middle phalanx of third finger of foot.l",
-      "Middle phalanx of third finger of foot.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "middle-phalanx-of-third-finger-of-hand",
-    "namefr": "Phalange moyenne du troisième doigt de la main",
-    "category": "long",
+    "id": "Phalange_moyenne_du_quatrime_orteil_du_pied_gauche",
+    "namefr": "Phalange moyenne du quatrième orteil du pied gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Middle phalanx of third finger of hand",
-      "Middle phalanx of third finger of hand.l",
-      "Middle phalanx of third finger of hand.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "nasal-bone",
-    "namefr": "Os nasal",
-    "category": "plat",
+    "id": "Phalange_moyenne_du_quatrime_orteil_du_pied_droit",
+    "namefr": "Phalange moyenne du quatrième orteil du pied droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Nasal bone", "Nasal bone.l", "Nasal bone.r"]
+    "category": "long"
   },
   {
-    "id": "nasal-septal-cartilage",
-    "namefr": "Cartilage du septum nasal",
-    "category": "plat",
+    "id": "Phalange_moyenne_du_quatrime_doigt_de_la_main_gauche",
+    "namefr": "Phalange moyenne du quatrième doigt de la main gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Nasal septal cartilage"]
+    "category": "long"
   },
   {
-    "id": "navicular-bone",
-    "namefr": "Os naviculaire",
-    "category": "court",
+    "id": "Phalange_moyenne_du_quatrime_doigt_de_la_main_droite",
+    "namefr": "Phalange moyenne du quatrième doigt de la main droite",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Navicular bone", "Navicular bone.l", "Navicular bone.r"]
+    "category": "long"
   },
   {
-    "id": "ninth-rib",
-    "namefr": "Neuvième côte",
-    "category": "long",
+    "id": "Phalange_moyenne_du_deuxime_orteil_du_pied_gauche",
+    "namefr": "Phalange moyenne du deuxième orteil du pied gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Ninth rib", "Ninth rib.l", "Ninth rib.r"]
+    "category": "long"
   },
   {
-    "id": "occipital-bone",
+    "id": "Phalange_moyenne_du_deuxime_orteil_du_pied_droit",
+    "namefr": "Phalange moyenne du deuxième orteil du pied droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_moyenne_du_deuxime_doigt_de_la_main_gauche",
+    "namefr": "Phalange moyenne du deuxième doigt de la main gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_moyenne_du_deuxime_doigt_de_la_main_droite",
+    "namefr": "Phalange moyenne du deuxième doigt de la main droite",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_moyenne_du_troisime_orteil_du_pied_gauche",
+    "namefr": "Phalange moyenne du troisième orteil du pied gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_moyenne_du_troisime_orteil_du_pied_droit",
+    "namefr": "Phalange moyenne du troisième orteil du pied droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_moyenne_du_troisime_doigt_de_la_main_gauche",
+    "namefr": "Phalange moyenne du troisième doigt de la main gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_moyenne_du_troisime_doigt_de_la_main_droite",
+    "namefr": "Phalange moyenne du troisième doigt de la main droite",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Os_nasal_gauche",
+    "namefr": "Os nasal gauche",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Os_nasal_droit",
+    "namefr": "Os nasal droit",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Os_naviculaire_gauche",
+    "namefr": "Os naviculaire gauche",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Os_naviculaire_droit",
+    "namefr": "Os naviculaire droit",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Neuvime_cte_gauche",
+    "namefr": "Neuvième côte gauche",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Neuvime_cte_droite",
+    "namefr": "Neuvième côte droite",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Os_occipital",
     "namefr": "Os occipital",
-    "category": "plat",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Occipital bone"]
+    "category": "plat"
   },
   {
-    "id": "palatine-bone",
-    "namefr": "Os palatin",
-    "category": "plat",
+    "id": "Os_palatin_gauche",
+    "namefr": "Os palatin gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Palatine bone", "Palatine bone.l", "Palatine bone.r"]
+    "category": "plat"
   },
   {
-    "id": "parietal-bone",
-    "namefr": "Os pariétal",
-    "category": "plat",
+    "id": "Os_palatin_droit",
+    "namefr": "Os palatin droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Parietal bone.l", "Parietal bone.r"]
+    "category": "plat"
   },
   {
-    "id": "patella-2",
-    "namefr": "Patella",
-    "category": "court",
+    "id": "Os_parital_gauche",
+    "namefr": "Os pariétal gauche",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Patella.l", "Patella.r"]
+    "category": "plat"
   },
   {
-    "id": "pisiform-bone",
-    "namefr": "Pisiforme",
-    "category": "court",
+    "id": "Os_parital_droit",
+    "namefr": "Os pariétal droit",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Pisiform bone", "Pisiform bone.l", "Pisiform bone.r"]
+    "category": "plat"
   },
   {
-    "id": "posterior-cells-of-ethmoid-bone",
-    "namefr": "Cellules postérieures de l’ethmoïde",
-    "category": "plat",
+    "id": "Patella_gauche",
+    "namefr": "Patella gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": [
-      "Posterior cells of ethmoid bone",
-      "Posterior cells of ethmoid bone.l",
-      "Posterior cells of ethmoid bone.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "proximal-phalanx-of-fifth-finger-of-foot",
-    "namefr": "Phalange proximale du cinquième orteil",
-    "category": "long",
+    "id": "Patella_droite",
+    "namefr": "Patella droite",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Proximal phalanx of fifth finger of foot",
-      "Proximal phalanx of fifth finger of foot.l",
-      "Proximal phalanx of fifth finger of foot.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "proximal-phalanx-of-fifth-finger-of-hand",
-    "namefr": "Phalange proximale du cinquième doigt de la main",
-    "category": "long",
+    "id": "Os_pisiforme_gauche",
+    "namefr": "Os pisiforme gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Proximal phalanx of fifth finger of hand",
-      "Proximal phalanx of fifth finger of hand.l",
-      "Proximal phalanx of fifth finger of hand.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "proximal-phalanx-of-first-finger-of-foot",
-    "namefr": "Phalange proximale du première orteil",
-    "category": "long",
+    "id": "Os_pisiforme_droit",
+    "namefr": "Os pisiforme droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Proximal phalanx of first finger of foot",
-      "Proximal phalanx of first finger of foot.l",
-      "Proximal phalanx of first finger of foot.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "proximal-phalanx-of-first-finger-of-hand",
-    "namefr": "Phalange proximale du première doigt de la main",
-    "category": "long",
+    "id": "Cellules_ethmodales_postrieures_gauches",
+    "namefr": "Cellules ethmoïdales postérieures gauches",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Proximal phalanx of first finger of hand",
-      "Proximal phalanx of first finger of hand.l",
-      "Proximal phalanx of first finger of hand.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "proximal-phalanx-of-fourth-finger-of-foot",
-    "namefr": "Phalange proximale du quatrième orteil",
-    "category": "long",
+    "id": "Cellules_ethmodales_postrieures_droites",
+    "namefr": "Cellules ethmoïdales postérieures droites",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Proximal phalanx of fourth finger of foot",
-      "Proximal phalanx of fourth finger of foot.l",
-      "Proximal phalanx of fourth finger of foot.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "proximal-phalanx-of-fourth-finger-of-hand",
-    "namefr": "Phalange proximale du quatrième doigt de la main",
-    "category": "long",
+    "id": "Phalange_proximale_du_cinquime_orteil_du_pied_gauche",
+    "namefr": "Phalange proximale du cinquième orteil du pied gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Proximal phalanx of fourth finger of hand",
-      "Proximal phalanx of fourth finger of hand.l",
-      "Proximal phalanx of fourth finger of hand.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "proximal-phalanx-of-second-finger-of-foot",
-    "namefr": "Phalange proximale du deuxième orteil",
-    "category": "long",
+    "id": "Phalange_proximale_du_cinquime_orteil_du_pied_droit",
+    "namefr": "Phalange proximale du cinquième orteil du pied droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Proximal phalanx of second finger of foot",
-      "Proximal phalanx of second finger of foot.l",
-      "Proximal phalanx of second finger of foot.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "proximal-phalanx-of-second-finger-of-hand",
-    "namefr": "Phalange proximale du deuxième doigt de la main",
-    "category": "long",
+    "id": "Phalange_proximale_du_cinquime_doigt_de_la_main_gauche",
+    "namefr": "Phalange proximale du cinquième doigt de la main gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Proximal phalanx of second finger of hand",
-      "Proximal phalanx of second finger of hand.l",
-      "Proximal phalanx of second finger of hand.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "proximal-phalanx-of-third-finger-of-foot",
-    "namefr": "Phalange proximale du troisième orteil",
-    "category": "long",
+    "id": "Phalange_proximale_du_cinquime_doigt_de_la_main_droite",
+    "namefr": "Phalange proximale du cinquième doigt de la main droite",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Proximal phalanx of third finger of foot",
-      "Proximal phalanx of third finger of foot.l",
-      "Proximal phalanx of third finger of foot.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "proximal-phalanx-of-third-finger-of-hand",
-    "namefr": "Phalange proximale du troisième doigt de la main",
-    "category": "long",
+    "id": "Phalange_proximale_du_premier_orteil_du_pied_gauche",
+    "namefr": "Phalange proximale du premier orteil du pied gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Proximal phalanx of third finger of hand",
-      "Proximal phalanx of third finger of hand.l",
-      "Proximal phalanx of third finger of hand.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "radius-2",
-    "namefr": "Radius",
-    "category": "long",
+    "id": "Phalange_proximale_du_premier_orteil_du_pied_droit",
+    "namefr": "Phalange proximale du premier orteil du pied droit",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Radius.l", "Radius.r"]
+    "category": "long"
   },
   {
-    "id": "sacrum",
+    "id": "Phalange_proximale_du_premier_doigt_de_la_main_gauche",
+    "namefr": "Phalange proximale du premier doigt de la main gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_premier_doigt_de_la_main_droite",
+    "namefr": "Phalange proximale du premier doigt de la main droite",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_quatrime_orteil_du_pied_gauche",
+    "namefr": "Phalange proximale du quatrième orteil du pied gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_quatrime_orteil_du_pied_droit",
+    "namefr": "Phalange proximale du quatrième orteil du pied droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_quatrime_doigt_de_la_main_gauche",
+    "namefr": "Phalange proximale du quatrième doigt de la main gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_quatrime_doigt_de_la_main_droite",
+    "namefr": "Phalange proximale du quatrième doigt de la main droite",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_deuxime_orteil_du_pied_gauche",
+    "namefr": "Phalange proximale du deuxième orteil du pied gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_deuxime_orteil_du_pied_droit",
+    "namefr": "Phalange proximale du deuxième orteil du pied droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_deuxime_doigt_de_la_main_gauche",
+    "namefr": "Phalange proximale du deuxième doigt de la main gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_deuxime_doigt_de_la_main_droite",
+    "namefr": "Phalange proximale du deuxième doigt de la main droite",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_troisime_orteil_du_pied_gauche",
+    "namefr": "Phalange proximale du troisième orteil du pied gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_troisime_orteil_du_pied_droit",
+    "namefr": "Phalange proximale du troisième orteil du pied droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_troisime_doigt_de_la_main_gauche",
+    "namefr": "Phalange proximale du troisième doigt de la main gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Phalange_proximale_du_troisime_doigt_de_la_main_droite",
+    "namefr": "Phalange proximale du troisième doigt de la main droite",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Radius_gauche",
+    "namefr": "Radius gauche",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Radius_droit",
+    "namefr": "Radius droit",
+    "description": "",
+    "category": "long"
+  },
+  {
+    "id": "Sacrum",
     "namefr": "Sacrum",
-    "category": "court",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Sacrum"]
+    "category": "court"
   },
   {
-    "id": "scaphoid-bone",
-    "namefr": "Scaphoïde",
-    "category": "court",
+    "id": "Os_scaphode_gauche",
+    "namefr": "Os scaphoïde gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Scaphoid bone", "Scaphoid bone.l", "Scaphoid bone.r"]
+    "category": "court"
   },
   {
-    "id": "scapula-2",
-    "namefr": "Scapula",
-    "category": "plat",
+    "id": "Os_scaphode_droit",
+    "namefr": "Os scaphoïde droit",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Scapula.l", "Scapula.r"]
+    "category": "court"
   },
   {
-    "id": "second-metacarpal-bone",
-    "namefr": "Deuxième métacarpien",
-    "category": "long",
+    "id": "Scapula_gauche",
+    "namefr": "Scapula gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": [
-      "Second metacarpal bone",
-      "Second metacarpal bone.l",
-      "Second metacarpal bone.r"
-    ]
+    "category": "plat"
   },
   {
-    "id": "second-metatarsal-bone",
-    "namefr": "Deuxième métatarsien",
-    "category": "long",
+    "id": "Scapula_droite",
+    "namefr": "Scapula droite",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Second metatarsal bone",
-      "Second metatarsal bone.l",
-      "Second metatarsal bone.r"
-    ]
+    "category": "plat"
   },
   {
-    "id": "second-rib",
-    "namefr": "Deuxième côte",
-    "category": "long",
+    "id": "Deuxime_os_mtacarpien_gauche",
+    "namefr": "Deuxième os métacarpien gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Second rib", "Second rib.l", "Second rib.r"]
+    "category": "long"
   },
   {
-    "id": "sesamoid-bones-of-foot",
-    "namefr": "Os sésamoïdes du pied",
-    "category": "court",
+    "id": "Deuxime_os_mtacarpien_droit",
+    "namefr": "Deuxième os métacarpien droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": [
-      "Sesamoid bones of foot",
-      "Sesamoid bones of foot.l",
-      "Sesamoid bones of foot.r"
-    ]
+    "category": "long"
   },
   {
-    "id": "seventh-rib",
-    "namefr": "Septième côte",
-    "category": "long",
+    "id": "Deuxime_os_mtatarsien_gauche",
+    "namefr": "Deuxième os métatarsien gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Seventh rib", "Seventh rib.l", "Seventh rib.r"]
+    "category": "long"
   },
   {
-    "id": "sinus-of-frontal-bone",
-    "namefr": "Os frontal",
-    "category": "plat",
+    "id": "Deuxime_os_mtatarsien_droit",
+    "namefr": "Deuxième os métatarsien droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Sinus of frontal bone"]
+    "category": "long"
   },
   {
-    "id": "sinus-of-sphenoid-bone",
+    "id": "Deuxime_cte_gauche",
+    "namefr": "Deuxième côte gauche",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Deuxime_cte_droite",
+    "namefr": "Deuxième côte droite",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Os_ssamodes_du_pied_gauche",
+    "namefr": "Os sésamoïdes du pied gauche",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Os_ssamodes_du_pied_droit",
+    "namefr": "Os sésamoïdes du pied droit",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Septime_cte_gauche",
+    "namefr": "Septième côte gauche",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Septime_cte_droite",
+    "namefr": "Septième côte droite",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Sinus_frontal",
+    "namefr": "Sinus frontal",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Sinus_sphnodal",
+    "namefr": "Sinus sphénoïdal",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Sixime_cte_gauche",
+    "namefr": "Sixième côte gauche",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Sixime_cte_droite",
+    "namefr": "Sixième côte droite",
+    "description": "",
+    "category": "plat"
+  },
+  {
+    "id": "Os_sphnode",
     "namefr": "Os sphénoïde",
-    "category": "plat",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Sinus of sphenoid bone"]
+    "category": "plat"
   },
   {
-    "id": "sixth-rib",
-    "namefr": "Sixième côte",
-    "category": "long",
+    "id": "trier_gauche",
+    "namefr": "Étrier gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Sixth rib", "Sixth rib.l", "Sixth rib.r"]
+    "category": "court"
   },
   {
-    "id": "sphenoid-bone",
-    "namefr": "Os sphénoïde",
-    "category": "plat",
+    "id": "trier_droit",
+    "namefr": "Étrier droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Sphenoid bone", "Sphenoid bone.l"]
+    "category": "court"
   },
   {
-    "id": "stapes",
-    "namefr": "Étrier",
-    "category": "court",
+    "id": "Talus_gauche",
+    "namefr": "Talus gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Stapes", "Stapes.l", "Stapes.r"]
+    "category": "court"
   },
   {
-    "id": "talus-2",
-    "namefr": "Talus",
-    "category": "court",
+    "id": "Talus_droit",
+    "namefr": "Talus droit",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Talus.l", "Talus.r"]
+    "category": "court"
   },
   {
-    "id": "temporal-bone",
-    "namefr": "Os temporal",
-    "category": "court",
+    "id": "Os_temporal_gauche",
+    "namefr": "Os temporal gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Temporal bone", "Temporal bone.l", "Temporal bone.r"]
+    "category": "plat"
   },
   {
-    "id": "tenth-rib",
-    "namefr": "Dixième côte",
-    "category": "long",
+    "id": "Os_temporal_droit",
+    "namefr": "Os temporal droit",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Tenth rib", "Tenth rib.l", "Tenth rib.r"]
+    "category": "plat"
   },
   {
-    "id": "third-metacarpal-bone",
-    "namefr": "Troisième métacarpien",
-    "category": "long",
+    "id": "Dixime_cte_gauche",
+    "namefr": "Dixième côte gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Third metacarpal bone", "Third metacarpal bone.l", "Third metacarpal bone.r"]
+    "category": "plat"
   },
   {
-    "id": "third-metatarsal-bone",
-    "namefr": "Troisième métatarsien",
-    "category": "long",
+    "id": "Dixime_cte_droite",
+    "namefr": "Dixième côte droite",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Third metatarsal bone", "Third metatarsal bone.l", "Third metatarsal bone.r"]
+    "category": "plat"
   },
   {
-    "id": "third-rib",
-    "namefr": "Troisième côte",
-    "category": "long",
+    "id": "Troisime_os_mtacarpien_gauche",
+    "namefr": "Troisième os métacarpien gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Third rib", "Third rib.l", "Third rib.r"]
+    "category": "long"
   },
   {
-    "id": "thyroid-cartilage",
-    "namefr": "Cartilage thyroïde",
-    "category": "court",
+    "id": "Troisime_os_mtacarpien_droit",
+    "namefr": "Troisième os métacarpien droit",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Thyroid cartilage"]
+    "category": "long"
   },
   {
-    "id": "tibia-2",
-    "namefr": "Tibia",
-    "category": "long",
+    "id": "Troisime_os_mtatarsien_gauche",
+    "namefr": "Troisième os métatarsien gauche",
     "description": "",
-    "place": "membre inférieur",
-    "meshAliases": ["Tibia.l", "Tibia.r"]
+    "category": "long"
   },
   {
-    "id": "trapezium-bone",
-    "namefr": "Trapèze",
-    "category": "court",
+    "id": "Troisime_os_mtatarsien_droit",
+    "namefr": "Troisième os métatarsien droit",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Trapezium bone", "Trapezium bone.l", "Trapezium bone.r"]
+    "category": "long"
   },
   {
-    "id": "trapezoid-bone",
-    "namefr": "Trapézoïde",
-    "category": "court",
+    "id": "Troisime_cte_gauche",
+    "namefr": "Troisième côte gauche",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Trapezoid bone", "Trapezoid bone.l", "Trapezoid bone.r"]
+    "category": "plat"
   },
   {
-    "id": "triquetrum-bone",
-    "namefr": "Triquétrum",
-    "category": "court",
+    "id": "Troisime_cte_droite",
+    "namefr": "Troisième côte droite",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Triquetrum bone", "Triquetrum bone.l", "Triquetrum bone.r"]
+    "category": "plat"
   },
   {
-    "id": "twelfth-rib",
-    "namefr": "Douzième côte",
-    "category": "long",
+    "id": "Tibia_gauche",
+    "namefr": "Tibia gauche",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Twelfth rib", "Twelfth rib.l", "Twelfth rib.r"]
+    "category": "long"
   },
   {
-    "id": "ulna-2",
-    "namefr": "Ulna",
-    "category": "long",
+    "id": "Tibia_droit",
+    "namefr": "Tibia droit",
     "description": "",
-    "place": "membre supérieur",
-    "meshAliases": ["Ulna.l", "Ulna.r"]
+    "category": "long"
   },
   {
-    "id": "upper-canine",
-    "namefr": "Canine supérieure",
-    "category": "court",
+    "id": "Os_trapze_gauche",
+    "namefr": "Os trapèze gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Upper canine", "Upper canine.l", "Upper canine.r"]
+    "category": "court"
   },
   {
-    "id": "upper-first-molar-tooth",
-    "namefr": "Molaire supérieure première",
-    "category": "court",
+    "id": "Os_trapze_droit",
+    "namefr": "Os trapèze droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": [
-      "Upper first molar tooth",
-      "Upper first molar tooth.l",
-      "Upper first molar tooth.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "upper-first-premolar",
-    "namefr": "Prémolaire supérieure première",
-    "category": "court",
+    "id": "Os_trapzode_gauche",
+    "namefr": "Os trapézoïde gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Upper first premolar", "Upper first premolar.l", "Upper first premolar.r"]
+    "category": "court"
   },
   {
-    "id": "upper-lateral-incisor",
-    "namefr": "Incisive supérieure latérale",
-    "category": "court",
+    "id": "Os_trapzode_droit",
+    "namefr": "Os trapézoïde droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Upper lateral incisor", "Upper lateral incisor.l", "Upper lateral incisor.r"]
+    "category": "court"
   },
   {
-    "id": "upper-medial-incisor",
-    "namefr": "Incisive supérieure médiale",
-    "category": "court",
+    "id": "Os_triquetrum_gauche",
+    "namefr": "Os triquetrum gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Upper medial incisor", "Upper medial incisor.l", "Upper medial incisor.r"]
+    "category": "court"
   },
   {
-    "id": "upper-second-molar-tooth",
-    "namefr": "Molaire supérieure deuxième",
-    "category": "court",
+    "id": "Os_triquetrum_droit",
+    "namefr": "Os triquetrum droit",
     "description": "",
-    "place": "tête",
-    "meshAliases": [
-      "Upper second molar tooth",
-      "Upper second molar tooth.l",
-      "Upper second molar tooth.r"
-    ]
+    "category": "court"
   },
   {
-    "id": "upper-second-premolar",
-    "namefr": "Prémolaire supérieure deuxième",
-    "category": "court",
+    "id": "Douzime_cte_gauche",
+    "namefr": "Douzième côte gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Upper second premolar", "Upper second premolar.l", "Upper second premolar.r"]
+    "category": "plat"
   },
   {
-    "id": "vertebra-c3",
-    "namefr": "Vertèbre cervicale C3",
-    "category": "court",
+    "id": "Douzime_cte_droite",
+    "namefr": "Douzième côte droite",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra C3"]
+    "category": "plat"
   },
   {
-    "id": "vertebra-c4",
-    "namefr": "Vertèbre cervicale C4",
-    "category": "court",
+    "id": "Ulna_gauche",
+    "namefr": "Ulna gauche",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra C4"]
+    "category": "long"
   },
   {
-    "id": "vertebra-c5",
-    "namefr": "Vertèbre cervicale C5",
-    "category": "court",
+    "id": "Ulna_droit",
+    "namefr": "Ulna droit",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra C5"]
+    "category": "long"
   },
   {
-    "id": "vertebra-c6",
-    "namefr": "Vertèbre cervicale C6",
-    "category": "court",
+    "id": "Canine_suprieure_gauche",
+    "namefr": "Canine supérieure gauche",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra C6"]
+    "category": "court"
   },
   {
-    "id": "vertebra-c7",
-    "namefr": "Vertèbre cervicale C7",
-    "category": "court",
+    "id": "Canine_suprieure_droite",
+    "namefr": "Canine supérieure droite",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra C7"]
+    "category": "court"
   },
   {
-    "id": "vertebra-l1",
-    "namefr": "Vertèbre lombaire L1",
-    "category": "court",
+    "id": "Premire_molaire_suprieure_gauche",
+    "namefr": "Première molaire supérieure gauche",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra L1"]
+    "category": "court"
   },
   {
-    "id": "vertebra-l2",
-    "namefr": "Vertèbre lombaire L2",
-    "category": "court",
+    "id": "Premire_molaire_suprieure_droite",
+    "namefr": "Première molaire supérieure droite",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra L2"]
+    "category": "court"
   },
   {
-    "id": "vertebra-l3",
-    "namefr": "Vertèbre lombaire L3",
-    "category": "court",
+    "id": "Premire_prmolaire_suprieure_gauche",
+    "namefr": "Première prémolaire supérieure gauche",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra L3"]
+    "category": "court"
   },
   {
-    "id": "vertebra-l4",
-    "namefr": "Vertèbre lombaire L4",
-    "category": "court",
+    "id": "Premire_prmolaire_suprieure_droite",
+    "namefr": "Première prémolaire supérieure droite",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra L4"]
+    "category": "court"
   },
   {
-    "id": "vertebra-l5",
-    "namefr": "Vertèbre lombaire L5",
-    "category": "court",
+    "id": "Incisive_latrale_suprieure_gauche",
+    "namefr": "Incisive latérale supérieure gauche",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra L5"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t1",
-    "namefr": "Vertèbre thoracique T1",
-    "category": "court",
+    "id": "Incisive_latrale_suprieure_droite",
+    "namefr": "Incisive latérale supérieure droite",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T1"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t10",
-    "namefr": "Vertèbre thoracique T10",
-    "category": "court",
+    "id": "Incisive_mdiale_suprieure_gauche",
+    "namefr": "Incisive médiale supérieure gauche",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T10"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t11",
-    "namefr": "Vertèbre thoracique T11",
-    "category": "court",
+    "id": "Incisive_mdiale_suprieure_droite",
+    "namefr": "Incisive médiale supérieure droite",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T11"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t12",
-    "namefr": "Vertèbre thoracique T12",
-    "category": "court",
+    "id": "Deuxime_molaire_suprieure_gauche",
+    "namefr": "Deuxième molaire supérieure gauche",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T12"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t2",
-    "namefr": "Vertèbre thoracique T2",
-    "category": "court",
+    "id": "Deuxime_molaire_suprieure_droite",
+    "namefr": "Deuxième molaire supérieure droite",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T2"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t3",
-    "namefr": "Vertèbre thoracique T3",
-    "category": "court",
+    "id": "Deuxime_prmolaire_suprieure_gauche",
+    "namefr": "Deuxième prémolaire supérieure gauche",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T3"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t4",
-    "namefr": "Vertèbre thoracique T4",
-    "category": "court",
+    "id": "Deuxime_prmolaire_suprieure_droite",
+    "namefr": "Deuxième prémolaire supérieure droite",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T4"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t5",
-    "namefr": "Vertèbre thoracique T5",
-    "category": "court",
+    "id": "Vertbre_C3",
+    "namefr": "Vertèbre C3",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T5"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t6",
-    "namefr": "Vertèbre thoracique T6",
-    "category": "court",
+    "id": "Vertbre_C4",
+    "namefr": "Vertèbre C4",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T6"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t7",
-    "namefr": "Vertèbre thoracique T7",
-    "category": "court",
+    "id": "Vertbre_C5",
+    "namefr": "Vertèbre C5",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T7"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t8",
-    "namefr": "Vertèbre thoracique T8",
-    "category": "court",
+    "id": "Vertbre_C6",
+    "namefr": "Vertèbre C6",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T8"]
+    "category": "court"
   },
   {
-    "id": "vertebra-t9",
-    "namefr": "Vertèbre thoracique T9",
-    "category": "court",
+    "id": "Vertbre_C7",
+    "namefr": "Vertèbre C7",
     "description": "",
-    "place": "rachi",
-    "meshAliases": ["Vertebra T9"]
+    "category": "court"
   },
   {
-    "id": "vomer",
+    "id": "Vertbre_L1",
+    "namefr": "Vertèbre L1",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_L2",
+    "namefr": "Vertèbre L2",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_L3",
+    "namefr": "Vertèbre L3",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_L4",
+    "namefr": "Vertèbre L4",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_L5",
+    "namefr": "Vertèbre L5",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T1",
+    "namefr": "Vertèbre T1",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T10",
+    "namefr": "Vertèbre T10",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T11",
+    "namefr": "Vertèbre T11",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T12",
+    "namefr": "Vertèbre T12",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T2",
+    "namefr": "Vertèbre T2",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T3",
+    "namefr": "Vertèbre T3",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T4",
+    "namefr": "Vertèbre T4",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T5",
+    "namefr": "Vertèbre T5",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T6",
+    "namefr": "Vertèbre T6",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T7",
+    "namefr": "Vertèbre T7",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T8",
+    "namefr": "Vertèbre T8",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vertbre_T9",
+    "namefr": "Vertèbre T9",
+    "description": "",
+    "category": "court"
+  },
+  {
+    "id": "Vomer",
     "namefr": "Vomer",
-    "category": "plat",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Vomer"]
+    "category": "plat"
   },
   {
-    "id": "xiphoid-process",
+    "id": "Processus_xiphode",
     "namefr": "Processus xiphoïde",
-    "category": "plat",
     "description": "",
-    "place": "thorax",
-    "meshAliases": ["Xiphoid process"]
+    "category": "plat"
   },
   {
-    "id": "zygomatic-bone",
-    "namefr": "Os zygomatique",
-    "category": "plat",
+    "id": "Os_zygomatique_gauche",
+    "namefr": "Os zygomatique gauche",
     "description": "",
-    "place": "tête",
-    "meshAliases": ["Zygomatic bone", "Zygomatic bone.l", "Zygomatic bone.r"]
+    "category": "plat"
+  },
+  {
+    "id": "Os_zygomatique_droit",
+    "namefr": "Os zygomatique droit",
+    "description": "",
+    "category": "plat"
   }
 ]

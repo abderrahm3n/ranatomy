@@ -1,22 +1,19 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react'
 
-/**
- * SearchBox — searches bone name + description, and on selection
- * triggers highlight + camera fly-to in the 3D view.
- *
- * Assumed bone shape (adjust field names to match your bones-data.json):
- * {
- *   id: string,
- *   name: string,          // e.g. "Femur"
- *   nameFr?: string,       // optional French name
- *   description: string,   // detail text shown in your info panel
- * }
- *
- * Props:
- * - bones: array of bone objects (your full bones-data.json list)
- * - onSelectBone: (bone) => void  — call your existing select + flyTo logic here
- */
-export default function SearchBox({ bones, onSelectBone }) {
+function primaryName(entity) {
+  return entity.namefr || entity.name || entity.id || ''
+}
+
+function secondaryName(entity) {
+  const primary = primaryName(entity)
+  if (entity.name && entity.name !== primary) return entity.name
+
+  // First mesh alias that isn't a left/right variant — usually the English name.
+  const alias = (entity.meshAliases || []).find((a) => a !== primary && !/\.(l|r)$/i.test(a))
+  return alias || null
+}
+
+export default function SearchBox({ entities, onSelectEntity }) {
   const [query, setQuery] = useState('')
   const [activeIndex, setActiveIndex] = useState(0)
   const [isOpen, setIsOpen] = useState(false)
@@ -27,35 +24,39 @@ export default function SearchBox({ bones, onSelectBone }) {
     const q = query.trim().toLowerCase()
     if (!q) return []
 
-    return bones
-      .map((bone) => {
-        const name = (bone.name || bone.id || '').toLowerCase()
-        const namefr = (bone.namefr || '').toLowerCase()
-        const desc = (bone.description || '').toLowerCase()
+    return entities
+      .map((entity) => {
+        const primary = primaryName(entity).toLowerCase()
+        const secondary = (secondaryName(entity) || '').toLowerCase()
+        const id = (entity.id || '').toLowerCase()
+        const description = (entity.description || '').toLowerCase()
+        const aliases = (entity.meshAliases || []).join(' ').toLowerCase()
 
         let score = 0
-        if (name === q || namefr === q) score = 100
-        else if (name.startsWith(q) || namefr.startsWith(q)) score = 80
-        else if (name.includes(q) || namefr.includes(q)) score = 60
-        else if (desc.includes(q)) score = 20
+        if (primary === q) score = 100
+        else if (primary.startsWith(q)) score = 80
+        else if (primary.includes(q)) score = 60
+        else if (secondary.includes(q)) score = 55
+        else if (id.includes(q)) score = 40
+        else if (aliases.includes(q)) score = 35
+        else if (description.includes(q)) score = 20
         else return null
 
-        return { bone, score }
+        return { entity, score }
       })
       .filter(Boolean)
       .sort((a, b) => b.score - a.score)
       .slice(0, 8)
-      .map((r) => r.bone)
-  }, [query, bones])
+      .map((r) => r.entity)
+  }, [query, entities])
 
   useEffect(() => {
     setActiveIndex(0)
   }, [query])
 
-  // Close dropdown on outside click
   useEffect(() => {
-    function handleClickOutside(e) {
-      if (containerRef.current && !containerRef.current.contains(e.target)) {
+    function handleClickOutside(event) {
+      if (containerRef.current && !containerRef.current.contains(event.target)) {
         setIsOpen(false)
       }
     }
@@ -63,27 +64,27 @@ export default function SearchBox({ bones, onSelectBone }) {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  function selectBone(bone) {
-    if (!bone) return
-    onSelectBone(bone)
-    setQuery(bone.namefr)
+  function selectEntity(entity) {
+    if (!entity) return
+    onSelectEntity(entity)
+    setQuery(primaryName(entity))
     setIsOpen(false)
     inputRef.current?.blur()
   }
 
-  function handleKeyDown(e) {
+  function handleKeyDown(event) {
     if (!isOpen || results.length === 0) return
 
-    if (e.key === 'ArrowDown') {
-      e.preventDefault()
+    if (event.key === 'ArrowDown') {
+      event.preventDefault()
       setActiveIndex((i) => (i + 1) % results.length)
-    } else if (e.key === 'ArrowUp') {
-      e.preventDefault()
+    } else if (event.key === 'ArrowUp') {
+      event.preventDefault()
       setActiveIndex((i) => (i - 1 + results.length) % results.length)
-    } else if (e.key === 'Enter') {
-      e.preventDefault()
-      selectBone(results[activeIndex])
-    } else if (e.key === 'Escape') {
+    } else if (event.key === 'Enter') {
+      event.preventDefault()
+      selectEntity(results[activeIndex])
+    } else if (event.key === 'Escape') {
       setIsOpen(false)
       inputRef.current?.blur()
     }
@@ -108,9 +109,9 @@ export default function SearchBox({ bones, onSelectBone }) {
         ref={inputRef}
         type="text"
         value={query}
-        placeholder="Rechercher un os..."
-        onChange={(e) => {
-          setQuery(e.target.value)
+        placeholder="Rechercher une structure..."
+        onChange={(event) => {
+          setQuery(event.target.value)
           setIsOpen(true)
         }}
         onFocus={() => query && setIsOpen(true)}
@@ -120,28 +121,30 @@ export default function SearchBox({ bones, onSelectBone }) {
 
       {isOpen && results.length > 0 && (
         <ul className="search-dropdown">
-          {results.map((bone, i) => (
-            <li
-              key={bone.id} // Changed from bone.namefr to unique bone.id
-              onMouseDown={() => selectBone(bone)}
-              onMouseEnter={() => setActiveIndex(i)}
-              className={`search-item ${i === activeIndex ? 'active' : ''}`}
-            >
-              <div className="search-item-name">
-                {highlightMatch(bone.namefr, query)}
-                {bone.namefr && bone.namefr !== bone.name && (
-                  <span className="search-item-namefr"> — {bone.namefr}</span>
-                )}
-              </div>
-              {bone.description && (
-                <div className="search-item-desc">
-                  {bone.description.length > 90
-                    ? bone.description.slice(0, 90) + '…'
-                    : bone.description}
+          {results.map((entity, i) => {
+            const primary = primaryName(entity)
+            const secondary = secondaryName(entity)
+            return (
+              <li
+                key={entity.id}
+                onMouseDown={() => selectEntity(entity)}
+                onMouseEnter={() => setActiveIndex(i)}
+                className={`search-item ${i === activeIndex ? 'active' : ''}`}
+              >
+                <div className="search-item-name">
+                  {highlightMatch(primary, query)}
+                  {secondary && <span className="search-item-namefr"> — {secondary}</span>}
                 </div>
-              )}
-            </li>
-          ))}
+                {entity.description && (
+                  <div className="search-item-desc">
+                    {entity.description.length > 90
+                      ? entity.description.slice(0, 90) + '…'
+                      : entity.description}
+                  </div>
+                )}
+              </li>
+            )
+          })}
         </ul>
       )}
 

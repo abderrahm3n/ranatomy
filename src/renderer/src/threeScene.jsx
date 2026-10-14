@@ -2,18 +2,69 @@ import { forwardRef, useImperativeHandle, useEffect, useRef } from 'react'
 import * as THREE from 'three'
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js'
-import { findEntityByMeshName } from './utils/lookup'
-import skeleton from './assets/skeleton4.glb?url'
-import cardio from './assets/cardio2.glb?url'
+import skeleton from './assets/squelette.glb?url'
+import cardio from './assets/cardiovasculair.glb?url'
+import nervous from './assets/nerveux.glb?url'
+import muscular from './assets/musculair.glb?url'
 
-const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChange , onSystemsChange}, ref) {
+
+// top of threeScene.jsx, module scope
+const normalizeMeshKey = (str) => {
+  if (typeof str !== 'string') return ''
+  return str
+    .trim()
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, '')
+    .replace(/[^a-z0-9]/g, '')
+}
+
+// Per-system base materials. Adding a system = one entry here + one loader below.
+const BASE_MATERIAL_CONFIG = {
+  skeletal: {
+    color: 0xe8e2d5,
+    roughness: 0.6,
+    metalness: 0.05
+  },
+  cardiovascular: {
+    color: 0xff4d4d,
+    roughness: 0.4,
+    metalness: 0.1,
+  },
+  nervous: {
+    color: 0xf2c94c,
+    roughness: 0.55,
+    metalness: 0.05
+  },
+  muscular:{
+    color: 0xffffff,
+    roughness: 0.4,
+    metalness: 0.2
+  }
+}
+
+const HIGHLIGHT_MATERIAL_CONFIG = {
+  color: 0xe8e2d5,
+  emissive: 0x00ffff,
+  emissiveIntensity: 0.4,
+  roughness: 0.6,
+  metalness: 0.05
+}
+
+const DRAG_THRESHOLD_PX = 3
+
+const ThreeScene = forwardRef(function ThreeScene(
+  { entities = [], onSelectEntity, onIsolationChange, onSystemVisibilityChange },
+  ref
+) {
   const mountRef = useRef(null)
   const sceneApiRef = useRef({})
 
   useEffect(() => {
     const currentMount = mountRef.current
 
-    // --- 1. Scene, Camera, Renderer ---
+    // ---- Scene / camera / renderer ----
     const scene = new THREE.Scene()
     scene.background = new THREE.Color(0x0d0f11)
 
@@ -31,14 +82,14 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     renderer.shadowMap.enabled = true
     currentMount.appendChild(renderer.domElement)
 
-    // --- 2. Controls ---
+    // ---- Controls ----
     const controls = new OrbitControls(camera, renderer.domElement)
     controls.enableDamping = true
     controls.dampingFactor = 0.05
     controls.screenSpacePanning = true
     controls.maxPolarAngle = Math.PI
 
-    // --- 3. Lights ---
+    // ---- Lights ----
     scene.add(new THREE.HemisphereLight(0xdfe9f5, 0x3a3a3a, 0.9))
     scene.add(new THREE.AmbientLight(0xffffff, 0.25))
 
@@ -61,129 +112,138 @@ const ThreeScene = forwardRef(function ThreeScene({ onSelectBone, onIsolateChang
     frontFill.position.set(0, 2, 15)
     scene.add(frontFill)
 
-    // --- 4. Materials & State ---
-    const baseMaterial = new THREE.MeshStandardMaterial({
-      color: 0xe8e2d5,
-      roughness: 0.6,
-      metalness: 0.05
+    // ---- Materials ----
+    const highlightMaterial = new THREE.MeshStandardMaterial(HIGHLIGHT_MATERIAL_CONFIG)
+
+    const baseMaterialBySystem = {}
+    Object.entries(BASE_MATERIAL_CONFIG).forEach(([system, config]) => {
+      baseMaterialBySystem[system] = new THREE.MeshStandardMaterial(config)
     })
 
-    const highlightMaterial = new THREE.MeshStandardMaterial({
-      color: 0xe8e2d5,
-      emissive: 0x00ffff,
-      emissiveIntensity: 0.4,
-      roughness: 0.6,
-      metalness: 0.05
-    })
-    const cardioMaterial = new THREE.MeshStandardMaterial({
-      color: 0xff4d4d,
-      roughness: 0.4,
-      metalness: 0.1,
-      transparent: true,
-      opacity: 0.85
-    })
-
+    // ---- Runtime state ----
     const raycaster = new THREE.Raycaster()
     const pointer = new THREE.Vector2()
 
-    let meshes = []
+    const meshes = [] // flat list of every interactive mesh
+    const meshesBySystem = {} // { skeletal: [...], cardiovascular: [...] }
+    const systemVisibility = {} // { skeletal: true, cardiovascular: true }
+
     let selectedMesh = null
     let isIsolated = false
-    // Per-system mesh membership + on/off state, driven by the SystemTray.
-    // A mesh can only belong to one system here; toggling a system just
-    // flips .visible on every mesh registered under that key.
-    const systemMeshes = { skeletal: [], cardiovascular: [] }
-    const systemVisible = { skeletal: true, cardiovascular: true }
+    let preIsolationVisibility = null // boolean[] snapshot taken on isolate
+    // ---- Lookup maps (built once from the normalized entity list) ----
 
-    function notifySystems() {
-      onSystemsChange?.({ ...systemVisible })
+
+    const meshByMeshName = new Map() // meshName -> Mesh
+    const entityByMeshName = new Map() // meshName -> Entity
+
+    Object.keys(BASE_MATERIAL_CONFIG).forEach((system) => {
+      meshesBySystem[system] = []
+      systemVisibility[system] = true
+    })
+
+    entities.forEach((entity) => {
+  ;(entity.meshNames || []).forEach((name) => {
+    entityByMeshName.set(normalizeMeshKey(name), entity)
+  })
+})
+    // ---- Mesh registry ----
+    function registerMesh(node, system) {
+  meshes.push(node)
+  if (!meshesBySystem[system]) {
+    meshesBySystem[system] = []
+    systemVisibility[system] = true
+  }
+  meshesBySystem[system].push(node)
+
+  meshByMeshName.set(normalizeMeshKey(node.name), node)
+
+  node.userData.system = system
+  node.userData.entity = entityByMeshName.get(normalizeMeshKey(node.name)) || null
+}
+
+    function emitSystemVisibility() {
+      onSystemVisibilityChange?.({ ...systemVisibility })
     }
 
+    function warnOrphanMeshes(system) {
+      const orphans = (meshesBySystem[system] || []).filter((mesh) => !mesh.userData.entity)
+      if (orphans.length) {
+        console.warn(
+          `[${system}] meshes with no catalog entry:`,
+          orphans.map((m) => m.name)
+        )
+      }
+    }
 
-    // --- 5. Loader ---
+    // ---- Loaders ----
     const loader = new GLTFLoader()
-    loader.load(skeleton, (gltf) => {
-      const model = gltf.scene
-      model.scale.set(4, 4, 4)
 
-      model.traverse((node) => {
-        if (!node.isMesh) return
-        node.geometry.computeVertexNormals()
-        node.material = baseMaterial
-        meshes.push(node)
-            systemMeshes.skeletal.push(node)   // ← ADD
-      })
+    // Per-system model files. Transform lives here so a new system is one entry.
+const SYSTEM_MODELS = [
+  { system: 'skeletal',       url: skeleton, scale: 4, position: [0, 0, 0] },
+  { system: 'cardiovascular', url: cardio,   scale: 4, position: [0, 0, 0] },
+  { system: 'nervous',        url: nervous,  scale: 4, position: [0, 0, 0] },
+  { system: 'muscular',       url: muscular, scale: 4, position: [0,0,0] }
+]
 
-      scene.add(model)
-        notifySystems()                      // ← ADD
+SYSTEM_MODELS.forEach(({ system, url, scale, position }) => {
+  loader.load(url, (gltf) => {
+    gltf.scene.scale.setScalar(scale)
+    gltf.scene.position.set(...position)
+    gltf.scene.traverse((node) => {
+      if (!node.isMesh) return
+      node.geometry.computeVertexNormals()
+      const base = baseMaterialBySystem[system]
+      node.material = base
+      node.userData.originalMaterial = base
+      registerMesh(node, system)
     })
+    scene.add(gltf.scene)
+    warnOrphanMeshes(system)
+    emitSystemVisibility()
+  })
+})
 
-    loader.load(cardio, (gltf) => {
-      const cardioModel = gltf.scene
-      // Adjust position/scale to sit correctly relative to the skeleton
-      cardioModel.position.set(0, 0, 0) // example offset
-      cardioModel.scale.set(4, 4, 4) // adjust as needed
+    // ---- Selection ----
+    function restoreMeshMaterial(mesh) {
+      mesh.material =
+        mesh.userData.originalMaterial ||
+        baseMaterialBySystem[mesh.userData.system] ||
+        highlightMaterial
+    }
 
-      cardioModel.traverse((node) => {
-        if (!node.isMesh) return
-        node.geometry.computeVertexNormals()
-        node.material = cardioMaterial // use the cardio-specific material
-        meshes.push(node) // add to the interactive list
-            systemMeshes.cardiovascular.push(node)  // ← ADD
-      })
+    function applySelection(mesh, entityOverride) {
+      if (selectedMesh) restoreMeshMaterial(selectedMesh)
+      selectedMesh = mesh
 
-      scene.add(cardioModel)
-        notifySystems()                            // ← ADD
-    })
+      if (!mesh) {
+        onSelectEntity?.(null)
+        return
+      }
 
-    // --- 6. Material Swapping & Selection Helpers ---
-function getSystemForMesh(mesh) {
-  if (systemMeshes.skeletal.includes(mesh)) return 'skeletal'
-  if (systemMeshes.cardiovascular.includes(mesh)) return 'cardiovascular'
-  return null
-}
+      mesh.material = highlightMaterial
 
-function selectMesh(mesh, dataOverride) {
-  if (selectedMesh) {
-    selectedMesh.material = baseMaterial
-  }
+      const entity = entityOverride ||
+        mesh.userData.entity || { id: mesh.name, namefr: mesh.name, meshNames: [mesh.name] }
 
-  selectedMesh = mesh
+      onSelectEntity?.({ ...entity, system: mesh.userData.system })
+    }
 
-  if (mesh) {
-    mesh.material = highlightMaterial
+    function clearSelection() {
+      applySelection(null)
+    }
 
-    const system = getSystemForMesh(mesh)
-    const data = dataOverride || findEntityByMeshName(mesh.name, system)
-    onSelectBone({ ...(data || { name: mesh.name }), system })
-  } else {
-    onSelectBone(null)
-  }
-}
-
-function clearSelection() {
-  selectMesh(null)
-}
-// --- 7. Click & Drag Handling ---
+    // ---- Pointer interaction ----
     let pointerDownPos = { x: 0, y: 0 }
-    const DRAG_THRESHOLD = 3
 
-    function onPointerClick(event) {
+    function pickMeshAtPointer(event) {
       const rect = renderer.domElement.getBoundingClientRect()
       pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1
       pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1
-
       raycaster.setFromCamera(pointer, camera)
-
-      const intersects = raycaster.intersectObjects(meshes.filter((m) => m.visible))
-
-      if (intersects.length > 0) {
-        const hitMesh = intersects[0].object
-        console.log(hitMesh)
-        selectMesh(hitMesh)
-      } else {
-        clearSelection()
-      }
+      const hits = raycaster.intersectObjects(meshes.filter((m) => m.visible))
+      return hits.length > 0 ? hits[0].object : null
     }
 
     function onPointerDown(event) {
@@ -193,144 +253,140 @@ function clearSelection() {
     function onPointerUp(event) {
       const dx = event.clientX - pointerDownPos.x
       const dy = event.clientY - pointerDownPos.y
-      if (Math.sqrt(dx * dx + dy * dy) < DRAG_THRESHOLD) {
-        onPointerClick(event)
-      }
+      if (Math.sqrt(dx * dx + dy * dy) >= DRAG_THRESHOLD_PX) return
+
+      const hitMesh = pickMeshAtPointer(event)
+      if (hitMesh) applySelection(hitMesh)
+      else clearSelection()
     }
 
     renderer.domElement.addEventListener('pointerdown', onPointerDown)
     renderer.domElement.addEventListener('pointerup', onPointerUp)
 
-    // --- 8. Public Actions ---
-    // Add this variable inside the useEffect, near other state variables
-    let previousVisibility = null // stores an array of booleans
+    // ---- Visibility helpers ----
+    function restoreVisibilityFromSnapshot() {
+      if (preIsolationVisibility) {
+        meshes.forEach((mesh, i) => {
+          mesh.visible = preIsolationVisibility[i]
+        })
+        preIsolationVisibility = null
+      } else {
+        meshes.forEach((mesh) => {
+          const system = mesh.userData.system
+          mesh.visible = system ? systemVisibility[system] !== false : true
+        })
+      }
+    }
 
-    function toggleIsolate() {
-      // --- Turn OFF isolation (always possible) ---
+    function setMeshVisible(mesh, isVisible) {
+      mesh.visible = isVisible
+    }
+
+    // ---- Public actions ----
+    function toggleIsolation() {
       if (isIsolated) {
-        if (previousVisibility) {
-          meshes.forEach((mesh, index) => {
-            mesh.visible = previousVisibility[index]
-          })
-          previousVisibility = null
-        } else {
-          // fallback – should not happen
-          meshes.forEach((mesh) => (mesh.visible = true))
-        }
+        restoreVisibilityFromSnapshot()
         isIsolated = false
-        onIsolateChange(false)
+        onIsolationChange?.(false)
         return
       }
 
-      // --- Turn ON isolation (requires a selected mesh) ---
       if (!selectedMesh) return
 
-      previousVisibility = meshes.map((mesh) => mesh.visible)
+      preIsolationVisibility = meshes.map((mesh) => mesh.visible)
       meshes.forEach((mesh) => {
-        mesh.visible = mesh === selectedMesh
+        setMeshVisible(mesh, mesh === selectedMesh)
       })
       isIsolated = true
-      onIsolateChange(true)
+      onIsolationChange?.(true)
     }
 
-    function hideSelected() {
+    function hideSelection() {
       if (!selectedMesh) return
-
-      selectedMesh.visible = false
-      selectedMesh.material = baseMaterial
+      setMeshVisible(selectedMesh, false)
+      restoreMeshMaterial(selectedMesh)
       selectedMesh = null
-      onSelectBone(null)
+      onSelectEntity?.(null)
     }
 
-    function toggleSystem(key) {
-      if (!systemMeshes[key]) return
+    function toggleSystemVisibility(system) {
+      if (!meshesBySystem[system]) return
 
-      // A system toggle overrides isolate mode — otherwise the stale
-      // previousVisibility snapshot fights with the system's new state
-      // next time isolate is turned off.
       if (isIsolated) {
+        restoreVisibilityFromSnapshot()
         isIsolated = false
-        previousVisibility = null
-        onIsolateChange(false)
+        onIsolationChange?.(false)
       }
 
-      const nextVisible = !systemVisible[key]
-      systemVisible[key] = nextVisible
-      systemMeshes[key].forEach((mesh) => {
-        mesh.visible = nextVisible
+      const nextVisible = !systemVisibility[system]
+      systemVisibility[system] = nextVisible
+      meshesBySystem[system].forEach((mesh) => {
+        setMeshVisible(mesh, nextVisible)
       })
 
-      if (selectedMesh && systemMeshes[key].includes(selectedMesh) && !nextVisible) {
+      if (selectedMesh && meshesBySystem[system].includes(selectedMesh) && !nextVisible) {
         clearSelection()
       }
 
-      notifySystems()
+      emitSystemVisibility()
     }
 
-
     function resetView() {
-      meshes.forEach((mesh) => {
-        mesh.visible = true
-        mesh.material = baseMaterial
+      Object.keys(systemVisibility).forEach((system) => {
+        systemVisibility[system] = true
       })
+
+      meshes.forEach((mesh) => {
+        setMeshVisible(mesh, true)
+        restoreMeshMaterial(mesh)
+      })
+
       selectedMesh = null
       isIsolated = false
-      onIsolateChange(false)
-      onSelectBone(null)
+      preIsolationVisibility = null
+
+      onIsolationChange?.(false)
+      onSelectEntity?.(null)
+      emitSystemVisibility()
       controls.reset()
     }
 
-    function selectBoneSearchBox(bone) {
-      if (!bone) {
+    function selectEntity(entity) {
+      if (!entity) {
         clearSelection()
         return
       }
 
-      if (isIsolated) {
-        meshes.forEach((mesh) => {
-          mesh.visible = true
-        })
-        isIsolated = false
-        onIsolateChange(false)
+      let mesh = null
+      for (const meshName of entity.meshNames || []) {
+  const candidate = meshByMeshName.get(normalizeMeshKey(meshName))
+  if (candidate) { mesh = candidate; break }
+}
+
+      if (!mesh) {
+        console.warn(
+          `No mesh for entity "${entity.id}" (${entity.namefr || entity.name}). ` +
+            `Tried: ${(entity.meshNames || []).join(', ') || '(none)'}`
+        )
+        systemVisibility[system] = true
+        meshesBySystem[system].forEach((m) => setMeshVisible(m, true))
+        emitSystemVisibility()
       }
+      setMeshVisible(mesh, true)
 
-      // Collect potential target keys: bone ID, explicit meshAliases, or name variants
-      const searchTerms = [bone.id, bone.name, bone.namefr, ...(bone.meshAliases || [])]
-        .filter(Boolean)
-        .map((term) => term.toLowerCase())
-
-      const foundMesh = meshes.find((mesh) => {
-        if (!mesh.visible) return false
-        const meshName = mesh.name.toLowerCase()
-
-        return searchTerms.some((term) => {
-          // 1. Exact match
-          if (meshName === term) return true
-
-          // 2. Prefix/Suffix match for left/right designations (e.g. "radius.l", "radius_l", "radius.r")
-          const pattern = new RegExp(`^${term}[._-]?(l|r|left|right)?$`, 'i')
-          return pattern.test(meshName)
-        })
-      })
-
-      if (foundMesh) {
-        selectMesh(foundMesh, bone)
-      } else {
-        console.warn(`⚠️ Mesh not found for bone "${bone.name || bone.namefr || bone.id}"`)
-        clearSelection()
-      }
+      applySelection(mesh, entity)
     }
 
     sceneApiRef.current = {
-      toggleIsolate,
+      toggleIsolation,
       resetView,
       clearSelection,
-      selectBoneSearchBox,
-      hideSelected,
-      toggleSystem
+      selectEntity,
+      hideSelection,
+      toggleSystemVisibility
     }
 
-    // --- 9. Resize & Render Loop ---
+    // ---- Resize & render loop ----
     const onResize = () => {
       camera.aspect = currentMount.clientWidth / currentMount.clientHeight
       camera.updateProjectionMatrix()
@@ -343,10 +399,11 @@ function clearSelection() {
       frameId = requestAnimationFrame(animate)
       controls.update()
       renderer.render(scene, camera)
+      console.log(renderer.info.render.calls, renderer.info.render.triangles)
     }
     animate()
 
-    // --- 10. Cleanup ---
+    // ---- Cleanup ----
     return () => {
       cancelAnimationFrame(frameId)
       window.removeEventListener('resize', onResize)
@@ -358,15 +415,15 @@ function clearSelection() {
         currentMount.removeChild(renderer.domElement)
       }
     }
-  }, [onSelectBone, onIsolateChange, onSystemsChange])
+  }, [entities, onSelectEntity, onIsolationChange, onSystemVisibilityChange])
 
   useImperativeHandle(ref, () => ({
-    toggleIsolate: () => sceneApiRef.current.toggleIsolate?.(),
-    reset: () => sceneApiRef.current.resetView?.(),
+    toggleIsolation: () => sceneApiRef.current.toggleIsolation?.(),
+    resetView: () => sceneApiRef.current.resetView?.(),
     clearSelection: () => sceneApiRef.current.clearSelection?.(),
-    selectBone: (bone) => sceneApiRef.current.selectBoneSearchBox?.(bone),
-    hideSelected: () => sceneApiRef.current.hideSelected?.(),
-        toggleSystem: (key) => sceneApiRef.current.toggleSystem?.(key)
+    selectEntity: (entity) => sceneApiRef.current.selectEntity?.(entity),
+    hideSelection: () => sceneApiRef.current.hideSelection?.(),
+    toggleSystem: (system) => sceneApiRef.current.toggleSystemVisibility?.(system)
   }))
 
   return <div ref={mountRef} style={{ width: '100%', height: '100%' }} />
