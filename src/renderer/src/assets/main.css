@@ -604,3 +604,12 @@ body {
   opacity: 1;
   transform: translateY(-50%) translateX(0);
 }
+.btn-kbd {
+  margin-left: 0.5rem;
+  padding: 0.05rem 0.35rem;
+  font-size: 0.7em;
+  font-family: inherit;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  opacity: 0.6;
+}

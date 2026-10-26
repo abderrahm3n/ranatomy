@@ -91,10 +91,12 @@ function Sidebar({ entity, isIsolated, onToggleIsolation, onHideSelection }) {
         >
           <i className={`ti ${isIsolated ? 'ti-eye' : 'ti-focus-2'}`} aria-hidden="true"></i>
           {isIsolated ? 'Show all' : 'Isolate'}
+          <kbd className="btn-kbd">I</kbd>
         </button>
         <button className="btn btn-ghost" onClick={onHideSelection}>
           <i className="ti ti-eye-off" aria-hidden="true"></i>
           Hide
+          <kbd className="btn-kbd">H</kbd>
         </button>
       </div>
     </div>

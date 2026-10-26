@@ -5238,5 +5238,333 @@
     "description": "",
     "place": "tronc",
     "meshName": "Veine vertébrale droite"
+  },
+  {
+    "id": "oreillette-gauche",
+    "namefr": "Oreillette gauche",
+    "type": "cavité cardiaque",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Oreillette gauche"
+  },
+  {
+    "id": "ventricule-gauche",
+    "namefr": "Ventricule gauche",
+    "type": "cavité cardiaque",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Ventricule gauche"
+  },
+  {
+    "id": "muscle-papillaire-inferieur-du-ventricule-gauche",
+    "namefr": "Muscle papillaire inférieur du ventricule gauche",
+    "type": "muscle papillaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Muscle papillaire inférieur du ventricule gauche"
+  },
+  {
+    "id": "oreillette-droite",
+    "namefr": "Oreillette droite",
+    "type": "cavité cardiaque",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Oreillette droite"
+  },
+  {
+    "id": "ventricule-droit",
+    "namefr": "Ventricule droit",
+    "type": "cavité cardiaque",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Ventricule droit"
+  },
+  {
+    "id": "muscle-papillaire-anterieur-du-ventricule-droit",
+    "namefr": "Muscle papillaire antérieur du ventricule droit",
+    "type": "muscle papillaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Muscle papillaire antérieur du ventricule droit"
+  },
+  {
+    "id": "muscle-papillaire-inferieur-du-ventricule-droit",
+    "namefr": "Muscle papillaire inférieur du ventricule droit",
+    "type": "muscle papillaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Muscle papillaire inférieur du ventricule droit"
+  },
+  {
+    "id": "muscle-papillaire-septal-du-ventricule-droit",
+    "namefr": "Muscle papillaire septal du ventricule droit",
+    "type": "muscle papillaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Muscle papillaire septal du ventricule droit"
+  },
+  {
+    "id": "cuspide-inferieure-de-la-valve-atrioventriculaire-droite",
+    "namefr": "Cuspide inférieure de la valve atrioventriculaire droite",
+    "type": "cuspide valvulaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Cuspide inférieure de la valve atrioventriculaire droite"
+  },
+  {
+    "id": "cuspide-posterieure-de-la-valve-atrioventriculaire-gauche",
+    "namefr": "Cuspide postérieure de la valve atrioventriculaire gauche",
+    "type": "cuspide valvulaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Cuspide postérieure de la valve atrioventriculaire gauche"
+  },
+  {
+    "id": "cuspide-septale-de-la-valve-atrioventriculaire-droite",
+    "namefr": "Cuspide septale de la valve atrioventriculaire droite",
+    "type": "cuspide valvulaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Cuspide septale de la valve atrioventriculaire droite"
+  },
+  {
+    "id": "cuspide-coronaire-gauche",
+    "namefr": "Cuspide coronaire gauche",
+    "type": "cuspide valvulaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Cuspide coronaire gauche"
+  },
+  {
+    "id": "cuspide-non-coronaire",
+    "namefr": "Cuspide non-coronaire",
+    "type": "cuspide valvulaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Cuspide non-coronaire"
+  },
+  {
+    "id": "cuspide-coronaire-droite",
+    "namefr": "Cuspide coronaire droite",
+    "type": "cuspide valvulaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Cuspide coronaire droite"
+  },
+  {
+    "id": "cuspide-anterieure-de-la-valve-pulmonaire",
+    "namefr": "Cuspide antérieure de la valve pulmonaire",
+    "type": "cuspide valvulaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Cuspide antérieure de la valve pulmonaire"
+  },
+  {
+    "id": "cuspide-semi-lunaire-gauche-de-la-valve-pulmonaire",
+    "namefr": "Cuspide semi-lunaire gauche de la valve pulmonaire",
+    "type": "cuspide valvulaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Cuspide semi-lunaire gauche de la valve pulmonaire"
+  },
+  {
+    "id": "cuspide-semi-lunaire-droite-de-la-valve-pulmonaire",
+    "namefr": "Cuspide semi-lunaire droite de la valve pulmonaire",
+    "type": "cuspide valvulaire",
+    "description": "",
+    "place": "thorax",
+    "meshName": "Cuspide semi-lunaire droite de la valve pulmonaire"
+  },
+  {
+    "id": "branche-descendante-de-l-artere-circonflexe-femorale-laterale-gauche",
+    "namefr": "Branche descendante de l'artère circonflexe fémorale latérale gauche",
+    "type": "artère",
+    "description": "",
+    "place": "membre inférieur",
+    "meshName": "Branche descendante de l'artère circonflexe fémorale latérale gauche"
+  },
+  {
+    "id": "branches-perforantes-des-arteres-metatarsiennes-plantaires-gauches",
+    "namefr": "Branches perforantes des artères métatarsiennes plantaires gauches",
+    "type": "artère",
+    "description": "",
+    "place": "membre inférieur",
+    "meshName": "Branches perforantes des artères métatarsiennes plantaires gauches"
+  },
+  {
+    "id": "branche-descendante-de-l-artere-circonflexe-femorale-laterale-droite",
+    "namefr": "Branche descendante de l'artère circonflexe fémorale latérale droite",
+    "type": "artère",
+    "description": "",
+    "place": "membre inférieur",
+    "meshName": "Branche descendante de l'artère circonflexe fémorale latérale droite"
+  },
+  {
+    "id": "branches-perforantes-des-arteres-metatarsiennes-plantaires-droites",
+    "namefr": "Branches perforantes des artères métatarsiennes plantaires droites",
+    "type": "artère",
+    "description": "",
+    "place": "membre inférieur",
+    "meshName": "Branches perforantes des artères métatarsiennes plantaires droites"
+  },
+  {
+    "id": "xgauche",
+    "namefr": "?xgauche",
+    "type": "inconnu",
+    "description": "",
+    "place": "inconnu",
+    "meshName": "?xgauche"
+  },
+  {
+    "id": "branche-mylo-hyoidienne-de-l-artere-alveolaire-inferieure-gauche",
+    "namefr": "Branche mylo-hyoïdienne de l'artère alvéolaire inférieure gauche",
+    "type": "artère",
+    "description": "",
+    "place": "tête et cou",
+    "meshName": "Branche mylo-hyoïdienne de l'artère alvéolaire inférieure gauche"
+  },
+  {
+    "id": "branches-septales-posterieures-de-l-artere-sphenopalatine-gauche",
+    "namefr": "Branches septales postérieures de l'artère sphénopalatine gauche",
+    "type": "artère",
+    "description": "",
+    "place": "tronc",
+    "meshName": "Branches septales postérieures de l'artère sphénopalatine gauche"
+  },
+  {
+    "id": "branches-nasales-laterales-posterieures-de-l-artere-sphenopalatine-gauche",
+    "namefr": "Branches nasales latérales postérieures de l'artère sphénopalatine gauche",
+    "type": "artère",
+    "description": "",
+    "place": "tronc",
+    "meshName": "Branches nasales latérales postérieures de l'artère sphénopalatine gauche"
+  },
+  {
+    "id": "branches-striees-laterales-distales-gauches",
+    "namefr": "Branches striées latérales distales gauches",
+    "type": "artère",
+    "description": "",
+    "place": "tronc",
+    "meshName": "Branches striées latérales distales gauches"
+  },
+  {
+    "id": "branches-insulaires-de-l-artere-cerebrale-moyenne-segment-m2-gauche",
+    "namefr": "Branches insulaires de l'artère cérébrale moyenne (segment M2) gauche",
+    "type": "artère",
+    "description": "",
+    "place": "tête et cou",
+    "meshName": "Branches insulaires de l'artère cérébrale moyenne (segment M2) gauche"
+  },
+  {
+    "id": "branches-striees-laterales-proximales-gauches",
+    "namefr": "Branches striées latérales proximales gauches",
+    "type": "artère",
+    "description": "",
+    "place": "tronc",
+    "meshName": "Branches striées latérales proximales gauches"
+  },
+  {
+    "id": "branches-septales-anterieures-de-l-artere-ethmoidale-anterieure-gauche",
+    "namefr": "Branches septales antérieures de l'artère ethmoïdale antérieure gauche",
+    "type": "artère",
+    "description": "",
+    "place": "tête et cou",
+    "meshName": "Branches septales antérieures de l'artère ethmoïdale antérieure gauche"
+  },
+  {
+    "id": "xdroite",
+    "namefr": "?xdroite",
+    "type": "inconnu",
+    "description": "",
+    "place": "inconnu",
+    "meshName": "?xdroite"
+  },
+  {
+    "id": "branche-mylo-hyoidienne-de-l-artere-alveolaire-inferieure-droite",
+    "namefr": "Branche mylo-hyoïdienne de l'artère alvéolaire inférieure droite",
+    "type": "artère",
+    "description": "",
+    "place": "tête et cou",
+    "meshName": "Branche mylo-hyoïdienne de l'artère alvéolaire inférieure droite"
+  },
+  {
+    "id": "branches-septales-posterieures-de-l-artere-sphenopalatine-droite",
+    "namefr": "Branches septales postérieures de l'artère sphénopalatine droite",
+    "type": "artère",
+    "description": "",
+    "place": "tronc",
+    "meshName": "Branches septales postérieures de l'artère sphénopalatine droite"
+  },
+  {
+    "id": "branches-nasales-laterales-posterieures-de-l-artere-sphenopalatine-droite",
+    "namefr": "Branches nasales latérales postérieures de l'artère sphénopalatine droite",
+    "type": "artère",
+    "description": "",
+    "place": "tronc",
+    "meshName": "Branches nasales latérales postérieures de l'artère sphénopalatine droite"
+  },
+  {
+    "id": "branches-orbitofrontales-de-l-artere-cerebrale-anterieure-gauche",
+    "namefr": "Branches orbitofrontales de l'artère cérébrale antérieure gauche",
+    "type": "artère",
+    "description": "",
+    "place": "tête et cou",
+    "meshName": "Branches orbitofrontales de l'artère cérébrale antérieure gauche"
+  },
+  {
+    "id": "branches-orbitofrontales-de-l-artere-cerebrale-anterieure-droite",
+    "namefr": "Branches orbitofrontales de l'artère cérébrale antérieure droite",
+    "type": "artère",
+    "description": "",
+    "place": "tête et cou",
+    "meshName": "Branches orbitofrontales de l'artère cérébrale antérieure droite"
+  },
+  {
+    "id": "branches-insulaires-de-l-artere-cerebrale-moyenne-m2-droite",
+    "namefr": "Branches insulaires de l'artère cérébrale moyenne (M2) droite",
+    "type": "artère",
+    "description": "",
+    "place": "tête et cou",
+    "meshName": "Branches insulaires de l'artère cérébrale moyenne (M2) droite"
+  },
+  {
+    "id": "branches-striees-laterales-proximales-droites",
+    "namefr": "Branches striées latérales proximales droites",
+    "type": "artère",
+    "description": "",
+    "place": "tronc",
+    "meshName": "Branches striées latérales proximales droites"
+  },
+  {
+    "id": "branches-septales-anterieures-de-l-artere-ethmoidale-anterieure-droite",
+    "namefr": "Branches septales antérieures de l'artère ethmoïdale antérieure droite",
+    "type": "artère",
+    "description": "",
+    "place": "tête et cou",
+    "meshName": "Branches septales antérieures de l'artère ethmoïdale antérieure droite"
+  },
+  {
+    "id": "inconnu",
+    "namefr": "????????",
+    "type": "inconnu",
+    "description": "",
+    "place": "inconnu",
+    "meshName": "????????"
+  },
+  {
+    "id": "veine-inferieure-du-ventricule-gauche-posterieure",
+    "namefr": "Veine inférieure du ventricule gauche (postérieure)",
+    "type": "veine",
+    "description": "",
+    "place": "tronc",
+    "meshName": "Veine inférieure du ventricule gauche (postérieure)"
+  },
+  {
+    "id": "sinus-transverse-droit",
+    "namefr": "Sinus transverse droit",
+    "type": "sinus / plexus",
+    "description": "",
+    "place": "tronc",
+    "meshName": "Sinus transverse droit"
   }
 ]
